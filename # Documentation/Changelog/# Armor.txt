@@ -1,4 +1,20 @@
-﻿#-----------------------------------
+﻿#-------------------------------------------------
+# Armor
+#-------------------------------------------------
+- Chest armor between the weight of 10 and 19.9 gives weak stagger prevention from blows.
+- Chest armor above the weight of 20 gives medium stagger prevention from blows.
+- Made the Deathbed Smalls armor available. Found with the Deathbed Dress.
+
+#-------------------------------------------------
+# New Armor
+#-------------------------------------------------
+- Added the following new pieces of armor:
+    - Mask of the Mother: reward from defeating the Family.
+    - Mask of the Child: reward from defeating the Family.
+    - Mask of the Father: reward from defeating the Family.
+    - Giant Set: found in the Mountaintops of the Giants
+    
+#-----------------------------------
 # Heavy
 #-----------------------------------
 Bull-Goat Set 

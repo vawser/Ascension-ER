@@ -23,12 +23,6 @@
         - If Godrick is defeated and the dragon lives, then all the NPCs will be killed and the dragon will have moved to the village.
             - Add note that details how the player failed the NPCs from one of the NPCs to deepen the tragedy.
             
-# Rot
-- Have the rot spread out from Caelid as the player progresses through bosses.
-    - Fodder enemies will be hidden and new Caelid enemies will be added.
-    - Caelid assets could also be added.
-
-
 # Shinobi's Challenge
 - A platforming challenge that makes use of the multi-jump mechanics:
 
@@ -66,42 +60,12 @@ Add raisin that allows Torrent to 'charge' enemies
  - Gravity (+3)
  - Magma (+2)
 
-# Covenants
-- Radahn
-
-- Morgott
-
-- Rykad
-
-- Malenia
-
-- Mohg
-
-- Maliketh
-
-- Hoarah Loux
-
-- Fortissax
-
-- Rennala
-
-- Placidusax
-
-- Fire Giant
-
-- Regal Ancestor Spirit
-
-- Elden Beast
-
-- Astel
-
-- Radagon
-
 #-------------------------------------------------
 # WIP
 #-------------------------------------------------
 # Bugs to Fix
 Fix Morgott not respawning correctly via Boss Revival
+Fix Greyoll not respawning correctly via Boss Revival
 
 # Treasure to Place
 6260 Clarifying Elixir

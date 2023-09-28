@@ -1,5 +1,5 @@
 ﻿#----------------------------------------
-# Overview
+# New Spells
 #----------------------------------------
 # Blood Shard:
  - School: Blood
@@ -36,3 +36,15 @@
 # Soporific Armament
  - School: Glintstone
  - Found in Academy of Raya Lucaria. 
+ 
+#----------------------------------------
+# Changes
+#----------------------------------------
+- Ancient Death Rancor:
+    - Increased base damage of the bullets.
+    
+- Radagon's Rings of Light
+    - Increased the damage of the projectiles.
+    
+- Elden Stars
+    - Increased the damage and the speed of the projectiles.

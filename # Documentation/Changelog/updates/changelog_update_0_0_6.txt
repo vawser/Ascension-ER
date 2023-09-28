@@ -36,31 +36,6 @@
  - Defeating the Elden Beast in this journey type will reward Marika's Necklace.
   - Detriments are removed upon defeating the Elden Beast.
 
-# Training System
-- Added a new enemy type to the dummy selection:
- - Player: Self, which copies you.
- - Player: Random, which selects NPCs like the Great Jar encounter.
-
-- Made the Dummy Configuration menu show what is enabled.
-- Added a site of grace in the lower hall.
-
-# Castigations
-- Added a new enemy castigation: Relentless Approach
- - Causes enemies to always fight together in groups, meaning they won't wait around if multiple of them are targeting the player.
- 
-- Added a new player castigation: Fresh Meat
- - Adds target priority to the player, and makes enemies much better at seeing and hearing the player.
- 
-- Added a new player castigation: Corrupted Flasks
- - Reduces the effectiveness of Flasks by 30%.
- 
-- Added a new player castigation: Brittle Bones
- - Reduces absorption by 30%.
- 
-- Added a new category of castigation: Fun. This is for non-gameplay toggles such as Megamind.
-- Added new fun castigation: Megamind
- - Enlarges the heads of all human npcs.
- 
 #-------------------------------------------------
 # Player
 #-------------------------------------------------

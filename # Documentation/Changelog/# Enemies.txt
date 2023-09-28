@@ -1,0 +1,17 @@
+﻿#-------------------------------------------------
+# General
+#-------------------------------------------------
+- All instances of enemy absorption exceeding 50% has been capped at 50%, i.e. Elden Beast had 80% Holy absorption, it now has 50%.
+ - Increased affected enemy HP slightly to account for this change so difficulty isn't massively changed.
+- All normal enemies now drop 20% more runes than vanilla.
+
+#-------------------------------------------------
+# Lock-on Camera
+#-------------------------------------------------
+- Expanded the FOV and distance of the lock-on camera for several larger enemies to make it easier to fight them.
+
+#-------------------------------------------------
+# Aux
+#-------------------------------------------------
+- Enemies are now vulnerable to Blight and Madness.
+- Blight will remove 25% HP from the enemy when inflicted.

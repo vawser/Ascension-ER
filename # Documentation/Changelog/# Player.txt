@@ -1,0 +1,97 @@
+#-------------------------------------------------
+# General
+#-------------------------------------------------
+- The player now starts with the Flask of Wondrous Physick and the Whetstone Knife.
+
+#-------------------------------------------------
+# Stats
+#-------------------------------------------------
+- FP now regenerates in a stepped fashion:
+    - Current FP below 100: 3 per second
+    - Current FP between 100 and 250: 2 per second
+    - Current FP above 250: 1 per second.
+- Investment into Vigor grants more HP quicker, and caps out at 2500 at 99 Vigor.
+- Investment into Mind grants more FP quicker, and caps out at 500 at 99 Mind.
+- Stamina now starts at 100.
+- Investment into Endurance grants more Stamina quicker, and caps out at 200 at 99 Endurance.
+
+#-------------------------------------------------
+# Combat
+#-------------------------------------------------
+- The player automatically has the ability to rally back damage, the same as Malenia's Great Rune.
+
+#------------------------------------------------- 
+# Multi-Jump
+#-------------------------------------------------
+- Added the ability to jump in midair, expending FP. You can no longer jump once you run out of FP.
+- Available whilst the Techniques of the Windwalker talisman is equipped.
+        
+#-------------------------------------------------
+# Movement
+#-------------------------------------------------
+- The player moves 20% faster.
+- The player rolls 25% further.
+- The player backsteps 25% further.
+- The player jumps 25% further horizontally.
+- Added 8 frames of invulerability at the start of backsteps.
+
+#-------------------------------------------------
+# Stealth
+#-------------------------------------------------
+- Stealth attacks now deal +100% damage against enemies by default.
+
+#-------------------------------------------------
+# Mount
+#-------------------------------------------------
+- Torrent can now spiritspring jump for 6 seconds after being fed a Rowa Raisin, Sweet Raisin or Frozen Raisin.
+
+#-------------------------------------------------
+# Status
+#-------------------------------------------------
+- Poison now reduces the Physical damage of the afflicted by 25%.
+- Blight now removes 10% HP + 50, and reduces Physical damage of the enemy by 50% for 10 seconds.
+- Madness now ticks once per second over 6 seconds, dealing 3% HP + 30 per tick, and 6% FP + 60 per tick.
+
+#-------------------------------------------------
+# Timed Block
+#-------------------------------------------------
+- Added the ability to gain a bonus when blocking.
+
+- Standard Timed Block:
+    - 90% of the guard raise up animation.
+    - Grants 25% guard absorption whilst active
+    
+- Perfect Timed Block:
+    - 6 frames during guard start animation
+    - 9 frames during guard start animation with the Shinobi's Whetstone
+    - Grants 100% guard absorption and stability whilst active
+    - If hit by an enemy with this active, you will automatically emit a bullet, staggering the enemy if they are susceptible.
+        
+- Added the Mysterious Shinobi to Roundtable Hold.
+- You can change the bullet used by your Perfect Block at the Mysterious Shinobi.
+
+- Each Perfect Block type is unlocked via the following:
+    - Storm Burst: default.
+    - Holy Burst: turn in the Tome of Holy Burst at the Mysterious Shinobi. Found in Leyndell, Royal Capital.
+    - Moonlit Burst: turn in the Tome of Moonlit Burst at the Mysterious Shinobi. Found in the Academy of Raya Lucaria.
+    - Searing Burst: turn in the Tome of Searing Burst at the Mysterious Shinobi. Found in Volcano Manor.
+    - Vampiric Burst: turn in the Tome of Vampiric Burst at the Mysterious Shinobi. Found in the War-Dead Catacombs.
+        
+- Each Perfect Block type does the following:
+    - Storm Burst: 50/100/150 Physical Damage
+    - Holy Burst: 50/100/150 Holy Damage
+    - Moonlit Burst: 50/100/150 Magic Damage
+    - Searing Burst: 50/100/150 Fire Damage
+    - Vampiric Burst: 80/120/150 Hemorrhage + restores 20% HP
+    
+- All Perfect Block do the following:
+    - Apply 100/150/200 Stamina damage
+    - Apply 10/20/30 Poise damage
+        
+- By default Perfect Block are applied at Tier 1 (Standard).
+- You are able to improve the potency of your blocks by turning in the following items to the Mysterious Shinobi:
+    - Me, You and Block: moves the potency to Tier 2 (Improved). Found in Siofra River.
+    - Rock 'n' Block: moves the potency to Tier 3 (Perfected). Found in the Lake of Rot.
+        
+- You can toggle "Shinobi Sight" with the Mysterious Shinobi, allowing you to visually see the Perfect Block window by the appearance of flames above the player.
+        

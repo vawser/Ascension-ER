@@ -1,0 +1,74 @@
+﻿#-------------------------------------------------
+# Area Scaling
+#-------------------------------------------------
+- Reduced the max HP and damage area scaling applied to enemies in:
+ - Leyndell Sewers
+ - Mountaintops of the Giants
+ - Crumbling Farum Azula
+ - Ashen Leyndell
+ - Consecrated Snowfields
+ - Haligtree and Elphael
+
+#-------------------------------------------------
+# Interactions
+#-------------------------------------------------
+- Stonesword Key statues will no longer show a message on successful use, allowing for a smoother getaway in a hostile situation.
+
+#-------------------------------------------------
+# Maps
+#-------------------------------------------------
+# m60_41_35_00 - Limgrave: Church of Dragon Communion
+- Added 2 patrolling Grafted Scions.
+- Added 1 Banished Knight by ruins.
+
+# m60_41_36_00 - Limgrave: Coastal Cave Entrance
+- Added multiple Demi-human.
+- Added 2 large Demi-human.
+- Added 1 Demi-human shaman.
+- Added 3 Large Land Octopus.
+
+# m19_00_00_00 - Stone Plateform
+- You can now use Torrent in the Radagon and Elden Beast arenas.
+
+# m13_00_00_00 - Crumbling Farum Azula
+- Added a Stake of Marika to the Placidusax boss fight.
+
+# m60_41_37_00 - Stormfoot Catacomb Entrance
+- Added 2 patrolling Omens.
+
+# m60_42_36_00 - Church of Elleh
+- Added patrolling platoon: 1 Kaiden Sellsword and 4 Commoners.
+
+# m11_10_00_00 - Roundtable Hold
+- Removed the door that blocks access to the lower combat hall from the normal hold.
+ - It is bow blocked by a fogwall, which clears one Mad Tongue Alberich is killed.
+
+# m12_02_00_00 - Siofra River
+- The lone Crucible Knight accessed via the teleporter now drops a Pure Erdstone.
+
+# m19_00_00_00 Stone Platform
+- Added Elden Hollow grace to the Elden Beast arena.
+
+# m60_41_37_00
+- Added a small camp and 2 Kaiden Sellswords in this tile.
+- Added a new chest treasure containing the Kaiden Armor Set.
+
+# m60_45_39_00
+- Added graveyard and several skeletons at the bottom of the ascent in this tile.
+- Added a new corpse treasure containing the Dismounter.
+
+# m10_01_00_00
+- Added stake of marika to the Grafted Scion fight.
+
+# m60_42_36_00 
+- The door from Stranded Graveyard into Limgrave will now automatically be opened.
+- The door within the Stranded Graveyard has been removed.
+
+# m19_00_00_00
+- Added a Fractured Marika statue in the Elden Hollow after the Elden Beast has been defeated, allowing for immediate return to the Stone Platform.
+
+# Misc
+- The Putrid Crow in Mohgwyn Palace will now have his revenge if you try and exploit him.
+- Added warp gate from Moonlight Altar to Village of the Albinaurics.
+- Added warp gate from Slumbering Wolf's Shack (Liurnia) to Consecrated Snowfield.
+- Added warp gate from Bestial Sanctum (Caelid) to Crumbling Farum Azula.
