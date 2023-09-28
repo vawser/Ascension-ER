@@ -1,9 +1,9 @@
 ﻿-------------------------------
--- Vigil: Global Variables
+-- Lands Betwixt: Global Variables
 -------------------------------
 
 ------------------------------------------
--- Vigil: Functions
+-- Lands Betwixt: Functions
 ------------------------------------------
 
 ------------------------------------------
@@ -1846,14 +1846,14 @@ function ExecGuardBlock(damage_type, ignore_guard_block)
 end
 
 function ExecTypeDamage(damage_type)
-    -- Vigil: Crossbow Parry
+    -- Lands Betwixt: Crossbow Parry
     if env(GetSpEffectID, 31) == TRUE and env(GetSpEffectID, 7000300) == TRUE then
         Fire("W_DamageParryEnemy1")
         Replanning()
         return TRUE
     end
     
-    -- Vigil: Deflect Parry
+    -- Lands Betwixt: Timed Block Parry
     if env(GetSpEffectID, 7000301) == TRUE then
         if env(GetSpEffectID, 7000350) == FALSE then
             -- +6

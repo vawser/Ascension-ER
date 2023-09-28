@@ -1,5 +1,5 @@
 ﻿-------------------------------
--- Vigil: Global Variables
+-- Lands Betwixt: Global Variables
 -------------------------------
 g_MoveMovementMultiplier = 1.2
 g_RollMovementMultiplier = 1.25
@@ -7,7 +7,7 @@ g_BackstepMovementMultiplier = 1.25
 g_JumpMovementMultiplier = 1.25
 
 ------------------------------------------
--- Vigil: Grafted Covenant
+-- Lands Betwixt: Grafted Covenant
 ------------------------------------------
 g_GraftedLevel = 0
 
@@ -324,69 +324,69 @@ function ExecMultiJump()
 end
 
 ------------------------------------------
--- Deflects
+-- Blocks
 ------------------------------------------
--- Each Guard Start animation in the TAE has a Standard and Perfect Deflect window applied (via SpEffect).
-function ApplyDeflectionWindow()
-    -- Deflect Cooldown
+-- Each Guard Start animation in the TAE has a Standard and Perfect Block window applied (via SpEffect).
+function ApplyTimedBlockWindow()
+    -- Block Cooldown
     if env(GetSpEffectID, 150002) == FALSE then
-        act(AddSpEffect, 150002) -- Deflect Cooldown
+        act(AddSpEffect, 150002) -- Block Cooldown
                     
         -- Don't apply if player was hit beforehand
         if env(GetSpEffectID, 150001) == FALSE then
-            -- Shinobi Sight (adds icons tot he deflect effects)
+            -- Shinobi Sight (adds icons for the Timed Block effects)
             if env(GetSpEffectID, 150970) == TRUE then
-                -- Deflect window
+                -- Block window
                 act(AddSpEffect, 150020)
                 
                 -- Shinobi's Whetstone
                 if env(GetSpEffectID, 150960) == TRUE then
-                    act(AddSpEffect, 150022) -- Perfect Deflect extended window
+                    act(AddSpEffect, 150022) -- Perfect Block extended window
                 else
-                    act(AddSpEffect, 150021) -- Perfect Deflect window
+                    act(AddSpEffect, 150021) -- Perfect Block window
                 end
             -- No Sight
             else
-                -- Deflect window
+                -- Block window
                 act(AddSpEffect, 150010)
                 
                 -- Shinobi's Whetstone
                 if env(GetSpEffectID, 150960) == TRUE then
-                    act(AddSpEffect, 150012) -- Perfect Deflect extended window
+                    act(AddSpEffect, 150012) -- Perfect Block extended window
                 else
-                    act(AddSpEffect, 150011) -- Perfect Deflect window
+                    act(AddSpEffect, 150011) -- Perfect Block window
                 end
             end
         end
     end
 end
 
-function TrackDeflection()
+function TrackTimedBlock()
     -- Was Hit
     if env(GetSpEffectID, 150001) == TRUE then
-        -- If Perfect Deflect window is active, apply bullet
+        -- If Perfect Block window is active, apply bullet
         if env(GetSpEffectID, 150011) == TRUE or env(GetSpEffectID, 150012) == TRUE or env(GetSpEffectID, 150021) == TRUE or env(GetSpEffectID, 150022) == TRUE then
-            HandleDeflect()
+            HandlePerfectTimedBlock()
         end
     end
 end
 
-function HandleDeflect()
+function HandlePerfectTimedBlock()
     -- Bullet Cooldown
     if env(GetSpEffectID, 150003) == FALSE then
-        act(AddSpEffect, 150003) -- Deflect Cooldown
+        act(AddSpEffect, 150003) -- Block Cooldown
 
-        -- Fire the deflect bullet based on the marker SpEffects the player has
-        FireBulletForDeflect(150900, 150100) -- Storm
-        FireBulletForDeflect(150901, 150110) -- Holy
-        FireBulletForDeflect(150902, 150120) -- Moon
-        FireBulletForDeflect(150903, 150130) -- Fire
-        FireBulletForDeflect(150904, 150140) -- Thorn
+        -- Fire the Block bullet based on the marker SpEffects the player has
+        FireBulletForBlock(150900, 150100) -- Storm
+        FireBulletForBlock(150901, 150110) -- Holy
+        FireBulletForBlock(150902, 150120) -- Moon
+        FireBulletForBlock(150903, 150130) -- Fire
+        FireBulletForBlock(150904, 150140) -- Thorn
     end
 end
 
-function FireBulletForDeflect(deflect_type, bullet_effect)
-    if env(GetSpEffectID, deflect_type) == TRUE then
+function FireBulletForBlock(block_type, bullet_effect)
+    if env(GetSpEffectID, block_type) == TRUE then
         -- Order is important: player can have all present, 
         -- so only the highest should be used
         
@@ -709,13 +709,13 @@ function SetWeightIndex()
         SetVariable("MoveWeightIndex", MOVE_WEIGHT_HEAVY)
     end
 
-    -- Vigil: Crippling Strikes
+    -- Lands Betwixt: Crippling Strikes
     if env(GetSpEffectID, 9492031) == TRUE then
         SetVariable("MoveWeightIndex", MOVE_WEIGHT_HEAVY)
         SetVariable("EvasionWeightIndex", EVASION_WEIGHT_INDEX_OVERWEIGHT)
     end
     
-    -- Vigil: Forgotten Pendant
+    -- Lands Betwixt: Forgotten Pendant
     if env(GetSpEffectID, 362100) == TRUE or env(GetSpEffectID, 362101) == TRUE or env(GetSpEffectID, 362102) == TRUE or env(GetSpEffectID, 362103) == TRUE then
         SetVariable("MoveWeightIndex", MOVE_WEIGHT_HEAVY)
         SetVariable("EvasionWeightIndex", EVASION_WEIGHT_INDEX_HEAVY)
@@ -972,7 +972,7 @@ function ExecGuard(event, blend_type)
                 hand = HAND_RIGHT
             end
             
-            ApplyDeflectionWindow()
+            ApplyTimedBlockWindow()
     
             local kind = env(GetEquipWeaponCategory, hand)
             local sp_kind = env(GetEquipWeaponSpecialCategoryNumber, hand)
@@ -3913,7 +3913,7 @@ function GetHandChangeType(hand)
 end
 
 function ExecJump()
-    -- Vigil: removed env(Unknown700) == FALSE check in this if statement 
+    -- Lands Betwixt: removed env(Unknown700) == FALSE check in this if statement 
     if env(ActionRequest, ACTION_ARM_JUMP) == FALSE then
         return FALSE
     elseif env(GetStamina) <= 0 and env(Unknown700) == FALSE then
@@ -4880,11 +4880,11 @@ function ExecDamage(is_parry, is_attackwhileguard)
     local damage_type = env(GetReceivedDamageType)
     local is_damaged = env(HasReceivedAnyDamage)
     
-    -- Vigil: Is Hit
+    -- Lands Betwixt: Is Hit
     if is_damaged == TRUE then
         act(AddSpEffect, 150001) 
         
-        -- Vigil: Signet of Fury
+        -- Lands Betwixt: Signet of Fury
         if env(GetSpEffectID, 362000) == TRUE then
            act(AddSpEffect, 362010)
         elseif env(GetSpEffectID, 362001) == TRUE then
@@ -4896,13 +4896,13 @@ function ExecDamage(is_parry, is_attackwhileguard)
         end
     end
     
-    -- Vigil: Crossbow Parry
+    -- Lands Betwixt: Crossbow Parry
     if env(GetSpEffectID, 31) == TRUE and env(GetSpEffectID, 7000300) == TRUE then
         ExecEventAllBody("W_DamageParry")
         return TRUE
     end
     
-    -- Vigil: Deflect Parry
+    -- Lands Betwixt: Timed Block Parry
     if env(GetSpEffectID, 7000301) == TRUE then
         if env(GetSpEffectID, 7000304) == TRUE and env(GetSpEffectID, 7000305) == FALSE then
             act(AddSpEffect, 7000305)
@@ -7556,7 +7556,7 @@ function Rolling_onUpdate()
     
     SetEnableAimMode()
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_RollMovementMultiplier)
     --
     if TRUE == EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightLightStep", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothLightStep", "W_AttackBothHeavy1Start", QUICKTYPE_ROLLING) then
@@ -7583,7 +7583,7 @@ function Rolling_Selftrans_onUpdate()
     
     SetEnableAimMode()
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_RollMovementMultiplier)
 	--
     
@@ -7608,7 +7608,7 @@ end
 function DefaultBackStep_onUpdate()
     act(DisallowAdditiveTurning, TRUE)
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_BackstepMovementMultiplier)
     -- 
     if TRUE == EvasionCommonFunction(FALL_TYPE_DEFAULT, "W_AttackRightBackstep", "W_AttackRightHeavy1Start", "W_AttackLeftLight1", "W_AttackLeftHeavy1", "W_AttackBothBackstep", "W_AttackBothHeavy1Start", QUICKTYPE_BACKSTEP) then
@@ -7712,16 +7712,16 @@ function Move_onUpdate()
         SetTurnSpeed(npc_turn_speed)
     end
     
-    -- Vigil: made the base multiplier easier to alter
+    -- Lands Betwixt: made the base multiplier easier to alter
     local base_speed = g_MoveMovementMultiplier
     local base_speed_percent = base_speed / 100
     
-    -- Vigil: Movement Speed Boost
+    -- Lands Betwixt: Movement Speed Boost
     if env(GetSpEffectID, 151100) == TRUE then
         base_speed_percent = base_speed_percent * 1.2
     end
     
-    -- Vigil: Prisoner's Chain
+    -- Lands Betwixt: Prisoner's Chain
     if env(GetSpEffectID, 362300) == TRUE then
        base_speed_percent = base_speed_percent * 1.06
     elseif env(GetSpEffectID, 362301) == TRUE then
@@ -8416,7 +8416,7 @@ end
 function AttackRightBackstep_onUpdate()
     local r1 = "W_AttackRightLightSubStart"
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_BackstepMovementMultiplier)
     --
 
@@ -8580,7 +8580,7 @@ end
 function AttackDualBackStep_onUpdate()
     local l1 = "W_AttackLeftLight2"
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_BackstepMovementMultiplier)
     --
 
@@ -8836,7 +8836,7 @@ end
 function AttackBothBackstep_onUpdate()
     local b1 = "W_AttackBothLightSubStart"
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_BackstepMovementMultiplier)
     --
 
@@ -13136,7 +13136,7 @@ function Throw_Activate()
     SetVariable("ThrowHolding", false)
     SetVariable("ThrowNoRegistTime", 0)
 
-    -- Vigil: Throw Additions
+    -- Lands Betwixt: Throw Additions
     ApplyThrowEffects()
 end
 
@@ -15099,7 +15099,7 @@ end
 function Update()
     GetConstVariable()
     SetStyleSpEffect()
-    TrackDeflection()
+    TrackTimedBlock()
     TrackMultiJump()
     RegenerateFP()
     TrackGraftedStatus()
@@ -15248,7 +15248,7 @@ function ModifiersLayer_onGenerate()
     CopyLocalMatrix("Neck", "Collar")
 end
 
--- Vigil: Utility
+-- Lands Betwixt: Utility
 function ModifyBonePosition(target, index, value)
     local sourceMatrix = hkbGetBoneModelSpace(target)
     local source = sourceMatrix:getTranslation()
@@ -15549,7 +15549,7 @@ function ExecRideDamage()
     -- Torrent Dismount from Poise Damage
     elseif env(GetPoise) <= 0 and (damage_level > DAMAGE_LEVEL_NONE or damage_level_under > DAMAGE_LEVEL_NONE) and (is_damaged == TRUE or is_damaged_under == TRUE) then
         
-        -- Vigil: Frozen Raisin
+        -- Lands Betwixt: Frozen Raisin
         if env(GetSpEffectID, 500815) == TRUE then
             return FALSE
         end
@@ -15559,7 +15559,7 @@ function ExecRideDamage()
     elseif env(GetDamageSpecialAttribute, 5) == TRUE then
         FireRideEvent("W_RideDamage_Fall", "W_RideRun_End", FALSE)
         
-        -- Vigil: Frozen Raisin
+        -- Lands Betwixt: Frozen Raisin
         if env(GetSpEffectID, 500815) == TRUE then
             return FALSE
         end
@@ -17374,13 +17374,13 @@ function RideWalk_onUpdate()
     act(Wait)
     SetEnableAimMode()
     
-    -- Vigil: Rotten Raisin
+    -- Lands Betwixt: Rotten Raisin
     if env(GetSpEffectID, 500902) == FALSE and env(GetSpEffectID, 500901) == TRUE then
         act(AddSpEffect, 500900)
         act(AddSpEffect, 500902)
     end
     
-    -- Vigil: Volcanic Raisin
+    -- Lands Betwixt: Volcanic Raisin
     if env(GetSpEffectID, 500912) == FALSE and env(GetSpEffectID, 500911) == TRUE then
         act(AddSpEffect, 500910)
         act(AddSpEffect, 500912)
@@ -17413,13 +17413,13 @@ function RideDash_onUpdate()
     act(Wait)
     SetEnableAimMode()
     
-    -- Vigil: Rotten Raisin
+    -- Lands Betwixt: Rotten Raisin
     if env(GetSpEffectID, 500902) == FALSE and env(GetSpEffectID, 500901) == TRUE then
         act(AddSpEffect, 500900)
         act(AddSpEffect, 500902)
     end
     
-    -- Vigil: Volcanic Raisin
+    -- Lands Betwixt: Volcanic Raisin
     if env(GetSpEffectID, 500912) == FALSE and env(GetSpEffectID, 500911) == TRUE then
         act(AddSpEffect, 500910)
         act(AddSpEffect, 500912)
@@ -17443,13 +17443,13 @@ function RideDashAccelerate_onUpdate()
         act(AddSpEffect, 100020)
     end
     
-    -- Vigil: Rotten Raisin
+    -- Lands Betwixt: Rotten Raisin
     if env(GetSpEffectID, 500902) == FALSE and env(GetSpEffectID, 500901) == TRUE then
         act(AddSpEffect, 500900)
         act(AddSpEffect, 500902)
     end
     
-    -- Vigil: Volcanic Raisin
+    -- Lands Betwixt: Volcanic Raisin
     if env(GetSpEffectID, 500912) == FALSE and env(GetSpEffectID, 500911) == TRUE then
         act(AddSpEffect, 500910)
         act(AddSpEffect, 500912)
@@ -17473,13 +17473,13 @@ function RideDashAccelerateContinue_onUpdate()
         act(AddSpEffect, 100020)
     end
     
-    -- Vigil: Rotten Raisin
+    -- Lands Betwixt: Rotten Raisin
     if env(GetSpEffectID, 500902) == FALSE and env(GetSpEffectID, 500901) == TRUE then
         act(AddSpEffect, 500900)
         act(AddSpEffect, 500902)
     end
     
-    -- Vigil: Volcanic Raisin
+    -- Lands Betwixt: Volcanic Raisin
     if env(GetSpEffectID, 500912) == FALSE and env(GetSpEffectID, 500911) == TRUE then
         act(AddSpEffect, 500910)
         act(AddSpEffect, 500912)
@@ -17781,7 +17781,7 @@ function RideCommonFunction(r1, r2, l1, l2)
                 return TRUE
             end
             
-            -- Vigil: Spiritspring Jump from Rowa Raisan
+            -- Lands Betwixt: Spiritspring Jump from Rowa Raisan
             if env(GetMountSpEffectID, 500810) == TRUE then
                 act(DebugLogOutput, "RideJumpHigh Height=" .. highJumpHeight .. "cm")
                 Ride_HighJump_Height = highJumpHeight + 700
@@ -19665,7 +19665,7 @@ function Act_Jump()
     
     local damage_type = env(GetReceivedDamageType)
     
-	-- Vigil
+	-- Lands Betwixt
     act(SetMovementScaleMult, g_JumpMovementMultiplier)
     --
 
@@ -21453,7 +21453,7 @@ lastUsedMagicAnim = -1
 
 Event_MoveQuick = { "W_MoveQuick", MOVE_DEF0 }
 
--- Vigil: added
+-- Lands Betwixt: added
 ACTION_ARM_JUMP = ACTION_ARM_CHANGE_STYLE
 
 ------------------------
