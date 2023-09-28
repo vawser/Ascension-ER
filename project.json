@@ -25,9 +25,7 @@
     "ShopLineupParam_Recipe",
     "SpEffectParam",
     "SwordArtsParam",
-    "SpEffectVfxParam",
-    "MaterialExParam",
-    "TalkParam"
+    "SpEffectVfxParam"
   ],
   "PinnedRows": {
     "BonfireWarpParam": [],
