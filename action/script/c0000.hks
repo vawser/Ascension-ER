@@ -101,7 +101,7 @@ end
 -- Multi-Jump
 ------------------------------------------
 g_JumpCount = 0
-g_JumpCountMax = 5
+g_JumpCountMax = 2
 
 function TrackMultiJump()
     -- Reset jump count

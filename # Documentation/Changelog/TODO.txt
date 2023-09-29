@@ -1,8 +1,4 @@
 ﻿#-------------------------------------------------
-# Bugs
-#-------------------------------------------------
-
-#-------------------------------------------------
 # Ideas
 #-------------------------------------------------
 # Friendly Settlements
@@ -23,27 +19,8 @@
         - If Godrick is defeated and the dragon lives, then all the NPCs will be killed and the dragon will have moved to the village.
             - Add note that details how the player failed the NPCs from one of the NPCs to deepen the tragedy.
             
-# Shinobi's Challenge
-- A platforming challenge that makes use of the multi-jump mechanics:
-
-# Armor Ascension
-- Add reinforcement-like system to armor via Tailoring menu
-
-# Affinity Effects
-- Add elemental buffs during certain attacks when infused with Fire/Magic/etc.
-    For example: Fire Longsword would have a fire buff appear with the charged heavy attac
-    Implementation:
-        Notify HKS via notify SpEffect placed in TAE (0 duration)
-        HKS will apply the affinty buff (i.e. Fire buff is applied if notify SpEffect is detected)
-        
-- Can also extend to bullets (i.e. fireball)
-
 # Bosses
 - Split Beast Clergyman and Maliketh so once Beast Clergyman has been defeated once, the player can skip straight to Maliketh.
-
-# Content
-- Add new physicks
-- Add new Spirit Summons.
 
 # Items
 Add raisin that allows Torrent to 'charge' enemies
@@ -69,3 +46,11 @@ Fix Greyoll not respawning correctly via Boss Revival
 
 # Treasure to Place
 6260 Clarifying Elixir
+
+#-------------------------------------------------
+# ADD
+#-------------------------------------------------
+# Shinobi's Challenge
+- A platforming challenge that makes use of the multi-jump mechanics:
+    - Limgrave: Techniques of the Windwalker - Itemlot: 7000
+    - Weeping Penisula: Shinobi's Whetstone - Itemlot: 7010

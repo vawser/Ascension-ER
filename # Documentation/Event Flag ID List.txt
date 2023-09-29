@@ -716,8 +716,6 @@
 1047620000 Random Start 
 1047620999 Random End
 
-1047621100 
-
 #------------------------------------
 104963_0000 Systems
 #------------------------------------
@@ -1035,6 +1033,11 @@
 1049630397
 1049630398
 1049630399 Night Boss: Toggle Night on reload
+
+1047621400 Shinobi's Challenge: UNUSED
+1047621410 Shinobi's Challenge: Limgrave - Complete
+1047621420 Shinobi's Challenge: Weeping Penisula - Complete
+
 
 #------------------------------------
 104760_0000 Transmog
