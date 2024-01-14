@@ -1,6 +1,6 @@
 {
-  "GameDirectory": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\ELDEN RING\\Game",
-  "ModEngineDirectory": "C:\\Users\\Xylozi\\Documents\\Fromsoft\\# Mods\\Vigil\\Mod",
+  "GameDirectory": "F:\\SteamLibrary\\steamapps\\common\\ELDEN RING\\Game",
+  "ModEngineDirectory": "C:\\Users\\benja\\Modding\\Elden Ring\\Projects\\Lands-Betwixt",
   "LoadLooseParams": false,
   "LoadUnpackedGameFiles": false,
   "WorldViews": [
@@ -9,12 +9,12 @@
       "LockAspectRatioDuringRemo": true,
       "Name": null,
       "CameraLocationInWorld": {
-        "Position": "-3.671904, 2.7484794, 1.9907241",
+        "Position": "-2.739574, 4.4565053, 5.94223",
         "Rotation": {
-          "X": -0.24652699,
-          "Y": -0.4900531,
-          "Z": -0.14677198,
-          "W": 0.8231224
+          "X": -0.3128321,
+          "Y": -0.23142229,
+          "Z": -0.078880236,
+          "W": 0.9178005
         },
         "Scale": "1, 1, 1",
         "OverrideMatrixWorld": {
@@ -37,12 +37,12 @@
         }
       },
       "CameraLocationInWorld_CloserForSound": {
-        "Position": "-3.671904, 2.7484794, 1.9907241",
+        "Position": "-2.739574, 4.4565053, 6.94223",
         "Rotation": {
-          "X": -0.24652699,
-          "Y": -0.4900531,
-          "Z": -0.14677198,
-          "W": 0.8231224
+          "X": -0.3128321,
+          "Y": -0.23142229,
+          "Z": -0.078880236,
+          "W": 0.9178005
         },
         "Scale": "1, 1, 1",
         "OverrideMatrixWorld": {
@@ -65,25 +65,25 @@
         }
       },
       "RootMotionFollow_EnableWrap": true,
-      "RootMotionFollow_Translation": "0, 0, 0",
+      "RootMotionFollow_Translation": "2.8012215E-07, 0, -1.8551655",
       "RootMotionFollow_Rotation": -0.0,
       "CameraOrbitOrigin": "0, 0, 0",
       "CameraOrbitOriginOffset": "0, 0, 0",
       "CameraOrbigtDefaultHeightForRootMotion": 0.0,
       "CameraLookDirection": {
-        "X": -0.24652699,
-        "Y": -0.4900531,
-        "Z": -0.14677198,
-        "W": 0.8231224
+        "X": -0.3128321,
+        "Y": -0.23142229,
+        "Z": -0.078880236,
+        "W": 0.9178005
       },
-      "OrbitCamEuler": "-0.58200014, -1.0739995, 0",
-      "OrbitCamDistanceInput": 5.0,
+      "OrbitCamEuler": "-0.65700006, -0.49400008, 0",
+      "OrbitCamDistanceInput": 7.296844,
       "ProjectionVerticalFoV": 43.0,
       "ProjectionSkyboxVerticalFov": 70.0,
       "ProjectionNearClipDist": 0.1,
       "ProjectionFarClipDist": 10000.0,
       "Matrix_Projection": {
-        "M11": 2.5918133,
+        "M11": 2.0832727,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -101,7 +101,7 @@
         "M44": 0.0
       },
       "Matrix_Projection_Skybox": {
-        "M11": 1.4580569,
+        "M11": 1.1719711,
         "M12": 0.0,
         "M13": 0.0,
         "M14": 0.0,
@@ -137,35 +137,35 @@
         "M44": 1.0
       },
       "Matrix_View": {
-        "M11": 0.4766119,
-        "M12": 0.48324525,
-        "M13": -0.73438084,
+        "M11": 0.8804433,
+        "M12": 0.28958526,
+        "M13": -0.37544647,
         "M14": 0.0,
-        "M21": 1.4901161E-08,
-        "M22": 0.8353649,
-        "M23": 0.5496959,
+        "M21": 0.0,
+        "M22": 0.791828,
+        "M23": 0.6107442,
         "M24": 0.0,
-        "M31": 0.8791138,
-        "M32": -0.26199162,
-        "M33": 0.39814484,
+        "M31": 0.47415152,
+        "M32": -0.5377256,
+        "M33": 0.69715965,
         "M34": 0.0,
-        "M41": 2.3841858E-07,
-        "M42": 2.3841858E-07,
-        "M43": -5.0000005,
+        "M41": -0.405478,
+        "M42": 0.4598441,
+        "M43": -7.893031,
         "M44": 1.0
       },
       "Matrix_View_Skybox": {
-        "M11": 0.4766119,
-        "M12": 0.48324525,
-        "M13": -0.73438084,
+        "M11": 0.8804433,
+        "M12": 0.28958526,
+        "M13": -0.37544647,
         "M14": 0.0,
-        "M21": 1.4901161E-08,
-        "M22": 0.8353649,
-        "M23": 0.5496959,
+        "M21": 0.0,
+        "M22": 0.791828,
+        "M23": 0.6107442,
         "M24": 0.0,
-        "M31": 0.8791138,
-        "M32": -0.26199162,
-        "M33": 0.39814484,
+        "M31": 0.47415152,
+        "M32": -0.5377256,
+        "M33": 0.69715965,
         "M34": 0.0,
         "M41": 0.0,
         "M42": 0.0,
@@ -179,13 +179,13 @@
       "AngleSnap": 0.7853982,
       "AngleSnapEnable": false,
       "PivotPrimIsEnabled": false,
-      "OrbitCamCenter_DummyPolyFollowRefPoint": "-0.025386117, 1.2430762, -0.079762444",
+      "OrbitCamCenter_DummyPolyFollowRefPoint": "-0.04579486, 1.078609, -0.09339248",
       "OrbitCamCenter_DummyPolyFollowRefPoint_Init": "0, 0, 0",
       "OverallMouseSpeedMult": 1.0,
       "CameraTurnSpeedMouse": 1.0,
       "CameraMoveSpeed": 1.0,
-      "RootMotionFollow_Translation_WrappedIfApplicable": "0, 0, 0",
-      "RootMotionOffsetFromWrappedCenter": "0, 0, 0",
+      "RootMotionFollow_Translation_WrappedIfApplicable": "2.8012215E-07, 0, -0.8551655",
+      "RootMotionOffsetFromWrappedCenter": "0, 0, 1",
       "RootMotionFollow_Matrix": {
         "M11": 1.0,
         "M12": 0.0,
@@ -199,9 +199,9 @@
         "M32": 0.0,
         "M33": 1.0,
         "M34": 0.0,
-        "M41": 0.0,
+        "M41": 2.8012215E-07,
         "M42": 0.0,
-        "M43": 0.0,
+        "M43": -1.8551655,
         "M44": 1.0
       },
       "RootMotionFollow_Matrix_WrappedIfApplicable": {
@@ -217,15 +217,15 @@
         "M32": 0.0,
         "M33": 1.0,
         "M34": 0.0,
-        "M41": 0.0,
+        "M41": 2.8012215E-07,
         "M42": 0.0,
-        "M43": 0.0,
+        "M43": -0.8551655,
         "M44": 1.0
       },
-      "OrbitCamDistance": 5.0,
+      "OrbitCamDistance": 7.296844,
       "ProjectionIsOrthographic": false,
       "ProjectionVerticalFovRatio": 1.0,
-      "PivotPrimVisRatio": 0.7404228
+      "PivotPrimVisRatio": 0.0
     }
   ]
 }
