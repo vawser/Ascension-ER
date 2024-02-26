@@ -8,43 +8,6 @@ Fix Greyoll not respawning correctly via Boss Revival
 # Treasure to Place
 6260 Clarifying Elixir
 
-# Shinobi's Challenge
-- A platforming challenge that makes use of the multi-jump mechanics:
-    - Limgrave: Techniques of the Windwalker - Itemlot: 7000
-    - Weeping Penisula: Shinobi's Whetstone - Itemlot: 7010
-
-
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
-Levels:
- START:
- -> Chapel of Anticipation
- -> Stranded Graveyard
- -> Roundtable Hold
- 
- CORE:
- 
- -> Stormveil Castle
- 
- -> Leyndell
- 
- -> Ainsel River
- 
- -> Siofra River
- 
- -> Deeproot Depths
- 
- -> Mohgwyn Palace
- 
- -> Nokron, Eternal City
- 
- -> Crumbling Farum Azula
- 
- -> Academy of Raya Lucaria
- 
- -> Miquella's Haligtree
- 
- -> Volcano Manor
- 
- -> 
