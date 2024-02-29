@@ -7,9 +7,9 @@
 # Stats
 #-------------------------------------------------
 - FP now regenerates in a stepped fashion:
-    - Current FP below 100: 3 per second
-    - Current FP between 100 and 250: 2 per second
-    - Current FP above 250: 1 per second.
+    - Current FP below 100: 3 every 3 seconds.
+    - Current FP between 100 and 250: 2 every 3 seconds.
+    - Current FP above 250: 1 every 3 seconds.
 - Investment into Vigor grants more HP quicker, and caps out at 2500 at 99 Vigor.
 - Investment into Mind grants more FP quicker, and caps out at 500 at 99 Mind.
 - Stamina now starts at 100.
