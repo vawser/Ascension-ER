@@ -11,4 +11,6 @@ Fix Greyoll not respawning correctly via Boss Revival
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
- 
+Covenants:
+- Servants of the Grafted
+- 

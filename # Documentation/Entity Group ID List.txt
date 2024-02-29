@@ -33,3 +33,233 @@
 400005222 Asset: Melted Mushroom
 400005223 Asset: Toxic Mushroom
 400005224 Asset: Root Resin
+
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2030", 400005300); // Rennala
+mappings.Add("c2031", 400005300); // Rennala
+mappings.Add("c2040", 400005300); // Juvenile Scholar
+mappings.Add("c2041", 400005300); // Larva of Rot
+mappings.Add("c2050", 400005300); // Ranni the Witch
+mappings.Add("c2051", 400005300); // Ranni the Witch
+mappings.Add("c2060", 400005300); // The Two Fingers
+mappings.Add("c2070", 400005300); // The Three Fingers
+mappings.Add("c2100", 400005300); // Black Knife Assassin
+mappings.Add("c2110", 400005300); // Beast Clergyman
+mappings.Add("c2120", 400005300); // Malenia, Blade of Miquella
+mappings.Add("c2130", 400005300); // Morgott
+mappings.Add("c2131", 400005300); // Morgott (Dead)
+mappings.Add("c2140", 400005300); // Omen
+mappings.Add("c2150", 400005300); // Lightning Ball
+mappings.Add("c2160", 400005300); // Finger Reader Crone
+mappings.Add("c2170", 400005300); // Finger Reader Crone
+mappings.Add("c2180", 400005300); // Melina
+mappings.Add("c2190", 400005300); // Radagon
+mappings.Add("c2191", 400005300); // Radagon (Crucified)
+mappings.Add("c2200", 400005300); // Elden Beast
+mappings.Add("c2270", 400005300); // Giant Crab
+mappings.Add("c2271", 400005300); // Crab
+mappings.Add("c2272", 400005300); // Giant Black Crab
+mappings.Add("c2273", 400005300); // Black Crab
+mappings.Add("c2274", 400005300); // Giant Albinauric Crab
+mappings.Add("c2275", 400005300); // Albinauric Crab
+mappings.Add("c2276", 400005300); // Giant Death Crab
+mappings.Add("c2277", 400005300); // Death Crab
+mappings.Add("c2500", 400005300); // Crucible Knight
+mappings.Add("c3000", 400005300); // Exile Soldier
+mappings.Add("c3010", 400005300); // Banished Knight
+mappings.Add("c3020", 400005300); // Exile Soldier (Large)
+mappings.Add("c3050", 400005300); // Commander Niall/O'Neill
+mappings.Add("c3060", 400005300); // Giant Skeleton
+mappings.Add("c3061", 400005300); // Giant Beast Skeleton
+mappings.Add("c3070", 400005300); // Dominula Celebrant
+mappings.Add("c3080", 400005300); // Imp
+mappings.Add("c3100", 400005300); // Elemer of the Briar
+mappings.Add("c3150", 400005300); // Night's Cavalry
+mappings.Add("c3160", 400005300); // Funeral Steed
+mappings.Add("c3170", 400005300); // Albinauric Archer
+mappings.Add("c3171", 400005300); // Phillia, Towering Little Sister
+mappings.Add("c3180", 400005300); // Albinauric Archer's Wolf
+mappings.Add("c3181", 400005300); // Red Wolf of Radagon
+mappings.Add("c3200", 400005300); // Nomadic Merchant
+mappings.Add("c3201", 400005300); // Frenzied Nomad
+mappings.Add("c3202", 400005300); // Nomadic Merchant
+mappings.Add("c3210", 400005300); // Nomadic Merchant's Donkey
+mappings.Add("c3250", 400005300); // Draconic Tree Sentinel
+mappings.Add("c3251", 400005300); // Tree Sentinel
+mappings.Add("c3252", 400005300); // Loretta
+mappings.Add("c3300", 400005300); // Nox Swordstress/Monk/Nightmaiden
+mappings.Add("c3320", 400005300); // Silver Tear
+mappings.Add("c3330", 400005300); // Giant Silver Tear
+mappings.Add("c3350", 400005300); // Crystalian
+mappings.Add("c3360", 400005300); // Ancestral Follower
+mappings.Add("c3361", 400005300); // Putrid Ancestral Follower
+mappings.Add("c3370", 400005300); // Ancestral Follower Shaman
+mappings.Add("c3371", 400005300); // Putrid Ancestral Follower Shaman
+mappings.Add("c3400", 400005300); // Grave Warden Duelist
+mappings.Add("c3450", 400005300); // Misbegotten
+mappings.Add("c3451", 400005300); // Scaly Misbegotten
+mappings.Add("c3460", 400005300); // Leonine Misbegotten
+mappings.Add("c3470", 400005300); // Albinauric
+mappings.Add("c3471", 400005300); // Large Albinauric
+mappings.Add("c3500", 400005300); // Skeletal Militiaman/Bandit/Knight/Grave Warden
+mappings.Add("c3510", 400005300); // Catacomb Skeleton
+mappings.Add("c3550", 400005300); // Sanguine Noble
+mappings.Add("c3560", 400005300); // Godskin Apostle
+mappings.Add("c3570", 400005300); // Godskin Noble
+mappings.Add("c3600", 400005300); // Alabaster Lord
+mappings.Add("c3610", 400005300); // Oracle Envoy
+mappings.Add("c3620", 400005300); // Oracle Envoy (Large)
+mappings.Add("c3630", 400005300); // Oracle Envoy (Giant)
+mappings.Add("c3650", 400005300); // Guardian
+mappings.Add("c3660", 400005300); // Commoner
+mappings.Add("c3661", 400005300); // Putrid Corpse
+mappings.Add("c3662", 400005300); // Putrid Corpse (Large)
+mappings.Add("c3664", 400005300); // Cemetery Shade
+mappings.Add("c3665", 400005300); // Gostoc
+mappings.Add("c3666", 400005300); // The Noble Goldmask
+mappings.Add("c3670", 400005300); // Elder Albinauric
+mappings.Add("c3700", 400005300); // Depraved Perfumer
+mappings.Add("c3701", 400005300); // Perfumer
+mappings.Add("c3702", 400005300); // Glintstone Sorcerer
+mappings.Add("c3703", 400005300); // Page
+mappings.Add("c3704", 400005300); // Battlemage
+mappings.Add("c3710", 400005300); // Azur
+mappings.Add("c3720", 400005300); // Lusat
+mappings.Add("c3730", 400005300); // Graven School
+mappings.Add("c3750", 400005300); // Clayman
+mappings.Add("c3800", 400005300); // Cleanrot Knight
+mappings.Add("c3810", 400005300); // Kindred of Rot
+mappings.Add("c3850", 400005300); // Marionette Soldier
+mappings.Add("c3860", 400005300); // Avionette Soldier
+mappings.Add("c3900", 400005300); // Fire Monk
+mappings.Add("c3901", 400005300); // Blackflame Monk
+mappings.Add("c3910", 400005300); // Fire Prelate
+mappings.Add("c3950", 400005300); // Man-Serpent
+mappings.Add("c3970", 400005300); // Azula Beastman
+mappings.Add("c4000", 400005300); // Revenant Follower
+mappings.Add("c4020", 400005300); // Royal Revenant
+mappings.Add("c4040", 400005300); // Slug
+mappings.Add("c4050", 400005300); // Kaiden Sellsword
+mappings.Add("c4060", 400005300); // Kaiden Sellsword's Horse
+mappings.Add("c4070", 400005300); // Wolf
+mappings.Add("c4071", 400005300); // White Wolf
+mappings.Add("c4080", 400005300); // Rat
+mappings.Add("c4090", 400005300); // Giant Rat
+mappings.Add("c4100", 400005300); // Demi-Human
+mappings.Add("c4101", 400005300); // Demi-Human (Large)
+mappings.Add("c4110", 400005300); // Demi-Human Shaman
+mappings.Add("c4120", 400005300); // Demi-Human Chief
+mappings.Add("c4130", 400005300); // Demi-Human Queen
+mappings.Add("c4140", 400005300); // Snail
+mappings.Add("c4150", 400005300); // Basilisk
+mappings.Add("c4160", 400005300); // Stray (Large)
+mappings.Add("c4161", 400005300); // Stray
+mappings.Add("c4162", 400005300); // Farum Azula Stray (Large)
+mappings.Add("c4163", 400005300); // Farum Azula Stray
+mappings.Add("c4164", 400005300); // Bloodbane Stray (Large)
+mappings.Add("c4165", 400005300); // Bloodbane Stray
+mappings.Add("c4166", 400005300); // Rotten Stray (Large)
+mappings.Add("c4167", 400005300); // Rotten Stray
+mappings.Add("c4170", 400005300); // Putrid Flesh
+mappings.Add("c4171", 400005300); // Putrid Flesh (Large)
+mappings.Add("c4180", 400005300); // Spirit Jellyfish
+mappings.Add("c4190", 400005300); // Large Scarab
+mappings.Add("c4191", 400005300); // Scarab
+mappings.Add("c4192", 400005300); // Giant Scarab
+mappings.Add("c4200", 400005300); // Man-Bat
+mappings.Add("c4201", 400005300); // Operatic Bat
+mappings.Add("c4210", 400005300); // Warhawk
+mappings.Add("c4220", 400005300); // Land Octopus (Large)
+mappings.Add("c4230", 400005300); // Land Octopus (Small)
+mappings.Add("c4240", 400005300); // Fingercreeper
+mappings.Add("c4241", 400005300); // Fingercreeper (Large)
+mappings.Add("c4250", 400005300); // Fingercreeper (Small)
+mappings.Add("c4260", 400005300); // Erdtree Burial Watchdog
+mappings.Add("c4270", 400005300); // Elder Lion
+mappings.Add("c4280", 400005300); // Giant Ant
+mappings.Add("c4281", 400005300); // Giant Ant (Skull Plate)
+mappings.Add("c4290", 400005300); // Bloodhound Knight
+mappings.Add("c4300", 400005300); // Wandering Noble
+mappings.Add("c4310", 400005300); // Lordsworn Soldier
+mappings.Add("c4311", 400005300); // Godrick Soldier
+mappings.Add("c4312", 400005300); // Raya Lucaria Soldier
+mappings.Add("c4313", 400005300); // Leyndell Soldier
+mappings.Add("c4314", 400005300); // Radahn Soldier
+mappings.Add("c4315", 400005300); // Mausoleum Soldier
+mappings.Add("c4316", 400005300); // Haligtree Soldier
+mappings.Add("c4321", 400005300); // Vulgar Militia
+mappings.Add("c4340", 400005300); // Mad Pumpkin Head
+mappings.Add("c4341", 400005300); // Mad Pumpkin Head (Thin)
+mappings.Add("c4350", 400005300); // Lordsworn Knight
+mappings.Add("c4351", 400005300); // Godrick Knight
+mappings.Add("c4352", 400005300); // Cuckoo Knight
+mappings.Add("c4353", 400005300); // Leyndell Knight
+mappings.Add("c4354", 400005300); // Redmane Knight
+mappings.Add("c4355", 400005300); // Mausoleum Knight
+mappings.Add("c4356", 400005300); // Haligtree Knight
+mappings.Add("c4360", 400005300); // Lordsworn Knight's Horse
+mappings.Add("c4361", 400005300); // Godrick Knight's Horse
+mappings.Add("c4362", 400005300); // Cuckoo Knight's Horse
+mappings.Add("c4363", 400005300); // Leyndell Knight's Horse
+mappings.Add("c4364", 400005300); // Redmane Knight's Horse
+mappings.Add("c4365", 400005300); // Mausoleum Knight's Horse
+mappings.Add("c4370", 400005300); // Foot Soldier
+mappings.Add("c4371", 400005300); // Godrick Foot Soldier
+mappings.Add("c4372", 400005300); // Raya Lucaria Foot Soldier
+mappings.Add("c4373", 400005300); // Leyndell Foot Soldier
+mappings.Add("c4374", 400005300); // Radahn Foot Soldier
+mappings.Add("c4375", 400005300); // Mausoleum Foot Soldier
+mappings.Add("c4376", 400005300); // Haligtree Foot Soldier
+mappings.Add("c4377", 400005300); // Highwayman
+mappings.Add("c4380", 400005300); // Starcaller
+mappings.Add("c4381", 400005300); // Guilty
+mappings.Add("c4382", 400005300); // Stonedigger
+mappings.Add("c4383", 400005300); // Glintstone Digger
+mappings.Add("c4384", 400005300); // Glintstone Digger (Small Sack)
+mappings.Add("c4385", 400005300); // Disciple of Rot
+mappings.Add("c4420", 400005300); // Giant Crayfish
+mappings.Add("c4421", 400005300); // Giant Crayfish
+mappings.Add("c4430", 400005300); // Watcher Stones
+mappings.Add("c4440", 400005300); // Land Squirt
+mappings.Add("c4441", 400005300); // Giant Land Squirt
+mappings.Add("c4442", 400005300); // Giant Rotten Land Squirt
+mappings.Add("c4450", 400005300); // Walking Mausoleum
+mappings.Add("c4460", 400005300); // Flame Chariot
+mappings.Add("c4470", 400005300); // Abductor Virgin
+mappings.Add("c4480", 400005300); // Miranda Blossom
+mappings.Add("c4481", 400005300); // Miranda Sprout
+mappings.Add("c4482", 400005300); // Rotten Miranda Blossom
+mappings.Add("c4483", 400005300); // Rotten Miranda Sprout
+mappings.Add("c4490", 400005300); // Living Jar Warrior
+mappings.Add("c4491", 400005300); // Living Jar
+mappings.Add("c4492", 400005300); // Greatjar
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
+mappings.Add("c2010", 400005300); // Blaidd
