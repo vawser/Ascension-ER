@@ -34,232 +34,278 @@
 400005223 Asset: Toxic Mushroom
 400005224 Asset: Root Resin
 
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2030", 400005300); // Rennala
-mappings.Add("c2031", 400005300); // Rennala
-mappings.Add("c2040", 400005300); // Juvenile Scholar
-mappings.Add("c2041", 400005300); // Larva of Rot
-mappings.Add("c2050", 400005300); // Ranni the Witch
-mappings.Add("c2051", 400005300); // Ranni the Witch
-mappings.Add("c2060", 400005300); // The Two Fingers
-mappings.Add("c2070", 400005300); // The Three Fingers
-mappings.Add("c2100", 400005300); // Black Knife Assassin
-mappings.Add("c2110", 400005300); // Beast Clergyman
-mappings.Add("c2120", 400005300); // Malenia, Blade of Miquella
-mappings.Add("c2130", 400005300); // Morgott
-mappings.Add("c2131", 400005300); // Morgott (Dead)
-mappings.Add("c2140", 400005300); // Omen
-mappings.Add("c2150", 400005300); // Lightning Ball
-mappings.Add("c2160", 400005300); // Finger Reader Crone
-mappings.Add("c2170", 400005300); // Finger Reader Crone
-mappings.Add("c2180", 400005300); // Melina
-mappings.Add("c2190", 400005300); // Radagon
-mappings.Add("c2191", 400005300); // Radagon (Crucified)
-mappings.Add("c2200", 400005300); // Elden Beast
-mappings.Add("c2270", 400005300); // Giant Crab
-mappings.Add("c2271", 400005300); // Crab
-mappings.Add("c2272", 400005300); // Giant Black Crab
-mappings.Add("c2273", 400005300); // Black Crab
-mappings.Add("c2274", 400005300); // Giant Albinauric Crab
-mappings.Add("c2275", 400005300); // Albinauric Crab
-mappings.Add("c2276", 400005300); // Giant Death Crab
-mappings.Add("c2277", 400005300); // Death Crab
-mappings.Add("c2500", 400005300); // Crucible Knight
-mappings.Add("c3000", 400005300); // Exile Soldier
-mappings.Add("c3010", 400005300); // Banished Knight
-mappings.Add("c3020", 400005300); // Exile Soldier (Large)
-mappings.Add("c3050", 400005300); // Commander Niall/O'Neill
-mappings.Add("c3060", 400005300); // Giant Skeleton
-mappings.Add("c3061", 400005300); // Giant Beast Skeleton
-mappings.Add("c3070", 400005300); // Dominula Celebrant
-mappings.Add("c3080", 400005300); // Imp
-mappings.Add("c3100", 400005300); // Elemer of the Briar
-mappings.Add("c3150", 400005300); // Night's Cavalry
-mappings.Add("c3160", 400005300); // Funeral Steed
-mappings.Add("c3170", 400005300); // Albinauric Archer
-mappings.Add("c3171", 400005300); // Phillia, Towering Little Sister
-mappings.Add("c3180", 400005300); // Albinauric Archer's Wolf
-mappings.Add("c3181", 400005300); // Red Wolf of Radagon
-mappings.Add("c3200", 400005300); // Nomadic Merchant
-mappings.Add("c3201", 400005300); // Frenzied Nomad
-mappings.Add("c3202", 400005300); // Nomadic Merchant
-mappings.Add("c3210", 400005300); // Nomadic Merchant's Donkey
-mappings.Add("c3250", 400005300); // Draconic Tree Sentinel
-mappings.Add("c3251", 400005300); // Tree Sentinel
-mappings.Add("c3252", 400005300); // Loretta
-mappings.Add("c3300", 400005300); // Nox Swordstress/Monk/Nightmaiden
-mappings.Add("c3320", 400005300); // Silver Tear
-mappings.Add("c3330", 400005300); // Giant Silver Tear
-mappings.Add("c3350", 400005300); // Crystalian
-mappings.Add("c3360", 400005300); // Ancestral Follower
-mappings.Add("c3361", 400005300); // Putrid Ancestral Follower
-mappings.Add("c3370", 400005300); // Ancestral Follower Shaman
-mappings.Add("c3371", 400005300); // Putrid Ancestral Follower Shaman
-mappings.Add("c3400", 400005300); // Grave Warden Duelist
-mappings.Add("c3450", 400005300); // Misbegotten
-mappings.Add("c3451", 400005300); // Scaly Misbegotten
-mappings.Add("c3460", 400005300); // Leonine Misbegotten
-mappings.Add("c3470", 400005300); // Albinauric
-mappings.Add("c3471", 400005300); // Large Albinauric
-mappings.Add("c3500", 400005300); // Skeletal Militiaman/Bandit/Knight/Grave Warden
-mappings.Add("c3510", 400005300); // Catacomb Skeleton
-mappings.Add("c3550", 400005300); // Sanguine Noble
-mappings.Add("c3560", 400005300); // Godskin Apostle
-mappings.Add("c3570", 400005300); // Godskin Noble
-mappings.Add("c3600", 400005300); // Alabaster Lord
-mappings.Add("c3610", 400005300); // Oracle Envoy
-mappings.Add("c3620", 400005300); // Oracle Envoy (Large)
-mappings.Add("c3630", 400005300); // Oracle Envoy (Giant)
-mappings.Add("c3650", 400005300); // Guardian
-mappings.Add("c3660", 400005300); // Commoner
-mappings.Add("c3661", 400005300); // Putrid Corpse
-mappings.Add("c3662", 400005300); // Putrid Corpse (Large)
-mappings.Add("c3664", 400005300); // Cemetery Shade
-mappings.Add("c3665", 400005300); // Gostoc
-mappings.Add("c3666", 400005300); // The Noble Goldmask
-mappings.Add("c3670", 400005300); // Elder Albinauric
-mappings.Add("c3700", 400005300); // Depraved Perfumer
-mappings.Add("c3701", 400005300); // Perfumer
-mappings.Add("c3702", 400005300); // Glintstone Sorcerer
-mappings.Add("c3703", 400005300); // Page
-mappings.Add("c3704", 400005300); // Battlemage
-mappings.Add("c3710", 400005300); // Azur
-mappings.Add("c3720", 400005300); // Lusat
-mappings.Add("c3730", 400005300); // Graven School
-mappings.Add("c3750", 400005300); // Clayman
-mappings.Add("c3800", 400005300); // Cleanrot Knight
-mappings.Add("c3810", 400005300); // Kindred of Rot
-mappings.Add("c3850", 400005300); // Marionette Soldier
-mappings.Add("c3860", 400005300); // Avionette Soldier
-mappings.Add("c3900", 400005300); // Fire Monk
-mappings.Add("c3901", 400005300); // Blackflame Monk
-mappings.Add("c3910", 400005300); // Fire Prelate
-mappings.Add("c3950", 400005300); // Man-Serpent
-mappings.Add("c3970", 400005300); // Azula Beastman
-mappings.Add("c4000", 400005300); // Revenant Follower
-mappings.Add("c4020", 400005300); // Royal Revenant
-mappings.Add("c4040", 400005300); // Slug
-mappings.Add("c4050", 400005300); // Kaiden Sellsword
-mappings.Add("c4060", 400005300); // Kaiden Sellsword's Horse
-mappings.Add("c4070", 400005300); // Wolf
-mappings.Add("c4071", 400005300); // White Wolf
-mappings.Add("c4080", 400005300); // Rat
-mappings.Add("c4090", 400005300); // Giant Rat
-mappings.Add("c4100", 400005300); // Demi-Human
-mappings.Add("c4101", 400005300); // Demi-Human (Large)
-mappings.Add("c4110", 400005300); // Demi-Human Shaman
-mappings.Add("c4120", 400005300); // Demi-Human Chief
-mappings.Add("c4130", 400005300); // Demi-Human Queen
-mappings.Add("c4140", 400005300); // Snail
-mappings.Add("c4150", 400005300); // Basilisk
-mappings.Add("c4160", 400005300); // Stray (Large)
-mappings.Add("c4161", 400005300); // Stray
-mappings.Add("c4162", 400005300); // Farum Azula Stray (Large)
-mappings.Add("c4163", 400005300); // Farum Azula Stray
-mappings.Add("c4164", 400005300); // Bloodbane Stray (Large)
-mappings.Add("c4165", 400005300); // Bloodbane Stray
-mappings.Add("c4166", 400005300); // Rotten Stray (Large)
-mappings.Add("c4167", 400005300); // Rotten Stray
-mappings.Add("c4170", 400005300); // Putrid Flesh
-mappings.Add("c4171", 400005300); // Putrid Flesh (Large)
-mappings.Add("c4180", 400005300); // Spirit Jellyfish
-mappings.Add("c4190", 400005300); // Large Scarab
-mappings.Add("c4191", 400005300); // Scarab
-mappings.Add("c4192", 400005300); // Giant Scarab
-mappings.Add("c4200", 400005300); // Man-Bat
-mappings.Add("c4201", 400005300); // Operatic Bat
-mappings.Add("c4210", 400005300); // Warhawk
-mappings.Add("c4220", 400005300); // Land Octopus (Large)
-mappings.Add("c4230", 400005300); // Land Octopus (Small)
-mappings.Add("c4240", 400005300); // Fingercreeper
-mappings.Add("c4241", 400005300); // Fingercreeper (Large)
-mappings.Add("c4250", 400005300); // Fingercreeper (Small)
-mappings.Add("c4260", 400005300); // Erdtree Burial Watchdog
-mappings.Add("c4270", 400005300); // Elder Lion
-mappings.Add("c4280", 400005300); // Giant Ant
-mappings.Add("c4281", 400005300); // Giant Ant (Skull Plate)
-mappings.Add("c4290", 400005300); // Bloodhound Knight
-mappings.Add("c4300", 400005300); // Wandering Noble
-mappings.Add("c4310", 400005300); // Lordsworn Soldier
-mappings.Add("c4311", 400005300); // Godrick Soldier
-mappings.Add("c4312", 400005300); // Raya Lucaria Soldier
-mappings.Add("c4313", 400005300); // Leyndell Soldier
-mappings.Add("c4314", 400005300); // Radahn Soldier
-mappings.Add("c4315", 400005300); // Mausoleum Soldier
-mappings.Add("c4316", 400005300); // Haligtree Soldier
-mappings.Add("c4321", 400005300); // Vulgar Militia
-mappings.Add("c4340", 400005300); // Mad Pumpkin Head
-mappings.Add("c4341", 400005300); // Mad Pumpkin Head (Thin)
-mappings.Add("c4350", 400005300); // Lordsworn Knight
-mappings.Add("c4351", 400005300); // Godrick Knight
-mappings.Add("c4352", 400005300); // Cuckoo Knight
-mappings.Add("c4353", 400005300); // Leyndell Knight
-mappings.Add("c4354", 400005300); // Redmane Knight
-mappings.Add("c4355", 400005300); // Mausoleum Knight
-mappings.Add("c4356", 400005300); // Haligtree Knight
-mappings.Add("c4360", 400005300); // Lordsworn Knight's Horse
-mappings.Add("c4361", 400005300); // Godrick Knight's Horse
-mappings.Add("c4362", 400005300); // Cuckoo Knight's Horse
-mappings.Add("c4363", 400005300); // Leyndell Knight's Horse
-mappings.Add("c4364", 400005300); // Redmane Knight's Horse
-mappings.Add("c4365", 400005300); // Mausoleum Knight's Horse
-mappings.Add("c4370", 400005300); // Foot Soldier
-mappings.Add("c4371", 400005300); // Godrick Foot Soldier
-mappings.Add("c4372", 400005300); // Raya Lucaria Foot Soldier
-mappings.Add("c4373", 400005300); // Leyndell Foot Soldier
-mappings.Add("c4374", 400005300); // Radahn Foot Soldier
-mappings.Add("c4375", 400005300); // Mausoleum Foot Soldier
-mappings.Add("c4376", 400005300); // Haligtree Foot Soldier
-mappings.Add("c4377", 400005300); // Highwayman
-mappings.Add("c4380", 400005300); // Starcaller
-mappings.Add("c4381", 400005300); // Guilty
-mappings.Add("c4382", 400005300); // Stonedigger
-mappings.Add("c4383", 400005300); // Glintstone Digger
-mappings.Add("c4384", 400005300); // Glintstone Digger (Small Sack)
-mappings.Add("c4385", 400005300); // Disciple of Rot
-mappings.Add("c4420", 400005300); // Giant Crayfish
-mappings.Add("c4421", 400005300); // Giant Crayfish
-mappings.Add("c4430", 400005300); // Watcher Stones
-mappings.Add("c4440", 400005300); // Land Squirt
-mappings.Add("c4441", 400005300); // Giant Land Squirt
-mappings.Add("c4442", 400005300); // Giant Rotten Land Squirt
-mappings.Add("c4450", 400005300); // Walking Mausoleum
-mappings.Add("c4460", 400005300); // Flame Chariot
-mappings.Add("c4470", 400005300); // Abductor Virgin
-mappings.Add("c4480", 400005300); // Miranda Blossom
-mappings.Add("c4481", 400005300); // Miranda Sprout
-mappings.Add("c4482", 400005300); // Rotten Miranda Blossom
-mappings.Add("c4483", 400005300); // Rotten Miranda Sprout
-mappings.Add("c4490", 400005300); // Living Jar Warrior
-mappings.Add("c4491", 400005300); // Living Jar
-mappings.Add("c4492", 400005300); // Greatjar
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
-mappings.Add("c2010", 400005300); // Blaidd
+c0000 - Player - 400005301
+c2010 - Blaidd - 400005302
+c2030 - Rennala - 400005303
+c2031 - Rennala - 400005304
+c2040 - Juvenile Scholar - 400005305
+c2041 - Larva of Rot - 400005306
+c2050 - Ranni the Witch - 400005307
+c2051 - Ranni the Witch - 400005308
+c2060 - The Two Fingers - 400005309
+c2070 - The Three Fingers - 400005310
+c2100 - Black Knife Assassin - 400005311
+c2110 - Beast Clergyman - 400005312
+c2120 - Malenia, Blade of Miquella - 400005313
+c2130 - Morgott - 400005314
+c2131 - Morgott (Dead) - 400005315
+c2140 - Omen - 400005316
+c2150 - Lightning Ball - 400005317
+c2160 - Finger Reader Crone - 400005318
+c2170 - Finger Reader Crone - 400005319
+c2180 - Melina - 400005320
+c2191 - Radagon (Crucified) - 400005322
+c2200 - Elden Beast - 400005323
+c2270 - Giant Crab - 400005324
+c2271 - Crab - 400005325
+c2272 - Giant Black Crab - 400005326
+c2190 - Radagon - 400005321
+c2273 - Black Crab - 400005327
+c2274 - Giant Albinauric Crab - 400005328
+c2276 - Giant Death Crab - 400005330
+c2275 - Albinauric Crab - 400005329
+c2277 - Death Crab - 400005331
+c2500 - Crucible Knight - 400005332
+c3010 - Banished Knight - 400005334
+c3020 - Exile Soldier (Large) - 400005335
+c3050 - Commander Niall/O'Neill - 400005336
+c3060 - Giant Skeleton - 400005337
+c3000 - Exile Soldier - 400005333
+c3061 - Giant Beast Skeleton - 400005338
+c3070 - Dominula Celebrant - 400005339
+c3080 - Imp - 400005340
+c3100 - Elemer of the Briar - 400005341
+c3150 - Night's Cavalry - 400005342
+c3160 - Funeral Steed - 400005343
+c3170 - Albinauric Archer - 400005344
+c3171 - Phillia, Towering Little Sister - 400005345
+c3180 - Albinauric Archer's Wolf - 400005346
+c3200 - Nomadic Merchant - 400005348
+c3201 - Frenzied Nomad - 400005349
+c3202 - Nomadic Merchant - 400005350
+c3210 - Nomadic Merchant's Donkey - 400005351
+c3181 - Red Wolf of Radagon - 400005347
+c3250 - Draconic Tree Sentinel - 400005352
+c3252 - Loretta - 400005354
+c3251 - Tree Sentinel - 400005353
+c3300 - Nox Swordstress/Monk/Nightmaiden - 400005355
+c3320 - Silver Tear - 400005356
+c3330 - Giant Silver Tear - 400005357
+c3350 - Crystalian - 400005358
+c3361 - Putrid Ancestral Follower - 400005360
+c3370 - Ancestral Follower Shaman - 400005361
+c3360 - Ancestral Follower - 400005359
+c3450 - Misbegotten - 400005364
+c3371 - Putrid Ancestral Follower Shaman - 400005362
+c3400 - Grave Warden Duelist - 400005363
+c3451 - Scaly Misbegotten - 400005365
+c3460 - Leonine Misbegotten - 400005366
+c3470 - Albinauric - 400005367
+c3471 - Large Albinauric - 400005368
+c3510 - Catacomb Skeleton - 400005370
+c3550 - Sanguine Noble - 400005371
+c3560 - Godskin Apostle - 400005372
+c3570 - Godskin Noble - 400005373
+c3500 - Skeletal Militiaman/Bandit/Knight/Grave Warden - 400005369
+c3610 - Oracle Envoy - 400005375
+c3620 - Oracle Envoy (Large) - 400005376
+c3600 - Alabaster Lord - 400005374
+c3630 - Oracle Envoy (Giant) - 400005377
+c3650 - Guardian - 400005378
+c3660 - Commoner - 400005379
+c3661 - Putrid Corpse - 400005380
+c3662 - Putrid Corpse (Large) - 400005381
+c3665 - Gostoc - 400005383
+c3666 - The Noble Goldmask - 400005384
+c3700 - Depraved Perfumer - 400005386
+c3701 - Perfumer - 400005387
+c3664 - Cemetery Shade - 400005382
+c3703 - Page - 400005389
+c3702 - Glintstone Sorcerer - 400005388
+c3704 - Battlemage - 400005390
+c3710 - Azur - 400005391
+c3720 - Lusat - 400005392
+c3730 - Graven School - 400005393
+c3750 - Clayman - 400005394
+c3810 - Kindred of Rot - 400005396
+c3850 - Marionette Soldier - 400005397
+c3800 - Cleanrot Knight - 400005395
+c3860 - Avionette Soldier - 400005398
+c3900 - Fire Monk - 400005399
+c3901 - Blackflame Monk - 400005400
+c3910 - Fire Prelate - 400005401
+c3950 - Man-Serpent - 400005402
+c3970 - Azula Beastman - 400005403
+c4000 - Revenant Follower - 400005404
+c4020 - Royal Revenant - 400005405
+c4040 - Slug - 400005406
+c4060 - Kaiden Sellsword's Horse - 400005408
+c4071 - White Wolf - 400005410
+c4070 - Wolf - 400005409
+c4050 - Kaiden Sellsword - 400005407
+c4080 - Rat - 400005411
+c4090 - Giant Rat - 400005412
+c4100 - Demi-Human - 400005413
+c4101 - Demi-Human (Large) - 400005414
+c4110 - Demi-Human Shaman - 400005415
+c4120 - Demi-Human Chief - 400005416
+c4130 - Demi-Human Queen - 400005417
+c4140 - Snail - 400005418
+c4150 - Basilisk - 400005419
+c4161 - Stray - 400005421
+c4162 - Farum Azula Stray (Large) - 400005422
+c4163 - Farum Azula Stray - 400005423
+c4160 - Stray (Large) - 400005420
+c4164 - Bloodbane Stray (Large) - 400005424
+c4166 - Rotten Stray (Large) - 400005426
+c4165 - Bloodbane Stray - 400005425
+c4167 - Rotten Stray - 400005427
+c4170 - Putrid Flesh - 400005428
+c4171 - Putrid Flesh (Large) - 400005429
+c4180 - Spirit Jellyfish - 400005430
+c4190 - Large Scarab - 400005431
+c4191 - Scarab - 400005432
+c4201 - Operatic Bat - 400005435
+c4210 - Warhawk - 400005436
+c4200 - Man-Bat - 400005434
+c4192 - Giant Scarab - 400005433
+c4240 - Fingercreeper - 400005439
+c4220 - Land Octopus (Large) - 400005437
+c4230 - Land Octopus (Small) - 400005438
+c4241 - Fingercreeper (Large) - 400005440
+c4250 - Fingercreeper (Small) - 400005441
+c4260 - Erdtree Burial Watchdog - 400005442
+c4270 - Elder Lion - 400005443
+c4280 - Giant Ant - 400005444
+c4281 - Giant Ant (Skull Plate) - 400005445
+c4290 - Bloodhound Knight - 400005446
+c4300 - Wandering Noble - 400005447
+c4311 - Godrick Soldier - 400005449
+c4310 - Lordsworn Soldier - 400005448
+c4312 - Raya Lucaria Soldier - 400005450
+c4313 - Leyndell Soldier - 400005451
+c4314 - Radahn Soldier - 400005452
+c4315 - Mausoleum Soldier - 400005453
+c4316 - Haligtree Soldier - 400005454
+c4340 - Mad Pumpkin Head - 400005456
+c4341 - Mad Pumpkin Head (Thin) - 400005457
+c4351 - Godrick Knight - 400005459
+c4350 - Lordsworn Knight - 400005458
+c4352 - Cuckoo Knight - 400005460
+c4353 - Leyndell Knight - 400005461
+c4354 - Redmane Knight - 400005462
+c4355 - Mausoleum Knight - 400005463
+c4356 - Haligtree Knight - 400005464
+c4360 - Lordsworn Knight's Horse - 400005465
+c4361 - Godrick Knight's Horse - 400005466
+c4362 - Cuckoo Knight's Horse - 400005467
+c4363 - Leyndell Knight's Horse - 400005468
+c4364 - Redmane Knight's Horse - 400005469
+c4365 - Mausoleum Knight's Horse - 400005470
+c4370 - Foot Soldier - 400005471
+c4371 - Godrick Foot Soldier - 400005472
+c4372 - Raya Lucaria Foot Soldier - 400005473
+c4373 - Leyndell Foot Soldier - 400005474
+c4374 - Radahn Foot Soldier - 400005475
+c4375 - Mausoleum Foot Soldier - 400005476
+c4321 - Vulgar Militia - 400005455
+c4377 - Highwayman - 400005478
+c4381 - Guilty - 400005480
+c4382 - Stonedigger - 400005481
+c4383 - Glintstone Digger - 400005482
+c4384 - Glintstone Digger (Small Sack) - 400005483
+c4385 - Disciple of Rot - 400005484
+c4420 - Giant Crayfish - 400005485
+c4421 - Giant Crayfish - 400005486
+c4430 - Watcher Stones - 400005487
+c4376 - Haligtree Foot Soldier - 400005477
+c4442 - Giant Rotten Land Squirt - 400005490
+c4450 - Walking Mausoleum - 400005491
+c4460 - Flame Chariot - 400005492
+c4470 - Abductor Virgin - 400005493
+c4480 - Miranda Blossom - 400005494
+c4481 - Miranda Sprout - 400005495
+c4482 - Rotten Miranda Blossom - 400005496
+c4483 - Rotten Miranda Sprout - 400005497
+c4490 - Living Jar Warrior - 400005498
+c4491 - Living Jar - 400005499
+c4492 - Greatjar - 400005500
+c4500 - Flying Dragon - 400005501
+c4501 - Decaying Ekzykes - 400005502
+c4502 - Glintstone Dragon - 400005503
+c4503 - Borealis the Freezing Fog - 400005504
+c4504 - Elder Dragon Greyoll - 400005505
+c4505 - Flying Dragon (Small) - 400005506
+c4510 - Ancient Dragon - 400005507
+c4511 - Lichdragon Fortissax - 400005508
+c4520 - Dragonlord Placidusax - 400005509
+c4550 - Giant Dog - 400005510
+c4560 - Giant Crow - 400005511
+c4561 - Giant Crow (Rotten) - 400005512
+c4570 - Wormface - 400005513
+c4580 - Large Wormface - 400005514
+c4600 - Troll - 400005515
+c4601 - Troll Knight (Carian Blade) - 400005516
+c4602 - Snowfield Troll - 400005517
+c4603 - Stonedigger Troll - 400005518
+c4604 - War Counselor Iji - 400005519
+c4620 - Astel, Naturalborn of the Void - 400005520
+c4630 - Runebear - 400005521
+c4640 - Ulcerated Tree Spirit - 400005522
+c4650 - Dragonkin Soldier - 400005523
+c4660 - Guardian Golem - 400005524
+c4670 - Ancestor Spirit - 400005525
+c4680 - Falling-star Beast - 400005526
+c4690 - Grafted Scion - 400005527
+c4710 - God-Devouring Serpent / Rykard, Lord of Blasphemy - 400005528
+c4711 - Rykard's Corpse - 400005529
+c4720 - Godfrey, First Elden Lord - 400005530
+c4721 - Hoarah Loux, Warrior - 400005531
+c3670 - Elder Albinauric - 400005385
+c4730 - Starscourge Radahn - 400005532
+c4750 - Godrick the Grafted - 400005533
+c4751 - Godrick's Corpse - 400005534
+c4770 - Valiant Gargoyle - 400005536
+c4760 - Fire Giant - 400005535
+c4800 - Mohg, Lord of Blood - 400005537
+c4801 - Mohg, Lord of Blood (Unknown) - 400005538
+c4811 - Putrid Avatar - 400005540
+c4810 - Erdtree Avatar - 400005539
+c4820 - Omenkiller - 400005541
+c4910 - Magma Wyrm - 400005542
+c4950 - Tibia Mariner - 400005544
+c4911 - Great Wyrm Theodorix - 400005543
+c4960 - Giant Skeleton Torso - 400005545
+c4980 - Death Rite Bird - 400005546
+c6001 - Eagle - 400005547
+c6010 - Deer - 400005548
+c6031 - Bear - 400005549
+c6040 - Owl - 400005550
+c6050 - Boar - 400005551
+c6060 - Goat - 400005552
+c6072 - Carrier Pigeon - 400005554
+c6070 - Murre - 400005553
+c6080 - Dragonfly - 400005555
+c6081 - Yellow Dragonfly - 400005556
+c6082 - Great Dragonfly - 400005557
+c6090 - Turtle - 400005558
+c6091 - Miriel, Pastor of Vows - 400005559
+c6100 - Springhare - 400005560
+c7100 - Ancient Hero - 400005562
+c7000 - Fallen Hawks Soldier - 400005561
+c8000 - Torrent - 400005563
+c8100 - Ballista - 400005564
+c8101 - Trebuchet - 400005565
+c8110 - Dragon-faced Flamethrower - 400005566
+c8120 - Merciless Chariot - 400005567
+c8900 - Malenia, Blade of Miquella - 400005568
+c8901 - Beast Clergyman - 400005569
+c8903 - Rennala, Queen of the Full Moon - 400005570
+c8904 - Giant Aged Man with Ornate Cape - 400005571
+c8905 - Mohg, Lord of Blood - 400005572
+c8906 - Melina - 400005573
+c8907 - Malformed Melina - 400005574
+c1000 -  - 400005575
+c4440 - Land Squirt - 400005488
+c4380 - Starcaller - 400005479
+c4441 - Giant Land Squirt - 400005489
