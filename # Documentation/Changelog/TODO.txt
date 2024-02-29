@@ -5,9 +5,6 @@
 Fix Morgott not respawning correctly via Boss Revival
 Fix Greyoll not respawning correctly via Boss Revival
 
-# Treasure to Place
-6260 Clarifying Elixir
-
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
