@@ -242,5 +242,10 @@
       <id>45</id>
       <path>SB_LB_Effect_Header.layout</path>
     </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>46</id>
+      <path>SB_LB_Information_Header.layout</path>
+    </file>
   </files>
 </bnd4>

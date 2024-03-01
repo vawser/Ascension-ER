@@ -5,19 +5,31 @@
 Fix Morgott not respawning correctly via Boss Revival
 Fix Greyoll not respawning correctly via Boss Revival
 
+# ERR inspired ideas:
+ - 'Runeforging' system: use a different object or perhaps a killable enemy, tie into the Bloodforge mechanic?
+ - Bestiary
+ - Mark boss completion / dungeon completion on map
+ - 'Sealed chests': require all enemies in area to be killed before unlocking major treasure
+ 
 # Plans
 - Add new encounter spaces to the open world:
  - Forts, towers, etc
  
-- Expand covenant system
+- Expand covenant system:
+ - Add more covenants (i.e. Adherents of Rot, etc)
+ - Add in 'npc' invader mechanic: certain covenants will enable 'enemy' covenant invaders, which reward covenant rank up item (replace Bloodsoaked Rune usage)
+
+- Add dialogue to Emissary
 
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
-Covenants:
-- Servants of the Grafted
-- 
 
-<img src='img://ItemHeader_test.png' height='624' width='80' vspace='0'/>
+<img src='img://LB_Description_Header.png' height='94' width='620' vspace='0'/>
 
-<img src='img://SB_ERR_Weight.png' height='22' width='22' vspace='-14'/>
+
+<img src='img://LB_Effect_Header.png' height='94' width='620' vspace='0'/>
+
+
+<img src='img://LB_Information_Header.png' height='94' width='620' vspace='0'/>
+

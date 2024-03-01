@@ -282,6 +282,11 @@
       <flags1>0x00</flags1>
     </texture>
     <texture>
+      <name>SB_LB_Information_Header.dds</name>
+      <format>102</format>
+      <flags1>0x00</flags1>
+    </texture>
+    <texture>
       <name>SB_LB_Icons.dds</name>
       <format>102</format>
       <flags1>0x00</flags1>
