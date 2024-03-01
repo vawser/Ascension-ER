@@ -227,5 +227,20 @@
       <id>42</id>
       <path>SB_Icon_02_C.layout</path>
     </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>43</id>
+      <path>SB_LB_Icons.layout</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>44</id>
+      <path>SB_LB_Description_Header.layout</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>45</id>
+      <path>SB_LB_Effect_Header.layout</path>
+    </file>
   </files>
 </bnd4>

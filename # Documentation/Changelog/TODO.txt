@@ -18,3 +18,6 @@ Covenants:
 - Servants of the Grafted
 - 
 
+<img src='img://ItemHeader_test.png' height='624' width='80' vspace='0'/>
+
+<img src='img://SB_ERR_Weight.png' height='22' width='22' vspace='-14'/>

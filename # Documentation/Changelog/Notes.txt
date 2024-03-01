@@ -1,0 +1,6 @@
+# FMG Notes
+
+- Method to add images within FMG:
+<img src='img://<filename>.png' height='22' width='22' vspace='-14'/>
+
+<filename> is the name as defined in a .layout file within 01_common.sblytbnd.dcx
