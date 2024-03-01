@@ -11,3 +11,8 @@ Fix Greyoll not respawning correctly via Boss Revival
 Covenants:
 - Servants of the Grafted
 - 
+
+15140
+20691
+
+11001300
