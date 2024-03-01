@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bnd4>
+  <filename>hd_m_3006.partsbnd.dcx</filename>
+  <compression>DCX_DFLT_11000_44_9</compression>
+  <version>07D7R6</version>
+  <format>IDs, Names1, Names2, Compression</format>
+  <bigendian>False</bigendian>
+  <bitbigendian>False</bitbigendian>
+  <unicode>True</unicode>
+  <extended>0x04</extended>
+  <unk04>False</unk04>
+  <unk05>False</unk05>
+  <root>N:\GR\data\INTERROOT_win64\parts\FullBody\HD_M_3006\</root>
+  <files>
+    <file>
+      <flags>Flag1</flags>
+      <id>100</id>
+      <path>HD_M_3006.tpf</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>200</id>
+      <path>HD_M_3006.flver</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>700</id>
+      <path>HD_M_3006_c.clm2</path>
+    </file>
+    <file>
+      <flags>Flag1</flags>
+      <id>900</id>
+      <path>HD_M_3006_c.hkx</path>
+    </file>
+  </files>
+</bnd4>
