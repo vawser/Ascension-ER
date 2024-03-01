@@ -5,6 +5,12 @@
 Fix Morgott not respawning correctly via Boss Revival
 Fix Greyoll not respawning correctly via Boss Revival
 
+# Plans
+- Add new encounter spaces to the open world:
+ - Forts, towers, etc
+ 
+- Expand covenant system
+
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
@@ -12,7 +18,3 @@ Covenants:
 - Servants of the Grafted
 - 
 
-15140
-20691
-
-11001300

@@ -278,24 +278,6 @@
   - Once the player has visited the field and picked the crops, resting or reloading will cause the fields to become barren again.
   
 #-------------------------------------------------
-# Covenants
-#-------------------------------------------------
-- Covenants are groups that the player can commit their allegiance to. Once commited, they must stay commited to gain the benefits of the covenant.
-- Joining another covenant will remove all other alliegances.
-- Abandoning a covenant will remove all alliegances and reset progress to rank 1.
-- When you join a covenant, you start at rank 1. 
- - You can progress to Rank 2 by giving the covenant 10 Bloodstained Runes.
- - you can progress to Rank 3 by giving the covenant 20 Bloodstained Runes.
-- Each covenant will grant the player a Codex that describes the benefits and drawbacks of belonging to the covenant.
-
-- Added the Servants of the Grafted covenant:
- - Available at Stitchmaster Geralt in Stormveil Castle, at the Rampart Tower grace.
- - Grants Opportunistic Grafting:
-    - Enemy kills will increase Physical damage by 1/1.5/2%, but reduces absorption by 0.5/1/1.5% and corrupts the physical form of the committed.
-    - Each stack lasts 300 seconds.
-    - This can stack up to 25 times.
-    
-#-------------------------------------------------
 # Localization
 #-------------------------------------------------
 - Added explicit values in the descriptions for talismans.
