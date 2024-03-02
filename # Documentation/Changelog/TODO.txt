@@ -24,12 +24,3 @@ Fix Greyoll not respawning correctly via Boss Revival
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
-
-<img src='img://LB_Description_Header.png' height='94' width='620' vspace='0'/>
-
-
-<img src='img://LB_Effect_Header.png' height='94' width='620' vspace='0'/>
-
-
-<img src='img://LB_Information_Header.png' height='94' width='620' vspace='0'/>
-
