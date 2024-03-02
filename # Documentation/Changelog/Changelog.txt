@@ -1,51 +1,24 @@
 ﻿#-------------------------------------------------
-# Features
+# Changes
 #-------------------------------------------------
-
-#-------------------------------------------------
-# Player
-#-------------------------------------------------
-
-#-------------------------------------------------
-# Bosses
-#-------------------------------------------------
-
-#-------------------------------------------------
-# Enemies
-#-------------------------------------------------
-
-#-------------------------------------------------
-# World
-#-------------------------------------------------
-
-#-------------------------------------------------
-# Items
-#-------------------------------------------------
-
-#-------------------------------------------------
-# Armor
-#-------------------------------------------------
+# Interface
+- Removed the large preview icon in the Item Preview interface
+ - Replaced with a larger text box that supports text for the whole height.
  
-#-------------------------------------------------
-# Weapons
-#-------------------------------------------------
+- Added "Description", "Efffect" and "Information" banners to the item description text to make the new Item Preview text section look better.
 
-#-------------------------------------------------
-# Catalysts
-#-------------------------------------------------
-    
-#-------------------------------------------------
-# Spells
-#-------------------------------------------------
+- Added "Visited" and "Cleared" text to all the dungeon map markers.
+ - "Visited" appears if the dungeon grace has been lit.
+ - "Cleared" replaces "Visited" if the dungeon boss has been defeated.
+ 
+# Map
+- Added a fort to the beach in West Limgrave
+- Added 3 corpse treasures and 1 treasure chest
+- It is populated with land octopuses
 
-#-------------------------------------------------
-# Great Runes
-#-------------------------------------------------
+# Treasure
+- Placed Clarifying Elixir
 
-#-------------------------------------------------
-# Talismans
-#-------------------------------------------------
-
-#-------------------------------------------------
-# Misc
-#-------------------------------------------------
+# Balance
+- Changed FP restore cooldown to 3 seconds
+- Increased base enemy damage from area scaling (to account for general increase in player survivability)

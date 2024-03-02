@@ -1,14 +1,16 @@
 ﻿#-------------------------------------------------
 # WIP
 #-------------------------------------------------
+# Look into:
+AnimSpeed as havok variable instead of set value in hkx
+
 # Bugs to Fix
 Fix Morgott not respawning correctly via Boss Revival
 Fix Greyoll not respawning correctly via Boss Revival
 
 # ERR inspired ideas:
- - 'Runeforging' system: use a different object or perhaps a killable enemy, tie into the Bloodforge mechanic?
+ - Korok seed like system: perhaps killable enemy that drops currency (Crystallized Blood?)
  - Bestiary
- - Mark boss completion / dungeon completion on map
  - 'Sealed chests': require all enemies in area to be killed before unlocking major treasure
  
 # Plans
@@ -24,3 +26,8 @@ Fix Greyoll not respawning correctly via Boss Revival
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
+Mark boss completion / dungeon completion on map
+
+Add "Visited" and "Cleared" text for all dungeons:
+ Visited is the main grace flag
+ Cleared is the dungeon boss defeat flag

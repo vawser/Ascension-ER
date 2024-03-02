@@ -2,7 +2,11 @@
   "ProjectName": "Lands-Betwixt",
   "GameRoot": "F:\\SteamLibrary\\steamapps\\common\\ELDEN RING\\Game",
   "GameType": 8,
-  "PinnedParams": [],
+  "PinnedParams": [
+    "BonfireWarpParam",
+    "WorldMapPointParam",
+    "GameAreaParam"
+  ],
   "PinnedRows": {
     "BonfireWarpParam": [],
     "Bullet": [],
