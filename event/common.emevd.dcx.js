@@ -6506,6 +6506,9 @@ $Event(9950, Default, function(X0_4, X4_4) {
 $Event(11000, Default, function() {
     EndIf(ThisEventSlot());
     
+    // Debug
+    InitializeEvent(0, 15000, 0); 
+    
     // Default Setup - Applied only once
     if(!EventFlag(1047610010))
     {
@@ -8650,6 +8653,7 @@ $Event(11100, Default, function() {
     InitializeEvent(429, 11101, 9402431, 1047600429) // Mask of the Father [Head]
     InitializeEvent(430, 11101, 9402432, 1047600430) // Giant Set [Head]
     InitializeEvent(431, 11101, 9402433, 1047600431) // Giant Set [Body]
+    InitializeEvent(432, 11101, 9402434, 1047600432) // Pot [Head]
     
     // Special
     InitializeEvent(998, 11101, 9402427, 1047600998) // None [Head]
@@ -9850,3 +9854,11 @@ $Event(14200, Restart, function() {
         SetSpEffect(10000, 7400103);
     }
 });
+
+// Debug
+$Event(15000, Restart, function() {
+    //DirectlyGivePlayerItem(ItemType.Armor, 3050000, 6000, 4);
+});
+
+
+

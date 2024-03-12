@@ -13,6 +13,7 @@
     - Mask of the Child: reward from defeating the Family.
     - Mask of the Father: reward from defeating the Family.
     - Giant Set: found in the Mountaintops of the Giants
+    - Pot: found in Limgrave.
     
 #-----------------------------------
 # Heavy

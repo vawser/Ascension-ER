@@ -1,11 +1,12 @@
 {
-  "ProjectName": "Lands-Betwixt",
+  "ProjectName": "Cinders-ER",
   "GameRoot": "F:\\SteamLibrary\\steamapps\\common\\ELDEN RING\\Game",
   "GameType": 8,
   "PinnedParams": [
     "BonfireWarpParam",
     "WorldMapPointParam",
-    "GameAreaParam"
+    "GameAreaParam",
+    "EquipParamProtector"
   ],
   "PinnedRows": {
     "BonfireWarpParam": [],
