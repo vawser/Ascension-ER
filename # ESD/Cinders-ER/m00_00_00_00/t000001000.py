@@ -989,11 +989,8 @@ def t000001000_x31():
         # Access Smithbox
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830, 2, 0, 0) == 1, 20, 80101200, -1)
         
-        # Access Honing Kit
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831, 2, 0, 0) == 1, 21, 80101201, -1)
-        
         # Access Spirit Tuner
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832, 2, 0, 0) == 1, 22, 80101202, -1)
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832, 2, 0, 0) == 1, 21, 80101202, -1)
         
         assert t000001000_x52()
         
@@ -1080,6 +1077,12 @@ def t000001000_x31():
         elif GetTalkListEntryResult() == 32:
             """State 21"""
             assert t000001000_x38()
+        # Access Smithbox
+        elif GetTalkListEntryResult() == 20:
+            assert t000001000_x300()
+        # Access Spirit Tuner
+        elif GetTalkListEntryResult() == 21:
+            assert t000001000_x301()
         # Shift Time
         elif GetTalkListEntryResult() == 80:
             """State 22"""
@@ -2495,3 +2498,62 @@ def t000001000_x200():
             """State 2"""
             return 0
 
+# Access Smithbox
+def t000001000_x300():
+    while True:
+        c1_110()
+        ClearTalkListData()
+        
+        # Reinforce Equipment
+        AddTalkListData(1, 80101210, -1)
+        
+        # Duplicate Ash of War
+        AddTalkListData(2, 80101211, -1)
+        
+        # Leave
+        AddTalkListData(99, 20000009, -1)
+        
+        ShowShopMessage(1)
+        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+        
+        # Reinforce Equipment
+        if GetTalkListEntryResult() == 1:
+            CombineMenuFlagAndEventFlag(6001, 232)
+            CombineMenuFlagAndEventFlag(6001, 233)
+            CombineMenuFlagAndEventFlag(6001, 234)
+            CombineMenuFlagAndEventFlag(6001, 235)
+            c1_141(9)
+            OpenEnhanceShop(0)
+            assert not (CheckSpecificPersonMenuIsOpen(9, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            continue
+        # Duplicate Ash of War
+        elif GetTalkListEntryResult() == 2:
+            OpenAshOfWarShop(112000, 112099)
+            assert not (CheckSpecificPersonMenuIsOpen(27, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0
+
+# Access Spirit Tuner
+def t000001000_x301():
+    while True:
+        c1_110()
+        ClearTalkListData()
+        
+        # Spirit Tuning
+        AddTalkListData(1, 80101212, -1)
+        
+        # Leave
+        AddTalkListData(99, 20000009, -1)
+        
+        ShowShopMessage(1)
+        assert not (CheckSpecificPersonMenuIsOpen(1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+        
+        # Spirit Tuning
+        if GetTalkListEntryResult() == 1:
+            c1_136()
+            c1_141(23)
+            assert not (CheckSpecificPersonMenuIsOpen(23, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            continue
+        elif not (CheckSpecificPersonMenuIsOpen(-1, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0)):
+            return 0

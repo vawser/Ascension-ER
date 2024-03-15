@@ -63,5 +63,4 @@ QOL:
  - Add spirit reinforcement to grace: purchase Spirit Tuner from Rodarika
  
 3830 Smithbox
-3831 Honing Kit
 3832 Spirit Tuner
