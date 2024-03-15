@@ -11,6 +11,19 @@
  - "Visited" appears if the dungeon grace has been lit.
  - "Cleared" replaces "Visited" if the dungeon boss has been defeated.
  
+# Items
+- Added Smithbox:
+ - Purchased from Smithing Master Hewg
+ - Unlocks "Strengthen armanment" and "Ash of war duplication" at grace
+
+- Added Spirit Tuner:
+ - Purchased from Roderika
+ - Unlocks "Spirit Tuning" at grace
+ 
+# Shops
+- Smithing Master Hewg now gains the Erdstone/Somberstone unlocks at the same time as the Twin Maidens when turning in the Bell Bearings.
+- Roderika now gains the Glovewort unlocks at the same time as the Twin Maidens when turning in the Bell Bearings.
+
 # Map
 - Added a fort to the beach in West Limgrave
 - Added 3 corpse treasures and 1 treasure chest

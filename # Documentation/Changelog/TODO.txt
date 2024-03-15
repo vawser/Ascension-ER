@@ -40,13 +40,6 @@ Raya Lucaria Seal:
  - Add INT check that allows bypassing Glintstone Key (60 INT)
  - Add equip check that allows bypassing Glintstone Key: Glintstone crowns
 
-Time:
-- Persistence of time (requires saving time and restoring on grace rest)
-- Add items to move time to day and night: Marika's Dawning, Night's Beckoning (remove the Time Shift stuff)
- 
-Weather:
- - Add items to change the weather (remove the Weather Shift stuff)
- 
 Misc:
 - Add dialogue to Emissary
 - Ask for Merchant Bell Bearing
@@ -56,11 +49,10 @@ Misc:
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
+Time:
+- Persistence of time (requires saving time and restoring on grace rest)
+- Add items to move time to day and night: Marika's Dawning, Night's Beckoning (remove the Time Shift stuff)
  
-QOL:
- - Add weapon reinforcement to grace: purchase Smithbox from Hewg
- - Add ash of war to grace: purchase Honing Kit from Hewg
- - Add spirit reinforcement to grace: purchase Spirit Tuner from Rodarika
+Weather:
+ - Add items to change the weather (remove the Weather Shift stuff)
  
-3830 Smithbox
-3832 Spirit Tuner

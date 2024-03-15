@@ -358,6 +358,8 @@ def t320001110_x9():
         """State 3"""
         # action:23200000:"Spirit Tuning"
         AddTalkListData(1, 23200000, -1)
+        # Purchase
+        AddTalkListData(6, 23200012, -1)
         # action:23200002:"About Hewg"
         AddTalkListDataIf(GetEventFlag(11109227) == 1 and not GetEventFlag(11109276), 2, 23200002, -1)
         # action:23200003:"What's happened to Hewg"
@@ -412,6 +414,11 @@ def t320001110_x9():
             SetEventFlag(11109279, 1)
             SetEventFlag(1041382735, 1)
             assert CheckSpecificPersonTalkHasEnded(0) == 1
+        # Purchase
+        elif GetTalkListEntryResult() == 6:
+            OpenRegularShop(101100, 101199)
+            assert not (CheckSpecificPersonMenuIsOpen(5, 0) == 1 and not CheckSpecificPersonGenericDialogIsOpen(0))
+            continue
         else:
             """State 8,24"""
             return 0

@@ -9857,5 +9857,5 @@ $Event(14200, Restart, function() {
 
 // Debug
 $Event(15000, Restart, function() {
-    //DirectlyGivePlayerItem(ItemType.Goods, 3832, 6000, 4);
+    //DirectlyGivePlayerItem(ItemType.Goods, 8951, 6000, 4);
 });
