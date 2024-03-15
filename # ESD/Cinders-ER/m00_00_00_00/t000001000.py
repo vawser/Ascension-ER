@@ -984,14 +984,16 @@ def t000001000_x31():
         AddTalkListDataIf(ComparePlayerInventoryNumber(3, 8590, 4, 1, 0) == 1, 8, 15000530, -1)
         
         # Alter garments
-        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 8163, 2, 0, 0) == 1 or ComparePlayerInventoryNumber(3, 8188, 2, 0, 0) == 1,
-                          9, 22230000, -1)
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 8163, 2, 0, 0) == 1, 9, 22230000, -1)
         
-        # Shift Time
-        AddTalkListData(80, 80101000, -1)
+        # Access Smithbox
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3830, 2, 0, 0) == 1, 20, 80101200, -1)
         
-        # Shift Weather
-        AddTalkListData(81, 80101100, -1)
+        # Access Honing Kit
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3831, 2, 0, 0) == 1, 21, 80101201, -1)
+        
+        # Access Spirit Tuner
+        AddTalkListDataIf(ComparePlayerInventoryNumber(3, 3832, 2, 0, 0) == 1, 22, 80101202, -1)
         
         assert t000001000_x52()
         

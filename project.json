@@ -6,7 +6,11 @@
     "BonfireWarpParam",
     "WorldMapPointParam",
     "GameAreaParam",
-    "EquipParamProtector"
+    "EquipParamProtector",
+    "SpEffectParam",
+    "SpEffectSetParam",
+    "NpcParam",
+    "NpcThinkParam"
   ],
   "PinnedRows": {
     "BonfireWarpParam": [],

@@ -39,8 +39,9 @@
 45036 Manure
 45037 Grass Hair Ornament
 45038 Pot
-45039
-45040 
+45039 Smithbox
+45040 Honing Kit
+45041 Spirit Tuner
 
 ...
 45273
