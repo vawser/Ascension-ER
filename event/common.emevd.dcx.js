@@ -7010,11 +7010,8 @@ $Event(11001, Default, function() {
     EndIf(ThisEventSlot());
     EndIf(!PlayerIsInOwnWorld());
     
-    //----------------------
-    // Time Shift
-    //----------------------
-    //InitializeEvent(0, 11012, 0); // Randomise Time on Spawn
-    
+    InitializeEvent(0, 11066, 0); // Time Set
+    InitializeEvent(0, 11065, 0); // Time Persistence
     InitializeEvent(0, 11060, 0); // Inscription of Day
     InitializeEvent(0, 11061, 0); // Inscription of Dawn
     InitializeEvent(0, 11062, 0); // Inscription of Dusk
@@ -8259,6 +8256,289 @@ $Event(11063, Default, function() {
     
     RestartEvent();
 });
+
+//-------------------
+// Time Persistence
+//-------------------
+$Event(11065, Default, function() {
+    // 00:00 -> 00:59
+    if(TimeOfDayInRange(0, 0, 0, 1, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621500, ON);
+    }
+    // 01:00 -> 01:59
+    if(TimeOfDayInRange(1, 0, 0, 2, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621501, ON);
+    }
+    // 02:00 -> 02:59
+    if(TimeOfDayInRange(2, 0, 0, 3, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621502, ON);
+    }
+    // 03:00 -> 03:59
+    if(TimeOfDayInRange(3, 0, 0, 4, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621503, ON);
+    }
+    // 04:00 -> 04:59
+    if(TimeOfDayInRange(4, 0, 0, 5, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621504, ON);
+    }
+    // 05:00 -> 05:59
+    if(TimeOfDayInRange(5, 0, 0, 6, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621505, ON);
+    }
+    // 06:00 -> 06:59
+    if(TimeOfDayInRange(6, 0, 0, 7, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621506, ON);
+    }
+    // 07:00 -> 07:59
+    if(TimeOfDayInRange(7, 0, 0, 8, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621507, ON);
+    }
+    // 08:00 -> 08:59
+    if(TimeOfDayInRange(8, 0, 0, 9, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621508, ON);
+    }
+    // 09:00 -> 09:59
+    if(TimeOfDayInRange(9, 0, 0, 10, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621509, ON);
+    }
+    // 10:00 -> 10:59
+    if(TimeOfDayInRange(10, 0, 0, 11, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621510, ON);
+    }
+    // 11:00 -> 11:59
+    if(TimeOfDayInRange(11, 0, 0, 12, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621511, ON);
+    }
+    // 12:00 -> 12:59
+    if(TimeOfDayInRange(12, 0, 0, 13, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621512, ON);
+    }
+    // 13:00 -> 13:59
+    if(TimeOfDayInRange(13, 0, 0, 14, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621513, ON);
+    }
+    // 14:00 -> 14:59
+    if(TimeOfDayInRange(14, 0, 0, 15, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621514, ON);
+    }
+    // 15:00 -> 15:59
+    if(TimeOfDayInRange(15, 0, 0, 16, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621515, ON);
+    }
+    // 16:00 -> 16:59
+    if(TimeOfDayInRange(16, 0, 0, 17, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621516, ON);
+    }
+    // 17:00 -> 17:59
+    if(TimeOfDayInRange(17, 0, 0, 18, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621517, ON);
+    }
+    // 18:00 -> 18:59
+    if(TimeOfDayInRange(18, 0, 0, 19, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621518, ON);
+    }
+    // 19:00 -> 19:59
+    if(TimeOfDayInRange(19, 0, 0, 20, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621519, ON);
+    }
+    // 20:00 -> 20:59
+    if(TimeOfDayInRange(20, 0, 0, 21, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621520, ON);
+    }
+    // 21:00 -> 21:59
+    if(TimeOfDayInRange(21, 0, 0, 22, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621521, ON);
+    }
+    // 22:00 -> 22:59
+    if(TimeOfDayInRange(22, 0, 0, 23, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621522, ON);
+    }
+    // 23:00 -> 23:59
+    if(TimeOfDayInRange(23, 0, 0, 0, 0, 0))
+    {
+        BatchSetEventFlags(1047621500, 1047621523, OFF);
+        SetEventFlag(TargetEventFlagType.EventFlag, 1047621523, ON);
+    }
+    
+    WaitFixedTimeSeconds(5.0);
+    
+    RestartEvent();
+});
+
+//-------------------
+// Time Set - Set time on respawn
+//-------------------
+$Event(11066, Default, function() {
+    // 00:00 -> 00:59
+    if(EventFlag(1047621500))
+    {
+        SetCurrentTime(0, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 01:00 -> 01:59
+    if(EventFlag(1047621501))
+    {
+        SetCurrentTime(1, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 02:00 -> 02:59
+    if(EventFlag(1047621502))
+    {
+        SetCurrentTime(2, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 03:00 -> 03:59
+    if(EventFlag(1047621503))
+    {
+        SetCurrentTime(3, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 04:00 -> 04:59
+    if(EventFlag(1047621504))
+    {
+        SetCurrentTime(4, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 05:00 -> 05:59
+    if(EventFlag(1047621505))
+    {
+        SetCurrentTime(5, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 06:00 -> 06:59
+    if(EventFlag(1047621506))
+    {
+        SetCurrentTime(6, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 07:00 -> 07:59
+    if(EventFlag(1047621507))
+    {
+        SetCurrentTime(7, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 08:00 -> 08:59
+    if(EventFlag(1047621508))
+    {
+        SetCurrentTime(8, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 09:00 -> 09:59
+    if(EventFlag(1047621509))
+    {
+        SetCurrentTime(9, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 10:00 -> 10:59
+    if(EventFlag(1047621510))
+    {
+        SetCurrentTime(10, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 11:00 -> 11:59
+    if(EventFlag(1047621511))
+    {
+        SetCurrentTime(11, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 12:00 -> 12:59
+    if(EventFlag(1047621512))
+    {
+        SetCurrentTime(12, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 13:00 -> 13:59
+    if(EventFlag(1047621513))
+    {
+        SetCurrentTime(13, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 14:00 -> 14:59
+    if(EventFlag(1047621514))
+    {
+        SetCurrentTime(14, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 15:00 -> 15:59
+    if(EventFlag(1047621515))
+    {
+        SetCurrentTime(15, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 16:00 -> 16:59
+    if(EventFlag(1047621516))
+    {
+        SetCurrentTime(16, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 17:00 -> 17:59
+    if(EventFlag(1047621517))
+    {
+        SetCurrentTime(17, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 18:00 -> 18:59
+    if(EventFlag(1047621518))
+    {
+        SetCurrentTime(18, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 19:00 -> 19:59
+    if(EventFlag(1047621519))
+    {
+        SetCurrentTime(19, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 20:00 -> 20:59
+    if(EventFlag(1047621520))
+    {
+        SetCurrentTime(20, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 21:00 -> 21:59
+    if(EventFlag(1047621521))
+    {
+        SetCurrentTime(21, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 22:00 -> 22:59
+    if(EventFlag(1047621522))
+    {
+        SetCurrentTime(22, 0, 0, false, false, false, 0, 0, 0);
+    }
+    // 23:00 -> 23:59
+    if(EventFlag(1047621523))
+    {
+        SetCurrentTime(23, 0, 0, false, false, false, 0, 0, 0);
+    }
+    
+    EndEvent();
+});
+
 
 //-------------------
 // Transmog

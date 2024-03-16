@@ -52,25 +52,6 @@ Covenants:
 #-------------------------------------------------
 Time:
 - Persistence of time (requires saving time and restoring on grace rest)
-- Add items to move time to day and night: Marika's Dawning, Night's Beckoning (remove the Time Shift stuff)
- 
- Morning
- Midday
- Afternoon
- Night
- 
-45042 Parchment: Day # 3730
-45043 Parchment: Dawn # 3731
-45044 Parchment: Dusk # 3732
-45045 Parchment: Night # 3733
-45046 Parchment # 20860
-
-20775 Root Resin
-15400 String
-20681 Altus Bloom # Dawn
-20680 Erdleaf Flower # Dusk
-20651 Trina's Lily # Night
-20683 Golden Sunflower # Day
 
 Weather:
  - Add items to change the weather (remove the Weather Shift stuff)
