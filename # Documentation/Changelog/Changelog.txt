@@ -3,6 +3,7 @@
 #-------------------------------------------------
 # General
 - Removed Time and Weather Shift from grace menu.
+- Time is now persistent between deaths. For example: if you die at 00:00, you will respawn at 00:00, instead of respawning during the day, which is vanilla behavior.
 
 # Interface
 - Removed the large preview icon in the Item Preview interface

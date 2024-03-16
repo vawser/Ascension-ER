@@ -50,9 +50,6 @@ Covenants:
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
-Time:
-- Persistence of time (requires saving time and restoring on grace rest)
-
 Weather:
  - Add items to change the weather (remove the Weather Shift stuff)
  
