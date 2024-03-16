@@ -1,6 +1,9 @@
 ﻿#-------------------------------------------------
 # Changes
 #-------------------------------------------------
+# General
+- Removed Time and Weather Shift from grace menu.
+
 # Interface
 - Removed the large preview icon in the Item Preview interface
  - Replaced with a larger text box that supports text for the whole height.
@@ -19,6 +22,12 @@
 - Added Spirit Tuner:
  - Purchased from Roderika
  - Unlocks "Spirit Tuning" at grace
+ 
+- Added items to change the current time of day:
+ - Inscription of Day: sets the time to 12am.
+ - Inscription of Dawn: sets the time to 6am.
+ - Inscription of Dusk: sets the time to 6pm
+ - Inscription of Night: sets the time to 12pm
  
 # Shops
 - Smithing Master Hewg now gains the Erdstone/Somberstone unlocks at the same time as the Twin Maidens when turning in the Bell Bearings.

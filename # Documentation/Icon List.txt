@@ -42,6 +42,25 @@
 45039 Smithbox
 45040 Honing Kit
 45041 Spirit Tuner
+45042 Parchment: Day
+45043 Parchment: Dawn
+45044 Parchment: Dusk
+45045 Parchment: Night
+45046 Parchment
+45047
+45048
+45049
+45050
+45051
+45052
+45053
+45054
+45055
+45056
+45057
+45058
+45059
+45060
 
 ...
 45273

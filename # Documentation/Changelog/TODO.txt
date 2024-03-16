@@ -22,10 +22,6 @@ Map:
 Encounters:
  - Add 'sealed' chests or routes that require enemies to be engaged and killed to get/progress.
  
-Covenants:
- - Add more covenants (i.e. Adherents of Rot, etc)
- - Add in 'npc' invader mechanic: certain covenants will enable 'enemy' covenant invaders, which reward covenant rank up item (replace Bloodsoaked Rune usage)
-
 Castigations:
  - No Torrent 
  - Eternal Night
@@ -46,6 +42,11 @@ Misc:
 - Add notes to Kale for new mod features
 - Expand summoning zones (ESD change the range to 1000)
 
+Covenants:
+ - Add more covenants (i.e. Adherents of Rot, etc)
+ - Add in 'npc' invader mechanic: certain covenants will enable 'enemy' covenant invaders, which reward covenant rank up item (replace Bloodsoaked Rune usage)
+  These should appear relatively frequently, to make it feel like committing to a covenant is noticed
+
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
@@ -53,6 +54,29 @@ Time:
 - Persistence of time (requires saving time and restoring on grace rest)
 - Add items to move time to day and night: Marika's Dawning, Night's Beckoning (remove the Time Shift stuff)
  
+ Morning
+ Midday
+ Afternoon
+ Night
+ 
+45042 Parchment: Day # 3730
+45043 Parchment: Dawn # 3731
+45044 Parchment: Dusk # 3732
+45045 Parchment: Night # 3733
+45046 Parchment # 20860
+
+20775 Root Resin
+15400 String
+20681 Altus Bloom # Dawn
+20680 Erdleaf Flower # Dusk
+20651 Trina's Lily # Night
+20683 Golden Sunflower # Day
+
 Weather:
  - Add items to change the weather (remove the Weather Shift stuff)
  
+ Clear Sky
+ Rainy
+ Snowy
+ Foggy
+ Cloudy

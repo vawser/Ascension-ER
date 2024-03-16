@@ -7013,10 +7013,12 @@ $Event(11001, Default, function() {
     //----------------------
     // Time Shift
     //----------------------
-    InitializeEvent(0, 11012, 0); // Randomise Time on Spawn
-    InitializeEvent(0, 11013, 0); // Force Day on Spawn
-    InitializeEvent(0, 11014, 0); // Force Noon on Spawn
-    InitializeEvent(0, 11015, 0); // Force Night on Spawn
+    //InitializeEvent(0, 11012, 0); // Randomise Time on Spawn
+    
+    InitializeEvent(0, 11060, 0); // Inscription of Day
+    InitializeEvent(0, 11061, 0); // Inscription of Dawn
+    InitializeEvent(0, 11062, 0); // Inscription of Dusk
+    InitializeEvent(0, 11063, 0); // Inscription of Night
     
     //----------------------
     // Weather Shift
@@ -7037,6 +7039,10 @@ $Event(11001, Default, function() {
     InitializeEvent(13, 11016, 1047610523, Weather.RainyHeavyFog);
     InitializeEvent(14, 11016, 1047610524, Weather.SnowyHeavyFog);
     InitializeEvent(15, 11016, 1047610525, Weather.ScatteredRain);
+    
+    //InitializeEvent(0, 11013, 0); // Force Day on Spawn
+    //InitializeEvent(0, 11014, 0); // Force Noon on Spawn
+    //InitializeEvent(0, 11015, 0); // Force Night on Spawn
 });
 
 
@@ -8204,6 +8210,54 @@ $Event(11043, Default, function(X0_4, X4_4, X8_4) {
     {
         SetSpEffect(10000, X4_4);
     }
+});
+
+//-------------------
+// Inscription of Day
+//-------------------
+$Event(11060, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202000, 0, 1))
+    {
+        SetCurrentTime(12, 0, 0, true, false, false, 0, 0, 0);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Dawn
+//-------------------
+$Event(11061, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202001, 0, 1))
+    {
+        SetCurrentTime(6, 0, 0, true, false, false, 0, 0, 0);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Dusk
+//-------------------
+$Event(11062, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202002, 0, 1))
+    {
+        SetCurrentTime(18, 0, 0, true, false, false, 0, 0, 0);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Night
+//-------------------
+$Event(11063, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202003, 0, 1))
+    {
+        SetCurrentTime(0, 0, 0, true, false, false, 0, 0, 0);
+    }
+    
+    RestartEvent();
 });
 
 //-------------------
@@ -9857,5 +9911,23 @@ $Event(14200, Restart, function() {
 
 // Debug
 $Event(15000, Restart, function() {
-    //DirectlyGivePlayerItem(ItemType.Goods, 8951, 6000, 4);
+    EndEvent();
+    
+    DirectlyGivePlayerItem(ItemType.Goods, 20775, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20775, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20775, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20775, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 15400, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 15400, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 15400, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 15400, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 15400, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20681, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20681, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20680, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20680, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20651, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20651, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
+    DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
 });
