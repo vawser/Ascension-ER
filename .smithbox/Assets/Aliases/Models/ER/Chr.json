@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "id": "dummy",
+      "name": "Dummy",
+      "tags": [
+        "dummy"
+      ]
+    },
+    {
+      "id": "c2110",
+      "name": "Beast Clergyman",
+      "tags": [
+        "creature"
+      ]
+    },
+    {
+      "id": "c4603",
+      "name": "Stonedigger Troll",
+      "tags": [
+        "creature"
+      ]
+    },
+    {
+      "id": "c8904",
+      "name": "Morgott",
+      "tags": [
+        "creature",
+        "humanoid"
+      ]
+    },
+    {
+      "id": "c8907",
+      "name": "Naked Ranni",
+      "tags": [
+        "humanoid"
+      ]
+    }
+  ]
+}
