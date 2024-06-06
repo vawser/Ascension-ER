@@ -35,6 +35,13 @@
       "tags": [
         "humanoid"
       ]
+    },
+    {
+      "id": "c2010",
+      "name": "Blaidd",
+      "tags": [
+        "creature"
+      ]
     }
   ]
 }
