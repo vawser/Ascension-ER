@@ -10201,7 +10201,8 @@ $Event(14300, Default, function() {
     
     StoreItemAmountHeldInEventValue(ItemType.Goods, goodsId, 1024600000, 16);
     
-    for (let i = 1; i <= 200; i = i + 1)
+    // 100 = +50% max
+    for (let i = 1; i <= 100; i = i + 1)
     {
        InitializeEvent(i, 14301, i);
     }

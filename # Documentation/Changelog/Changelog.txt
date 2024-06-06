@@ -1,47 +1,12 @@
 ﻿#-------------------------------------------------
 # Changes
 #-------------------------------------------------
-# General
-- Removed Time and Weather Shift from grace menu.
-- Time is now persistent between deaths. For example: if you die at 00:00, you will respawn at 00:00, instead of respawning during the day, which is vanilla behavior.
+# Tear of Miquella
+- Added in a progression system that incentivises exploring the open-world.
+- 5 x Miquella's Lily can now be crafted into a Tear of Miquella.
+- Miquella's Lily are now only pickable once per playthrough again.
+- Each Tear of Miquella posessed will grant the player +0.5% damage and absorption.
+ - Maximum potency is +50%.
 
-# Interface
-- Removed the large preview icon in the Item Preview interface
- - Replaced with a larger text box that supports text for the whole height.
- 
-- Added "Description", "Efffect" and "Information" banners to the item description text to make the new Item Preview text section look better.
-
-- Added "Visited" and "Cleared" text to all the dungeon map markers.
- - "Visited" appears if the dungeon grace has been lit.
- - "Cleared" replaces "Visited" if the dungeon boss has been defeated.
- 
-# Items
-- Added Smithbox:
- - Purchased from Smithing Master Hewg
- - Unlocks "Strengthen armanment" and "Ash of war duplication" at grace
-
-- Added Spirit Tuner:
- - Purchased from Roderika
- - Unlocks "Spirit Tuning" at grace
- 
-- Added items to change the current time of day:
- - Inscription of Day: sets the time to 12am.
- - Inscription of Dawn: sets the time to 6am.
- - Inscription of Dusk: sets the time to 6pm
- - Inscription of Night: sets the time to 12pm
- 
-# Shops
-- Smithing Master Hewg now gains the Erdstone/Somberstone unlocks at the same time as the Twin Maidens when turning in the Bell Bearings.
-- Roderika now gains the Glovewort unlocks at the same time as the Twin Maidens when turning in the Bell Bearings.
-
-# Map
-- Added a fort to the beach in West Limgrave
-- Added 3 corpse treasures and 1 treasure chest
-- It is populated with land octopuses
-
-# Treasure
-- Placed Clarifying Elixir
-
-# Balance
-- Changed FP restore cooldown to 3 seconds
-- Increased base enemy damage from area scaling (to account for general increase in player survivability)
+# World
+- Added numerous additional Miquella's Lily interactables across the Lands Between.
