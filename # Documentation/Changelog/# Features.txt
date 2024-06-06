@@ -278,6 +278,12 @@
   - Once the player has visited the field and picked the crops, resting or reloading will cause the fields to become barren again.
   
 #-------------------------------------------------
+# Tear of Miquella
+#-------------------------------------------------
+- Added the ability to craft a Tear of Miquella using 10 Miquella's Lilies.
+- Each Tear of Miquella will boost the damage and absorption of the player by 0.5%.
+  
+#-------------------------------------------------
 # Localization
 #-------------------------------------------------
 - Added explicit values in the descriptions for talismans.

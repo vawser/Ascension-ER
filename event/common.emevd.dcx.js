@@ -6638,6 +6638,11 @@ $Event(11000, Default, function() {
     //----------------------------
     InitializeEvent(0, 14200, 0);
     
+    //----------------------------
+    // Tear of Miquella
+    //----------------------------
+    InitializeEvent(0, 14300, 0);
+    
     //----------------------
     // Transmog
     //----------------------
@@ -10189,6 +10194,26 @@ $Event(14200, Restart, function() {
     }
 });
 
+// Tear of Miquella
+$Event(14300, Default, function() {
+    
+    const goodsId = 300000;
+    
+    StoreItemAmountHeldInEventValue(ItemType.Goods, goodsId, 1024600000, 16);
+    
+    for (let i = 1; i <= 200; i = i + 1)
+    {
+       InitializeEvent(i, 14301, i);
+    }
+});
+
+$Event(14301, Default, function(X0_4) {
+    if(EventValue(1024600000, 16) >= X0_4)
+    {
+        SetSpEffect(10000, 7202010);
+    }
+});
+
 // Debug
 $Event(15000, Restart, function() {
     EndEvent();
@@ -10211,3 +10236,5 @@ $Event(15000, Restart, function() {
     DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
     DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
 });
+
+
