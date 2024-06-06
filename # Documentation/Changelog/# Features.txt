@@ -192,10 +192,14 @@
 - Resurrecting a boss will teleport you to the boss entrance.
 
 #-------------------------------------------------
-# Time Shift
+# Inscriptions
 #-------------------------------------------------
-- Added the ability to set a specific time of day when you reload/respawn.
-- Appears at any grace under the Time Shift option.
+- Added items to change the current time of day:
+- Inscription of Day: sets the time to 12am.
+- Inscription of Dawn: sets the time to 6am.
+- Inscription of Dusk: sets the time to 6pm
+- Inscription of Night: sets the time to 12pm
+- These items can be crafted via the item crafting menu.
     
 #-------------------------------------------------
 # Weather Shift

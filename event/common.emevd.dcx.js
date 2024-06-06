@@ -10236,5 +10236,3 @@ $Event(15000, Restart, function() {
     DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
     DirectlyGivePlayerItem(ItemType.Goods, 20683, 6000, 4);
 });
-
-
