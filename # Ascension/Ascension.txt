@@ -1,15 +1,14 @@
 ﻿#-------------------------------------------------
 # Changes for 1.0.1
 #-------------------------------------------------
-# Tear of Miquella
-- Added in a progression system that incentivises exploring the open-world.
-- 5 x Miquella's Lily can now be crafted into a Tear of Miquella.
-- Miquella's Lily are now only pickable once per playthrough again.
-- Each Tear of Miquella posessed will grant the player +0.5% damage and absorption.
- - Maximum potency is +50%.
+# Essence of Miquella
+- Added the ability to craft a Essence of Miquella using 3 Miquella's Lilies.
+- Each Essence of Miquella will boost the damage of the player by 1% (caps at 50%).
 
-# World
-- Added numerous additional Miquella's Lily interactables across the Lands Between.
+# Essence of Trina
+- Added the ability to craft a Essence of Trina using 3 Trina's Lilies.
+- Each Essence of Trina will boost the absorption of the player by 1% (caps at 50%).
+
 
 #-------------------------------------------------
 # WIP
@@ -35,10 +34,6 @@ Covenants:
 
 Items:
  - Add weather change items: Clear Sky, Rainy, Snowy, Foggy and Cloudy
-
-World:
-- Add Miquella's Lilies across the world
- - Need to clean up the Weeping Penisula additions, some are in the wrong tile and so not interactable
 
 #-------------------------------------------------
 # ADD

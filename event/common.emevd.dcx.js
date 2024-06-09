@@ -6639,9 +6639,10 @@ $Event(11000, Default, function() {
     InitializeEvent(0, 14200, 0);
     
     //----------------------------
-    // Tear of Miquella
+    // Essences
     //----------------------------
     InitializeEvent(0, 14300, 0);
+    InitializeEvent(0, 14310, 0);
     
     //----------------------
     // Transmog
@@ -10194,24 +10195,45 @@ $Event(14200, Restart, function() {
     }
 });
 
-// Tear of Miquella
+// Essence of Miquella
 $Event(14300, Default, function() {
-    
     const goodsId = 300000;
     
-    StoreItemAmountHeldInEventValue(ItemType.Goods, goodsId, 1024600000, 16);
+    ClearEventValue(1024600000, 8);
+    StoreItemAmountHeldInEventValue(ItemType.Goods, goodsId, 1024600000, 8);
     
     // 100 = +50% max
-    for (let i = 1; i <= 100; i = i + 1)
+    for (let i = 1; i <= 50; i = i + 1)
     {
        InitializeEvent(i, 14301, i);
     }
 });
 
 $Event(14301, Default, function(X0_4) {
-    if(EventValue(1024600000, 16) >= X0_4)
+    if(EventValue(1024600000, 8) >= X0_4)
     {
         SetSpEffect(10000, 7202010);
+    }
+});
+
+// Essence of Trina
+$Event(14310, Default, function() {
+    const goodsId = 300010;
+    
+    ClearEventValue(1024600100, 8);
+    StoreItemAmountHeldInEventValue(ItemType.Goods, goodsId, 1024600100, 8);
+    
+    // 100 = +50% max
+    for (let i = 1; i <= 50; i = i + 1)
+    {
+        InitializeEvent(i, 14311, i);
+    }
+});
+
+$Event(14311, Default, function(X0_4) {
+    if(EventValue(1024600100, 8) >= X0_4)
+    {
+        SetSpEffect(10000, 7202020);
     }
 });
 
