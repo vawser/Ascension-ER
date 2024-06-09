@@ -1,0 +1,2653 @@
+﻿#-------------------------------------------------
+# Journey Configuration
+#-------------------------------------------------
+- Added in the ability to select journey configuration at game start.
+- You select your Journey Type, Modifiers and Starting Location, and then Finalize it to start it. Once finalized, it cannot be changed until the next NG cycle.
+
+- There are the journey types:
+    - Tarnished: standard, no modifiers are applied.
+    - Explorer: +50% absorption for the player, and AI sight and listen is reduced by 90%.
+    - Conqueror: enemies gain +25% HP and damage, and AI sight and listen is boosted by 500%.
+    - Accursed: 
+     - Grants enemies +50% damage and absorption
+     - Every death will inflict a new detriment.
+      - There are 44 types of detriment.
+      - Each type can stack multiple times, upto 5 or 10 times depending on the detriment.
+      
+     - Defeating the Elden Beast in this journey type will reward Marika's Necklace.
+      - Detriments are removed upon defeating the Elden Beast.
+      
+- There are the starting locations:
+  - Here (vanilla tutorial route)
+  - Limgrave (random spot out of 3 options)
+  - Weeping Penisula (random spot out of 3 options)
+  - Liurnia of the Lakes (random spot out of 5 options)
+  - Mt. Gelmir: (random spot out of 2 options)
+  - Altus Plateau (random spot out of 3 options)
+  - Caelid (random spot out of 3 options)
+  - Mountaintops of the Giants (random spot out of 3 options)
+  - Moonlight Altar (fixed spot)
+  - Miquella's Haligtree (fixed spot)
+  - Random (random spot from all of the possible spots)
+ - Note that you will only have the grace that you are teleported to unlocked (and the Roundtable Hold if you use that option).
+ - Warp gates with no cost have been added to the late-game areas to allow you to travel backwards if you start out in those areas.
+ 
+- There are the journey modifiers:
+    - Immediate Torrent: you will receive Torrent immediately.
+    - Reveal Maps: automatically reveals the map as if you had pickup all the map fragments.
+    
+- Added the ability to make a custom loadout at the start of the game.
+ - During character creation, select the "Bloodsoaked Rune" gift. 
+ - You will be awards 8 Bloodsoaked Runes, that may be spent at the Jar of Promise.
+ - The entire selection for each category is available, allowing you to make a custom build.
+ - Once the Tarnished's Wizened Finger has been picked up, any excess Bloodsoaked Runes are removed.
+
+#-------------------------------------------------
+# Training System
+#-------------------------------------------------
+- Added a training dummy system to Roundtable Hold, in the lower hall.
+ - Appears after Mad Tongue Alberich is dead.
+ - Training Paramters are configured at Master Jarwright, who appears by the lower hall entrance.
+ 
+- You can configure the dummies int he following ways:
+ - Toggle instant HP regen
+ - Toggle whether the dummy can be staggered
+ - Toggle whether the dummy can be backstabbed
+ - Toggle whether the dummy can be inflicted with aux effects
+ - Toggle hostility (this resets on death/reload)
+ - Set the dummy max HP:
+  - 2000
+  - 5000
+  - 10000
+  - 20000
+  - 50000
+  - 100000
+  
+ - Set the absorption for each type:
+  - None (no modifier either way)
+  - +20%
+  - +40%
+  - +60%
+  - +80%
+  - +100% (immunity)
+
+- There are also formation options, if you want to test attacks/spells with a group of enemies. 
+ - Single (1 dummy)
+ - Parallel Duo (2 dummies parallel to each other)
+ - Triple Triangle (3 dummies in a triangle shape)
+ - Square Quad (4 dummies in a square shape)
+ - Clustered Mass (8 dummies clustered close to each other) 
+
+- You can also changed the enemy type used as the dummy:
+ - Black Knife Assassin
+ - Runebear
+ - Imp
+ - Player: Self, which copies you.
+ - Player: Random, which selects NPCs like the Great Jar encounter.
+ 
+- Apprentice Frasca can be used to:
+  - Switch Ashes of War and Spells (like sitting at a grace).
+  - Apply Damage to themslves 
+  - Apply Status Effects to themslves 
+ 
+#-------------------------------------------------
+# Bloodforge
+#-------------------------------------------------
+- The Emissary of Mohgwyn has arrived in the Roundtable Hold. He allows you to improve your talismans, in exchange for Bloodsoaked Runes.
+- The Bloodforge menu will display all possible talismans that can be made at the current time. In general, you will need the previous tier of talisman for the next to appear, e.g. +1 requires you to have the base talisman, +2 requires +1 and so on.
+- Bloodsoaked Runes are dropped as a guaranteed (but one-time) drop from bosses, and very rarely from random enemies. 
+- From random enemies, the chances are:
+ - 0.1% in Limgrave, Liurnia, Weeping Penisula
+ - 0.5% in Mt. Gelmir, Altus Plateau, Ainsel, Siofra, Leyndell, Moonlight Altar, Caelid
+ - 2% in Mohgwyn Palace, Ashen Leyndell, Mountaintops of the Giants, Farum Azula, Haligtree
+ 
+#-------------------------------------------------
+# Castigations
+#-------------------------------------------------
+- Castigations:
+ - The Emissary of Mohgwyn now allows the player to castigations in exchange for bonus chances to get Bloodsoaked Runes from enemy kills.
+ - Note that the bonus chances are separate rolls, i.e. if you have 4 Castigations active, you get 4 rolls at 0.5%, not 1 roll at 2%.
+ 
+ - Player Castigations
+  - Bloodthirsty Maw
+    - Rune absorption is reduced by 50%.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+  - Relentless Approach
+    - Causes enemies to always fight together in groups, meaning they won't wait around if multiple of them are targeting the player.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+ 
+  - Fresh Meat
+    - Adds target priority to the player, and makes enemies much better at seeing and hearing the player.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+  - Corrupted Flasks
+    - Reduces the effectiveness of Flasks by 30%.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+  
+  - Brittle Bones
+    - Reduces absorption by 30%.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+  - Lethargic Mind
+    - Reduces passive FP regeneration to 0.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+ - Enemy Castigations
+  - Wounded Fury: 
+   - Enemies deal 50% more damage while below 50% HP.
+   - You gain an additional Bloodsoaked Rune chance from enemy kills.
+   
+  - Thick Hides: 
+   - Enemies take 50% less damage while above 50% HP.
+   - You gain an additional Bloodsoaked Rune chance from enemy kills.
+   
+  - Stalwart Adversaries
+   - Enemies have 100% more HP.
+   - You gain an additional Bloodsoaked Rune chance from enemy kills.
+   
+  - Regenerative Foes
+    - Enemies will regenerate 1% HP plus 25 HP every 2 seconds.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+  - Spectral Shift
+    - Enemies now become invisible for 8 seconds every 16 seconds.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+ - Alacrity
+    - Increases enemy movement speed by 50%.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+ - Combat Castigations (only one can be active at any one time within this group)
+  - Crippling Strikes
+   - Enemy attacks that connect will cripple the evasive abilites of the player for 15 seconds.
+   - You gain an additional Bloodsoaked Rune chance from enemy kills.
+
+  - Fetid Gash
+    - Enemy attacks that connect will inflict Scarlet Rot.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+  
+  - Slumbering Blow
+    - Enemy attacks that connect will inflict Sleep.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+  
+  - Frenzying Swat
+    - Enemy attacks that connect will inflict Madness.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+    
+  - Blighted Touch
+    - Enemy attacks that connect will inflict Death Blight.
+    - You gain an additional Bloodsoaked Rune chance from enemy kills.
+ 
+ - Fun Castigations
+  - Megamind
+    - Enlarges the heads of all human npcs.
+    
+#-------------------------------------------------
+# Boss Resurrection
+#-------------------------------------------------
+- Added the ability to revive defeated bosses, allowing the player to face them once more.
+- Available at the Jar of Rebirth, found within the Roundtable Hold.
+- Each revival costs 1 Bloodsoaked Rune.
+- Resurrecting a boss will teleport you to the boss entrance.
+
+#-------------------------------------------------
+# Inscriptions
+#-------------------------------------------------
+- Added items to change the current time of day:
+- Inscription of Day: sets the time to 12am.
+- Inscription of Dawn: sets the time to 6am.
+- Inscription of Dusk: sets the time to 6pm
+- Inscription of Night: sets the time to 12pm
+- These items can be crafted via the item crafting menu.
+    
+#-------------------------------------------------
+# Altar of Advancement
+#-------------------------------------------------
+- Added the ability to enter a new Journey cycle immediately at the start of the game.
+- Turn around after spawning in, and use the Altar of Advancement to go ahead by one Journey cycle.
+    
+#-------------------------------------------------
+# Gladiator's Gauntlet
+#-------------------------------------------------
+- Added a survival horde minigame, where you can choose to face up against a horde of enemies, attempting to survive until the end.
+- Found at the Great Colosseum in Caelid. You can talk to Duelist Atticus outside the Limgrave Colosseum to be teleported to it.
+- You can switch the Gauntlet type and difficulty via Atticus.
+- You can purchase rewards from Atticus in exchange for Gladiatorial Engravings.
+
+- Types:
+    - Demi-Human Deluge: Demi-Humans, Demi-Human Shamans, Overgrown Demi-Humans, Demi-Human Chiefs and Demi-Human Queen Shivarra.
+    - Godrick's Own: Godrick Footmen, Soldiers, Knights, and a Disgraced Scion.
+    - Revenge of the Gladiators: Grave Warden Duelists, Stone Watchdogs, and the Ulceration of War.
+    - Misbegotten Crucible: Misbegotten, Winged Misbegotten and Crucible Knight Astix.
+    
+- Difficulties:
+    - Standard: 100% Rune Amount, 100% HP, 100% Damage, 15 seconds between enemy batches
+    - Hard: 200% Rune Amount, 200% HP, 100% Damage, 12 seconds between enemy batches.
+    - Nightmare: 500% Rune Amount, 300% HP, 125% Damage, 9 seconds between enemy batches.
+
+- Rewards:
+    - Gladiatorial Mark: 30 Gladiatorial Engravings
+    
+- Surviving to the end of a gauntlet will grant:
+    - Reinforcement material, the type depending on the difficulty selected.
+    - Gladiatorial Engraving, 1 or more depending on the difficulty selected.
+    
+- Bard Sangeet is present in the Colosseum entrance area. He offers various Duelist equipment pieces, and allows you to adjust the gauntlet music between several different boss themes.
+
+#-------------------------------------------------
+# Gladiator Trials
+#-------------------------------------------------
+- Similar to the Gladiator's Gauntlet, the Limgrave Colosseum hosts NPC-based boss fights.
+- Each fight is replayable, and rewards runes, material, and certain fights will reward unique items upon first victory.
+
+- Trial Type:
+    - The Family: face the Valiant Father, the Kindly Mother and the Naive Child.
+    - Azur's Vengeance: face the Spirit of Azur, and two of his disciples.
+    - Magmatic Cabal: face the Lord of Magma and his two Magmatic Knights.
+    
+- Trial Difficulties:
+    - Standard: 100% Rune Amount, 100% HP, 100% Damage
+    - Hard: 200% Rune Amount, 200% HP, 200% Damage
+    - Nightmare: 500% Rune Amount, 500% HP, 300% Damage
+    
+#-------------------------------------------------
+# Transmogrification
+#-------------------------------------------------
+- Added the ability to apply a transmogrification to your armor.
+- Transmog will visually override your worn armor, but the stats will remain that of your worn armor.
+- You can transmog the head and the body (the body includes arms and legs).
+- All armor is available to transmog.
+- Available at the Clouded Mirror Stand in the Roundtable Hold.
+
+#-------------------------------------------------
+# Farm
+#-------------------------------------------------
+- Added a farm near Summonwater Village called Jarfield.
+ - Staffed by the Jar of Cultivation, the player can give the Jar manure to spread over the fields.
+  - You can select three sizes of crop:
+   - Small (2 types of plants) - 4 Manure
+   - Medium (4 types of plants) - 8 Manure
+   - Large (6 types of plants) - 12 Manure
+  - Once you have asked the Jar of Cultivation to cultivate the field, a timer will start. 
+  - Once approximately 5 minutes has passed, the field will be ready. This time has to be continuous, map reloads will reset the timer.
+  - Once the field is ready, an icon will appear in the player's top bar so the player is notified. 
+  - Once the field is ready, the player can return to Jarfield at anytime, the crops will remain ready until they do so.
+  - Once the player has visited the field and picked the crops, resting or reloading will cause the fields to become barren again.
+  
+#-------------------------------------------------
+# Tear of Miquella
+#-------------------------------------------------
+- Added the ability to craft a Tear of Miquella using 5 Miquella's Lilies.
+- Each Tear of Miquella will boost the damage and absorption of the player by 0.5%.
+  
+#-------------------------------------------------
+# Localization
+#-------------------------------------------------
+- Added explicit values in the descriptions for talismans.
+- Changed the loading tips to instead show interesting pieces of lore from various item descriptions.
+
+#-------------------------------------------------
+# Game System
+#-------------------------------------------------
+- Increased world map scroll speed.
+- Removed the ash particles in the open world after the Erdtree has been burnt.
+
+#-------------------------------------------------
+# General
+#-------------------------------------------------
+- The player now starts with the Flask of Wondrous Physick and the Whetstone Knife.
+
+#-------------------------------------------------
+# Stats
+#-------------------------------------------------
+- FP regenerates at a rate of 1 FP per second.
+- Investment into Vigor grants more HP quicker, and caps out at 2500 at 99 Vigor.
+- Investment into Mind grants more FP quicker, and caps out at 500 at 99 Mind.
+- Stamina now starts at 100.
+- Investment into Endurance grants more Stamina quicker, and caps out at 200 at 99 Endurance.
+
+#-------------------------------------------------
+# Combat
+#-------------------------------------------------
+- The player automatically has the ability to rally back damage, the same as Malenia's Great Rune.
+
+#------------------------------------------------- 
+# Multi-Jump
+#-------------------------------------------------
+- Added the ability to jump in midair, expending FP. You can no longer jump once you run out of FP.
+- Available whilst the Techniques of the Windwalker talisman is equipped.
+        
+#-------------------------------------------------
+# Movement
+#-------------------------------------------------
+- The player moves 20% faster.
+- The player rolls 25% further.
+- The player backsteps 25% further.
+- The player jumps 25% further horizontally.
+- Added 8 frames of invulerability at the start of backsteps.
+
+#-------------------------------------------------
+# Stealth
+#-------------------------------------------------
+- Stealth attacks now deal +100% damage against enemies by default.
+
+#-------------------------------------------------
+# Mount
+#-------------------------------------------------
+- Torrent can now spiritspring jump for 6 seconds after being fed a Rowa Raisin, Sweet Raisin or Frozen Raisin.
+
+#-------------------------------------------------
+# Status
+#-------------------------------------------------
+- Poison now reduces the Physical damage of the afflicted by 25%.
+- Blight now removes 10% HP + 50, and reduces Physical damage of the enemy by 50% for 10 seconds.
+- Madness now ticks once per second over 6 seconds, dealing 3% HP + 30 per tick, and 6% FP + 60 per tick.
+
+#-------------------------------------------------
+# Timed Block
+#-------------------------------------------------
+- Added the ability to gain a bonus when blocking.
+
+- Standard Timed Block:
+    - 90% of the guard raise up animation.
+    - Grants 25% guard absorption whilst active
+    
+- Perfect Timed Block:
+    - 6 frames during guard start animation
+    - 9 frames during guard start animation with the Shinobi's Whetstone
+    - Grants 100% guard absorption and stability whilst active
+    - If hit by an enemy with this active, you will automatically emit a bullet, staggering the enemy if they are susceptible.
+        
+- Added the Mysterious Shinobi to Roundtable Hold.
+- You can change the bullet used by your Perfect Block at the Mysterious Shinobi.
+
+- Each Perfect Block type is unlocked via the following:
+    - Storm Burst: default.
+    - Holy Burst: turn in the Tome of Holy Burst at the Mysterious Shinobi. Found in Leyndell, Royal Capital.
+    - Moonlit Burst: turn in the Tome of Moonlit Burst at the Mysterious Shinobi. Found in the Academy of Raya Lucaria.
+    - Searing Burst: turn in the Tome of Searing Burst at the Mysterious Shinobi. Found in Volcano Manor.
+    - Vampiric Burst: turn in the Tome of Vampiric Burst at the Mysterious Shinobi. Found in the War-Dead Catacombs.
+        
+- Each Perfect Block type does the following:
+    - Storm Burst: 50/100/150 Physical Damage
+    - Holy Burst: 50/100/150 Holy Damage
+    - Moonlit Burst: 50/100/150 Magic Damage
+    - Searing Burst: 50/100/150 Fire Damage
+    - Vampiric Burst: 80/120/150 Hemorrhage + restores 20% HP
+    
+- All Perfect Block do the following:
+    - Apply 100/150/200 Stamina damage
+    - Apply 10/20/30 Poise damage
+        
+- By default Perfect Block are applied at Tier 1 (Standard).
+- You are able to improve the potency of your blocks by turning in the following items to the Mysterious Shinobi:
+    - Me, You and Block: moves the potency to Tier 2 (Improved). Found in Siofra River.
+    - Rock 'n' Block: moves the potency to Tier 3 (Perfected). Found in the Lake of Rot.
+        
+- You can toggle "Shinobi Sight" with the Mysterious Shinobi, allowing you to visually see the Perfect Block window by the appearance of flames above the player.
+        
+#-------------------------------------------------
+# Area Scaling
+#-------------------------------------------------
+- Reduced the max HP and damage area scaling applied to enemies in:
+ - Leyndell Sewers
+ - Mountaintops of the Giants
+ - Crumbling Farum Azula
+ - Ashen Leyndell
+ - Consecrated Snowfields
+ - Haligtree and Elphael
+
+#-------------------------------------------------
+# Map Interactions
+#-------------------------------------------------
+- Stonesword Key statues will no longer show a message on successful use, allowing for a smoother getaway in a hostile situation.
+
+#-------------------------------------------------
+# Maps
+#-------------------------------------------------
+# m60_41_35_00 - Limgrave: Church of Dragon Communion
+- Added 2 patrolling Grafted Scions.
+- Added 1 Banished Knight by ruins.
+
+# m60_41_36_00 - Limgrave: Coastal Cave Entrance
+- Added multiple Demi-human.
+- Added 2 large Demi-human.
+- Added 1 Demi-human shaman.
+- Added 3 Large Land Octopus.
+
+# m19_00_00_00 - Stone Plateform
+- You can now use Torrent in the Radagon and Elden Beast arenas.
+
+# m13_00_00_00 - Crumbling Farum Azula
+- Added a Stake of Marika to the Placidusax boss fight.
+
+# m60_41_37_00 - Stormfoot Catacomb Entrance
+- Added 2 patrolling Omens.
+
+# m60_42_36_00 - Church of Elleh
+- Added patrolling platoon: 1 Kaiden Sellsword and 4 Commoners.
+
+# m11_10_00_00 - Roundtable Hold
+- Removed the door that blocks access to the lower combat hall from the normal hold.
+ - It is now blocked by a fogwall, which clears one Mad Tongue Alberich is killed.
+
+# m12_02_00_00 - Siofra River
+- The lone Crucible Knight accessed via the teleporter now drops a Pure Erdstone.
+
+# m19_00_00_00 Stone Platform
+- Added Elden Hollow grace to the Elden Beast arena.
+
+# m60_41_37_00
+- Added a small camp and 2 Kaiden Sellswords in this tile.
+- Added a new chest treasure containing the Kaiden Armor Set.
+
+# m60_45_39_00
+- Added graveyard and several skeletons at the bottom of the ascent in this tile.
+- Added a new corpse treasure containing the Dismounter.
+
+# m10_01_00_00
+- Added stake of marika to the Grafted Scion fight.
+
+# m60_42_36_00 
+- The door from Stranded Graveyard into Limgrave will now automatically be opened.
+- The door within the Stranded Graveyard has been removed.
+
+# m19_00_00_00
+- Added a Fractured Marika statue in the Elden Hollow after the Elden Beast has been defeated, allowing for immediate return to the Stone Platform.
+
+# Misc
+- The Putrid Crow in Mohgwyn Palace will now have his revenge if you try and exploit him.
+- Added warp gate from Moonlight Altar to Village of the Albinaurics.
+- Added warp gate from Slumbering Wolf's Shack (Liurnia) to Consecrated Snowfield.
+- Added warp gate from Bestial Sanctum (Caelid) to Crumbling Farum Azula.
+
+#-------------------------------------------------
+# Reinforcement
+#-------------------------------------------------
+- Reinforcement:
+    - Changed the reinforcement materials tiers, from 8/9 to 4:
+    - Standard:
+        - Crude Erdstone (replaces 1/2/3 Smithing Stone)
+        - Rough Erdstone (replaces 4/5/6 Smithing Stone)
+        - Refined Erdstone (replaces 7/8 Smithing Stone)
+        - Pure Erdstone (replaces Ancient Dragon Smithing Stone)
+    - Somber:
+        - Crude Somberstone (replaces 1/2/3 Smithing Stone)
+        - Rough Somberstone (replaces 4/5/6 Smithing Stone)
+        - Refined Somberstone (replaces 7/8/9 Smithing Stone)
+        - Pure Somberstone (replaces Somber Ancient Dragon Smithing Stone)
+    - All treasures containing the old materials have been changed to the new ones.
+    
+    - Standard Reinforcement now takes the following to reach +25:
+        - 18 Crude Erdstone
+        - 20 Rough Erdstone
+        - 10 Refined Erdstone
+        - 1 Pure Erdstone
+    - Standard Reinforcement now takes the following to reach +10:
+        - 9 Crude Somberstone
+        - 9 Rough Somberstone
+        - 9 Refined Somberstone
+        - 1 Pure Erdstone
+
+#-------------------------------------------------
+# Affinities
+#-------------------------------------------------
+- Whetblades have been removed. Picking up the Whetstone Knife will enable all of the affinity types immediately.
+- Sacred Affinity now boosts Undead damage by 10%.
+    
+- Added the following affinities:
+ - Soporific: adds Sleep aux
+ - Frenzied: adds Madness aux
+ - Blighted: adds Blight aux
+ - Rotten affinity: adds Scarlet Rot status effect.
+ 
+- Removed the affinity icons.
+
+#-------------------------------------------------
+# Ashes of War
+#-------------------------------------------------
+- Ashes of War:
+    - All weapons can change their Ashes of War now.
+    - Ash of Wars are available on a wider selection of weapon types.
+    - FP costs of all Ashes of War increased by 20% to account for the passive FP regeneration.
+    
+#-------------------------------------------------
+# Weapon Changes
+#-------------------------------------------------
+- Crossbows can now parry enemies if they hit the enemy during their counter damage window.
+- All weapons can now be buffed by buff items/spells.
+    
+- Ammunition Category:
+    - Increased the max held for ammunition to 250.
+
+- Hammer Category:
+    - Increased stamina damage by 20%.
+    - Increased poise damage by 20%.
+
+- Great Hammer Category:
+    - Increased stamina damage by 20%.
+    - Increased poise damage by 20%.
+    
+- Flail Category:
+    - Increased stamina damage by 20%.
+    - Increased poise damage by 30%.
+    
+- Colossal Weapon Category:
+    - Increased stamina damage by 10%.
+    - Increased poise damage by 20%.
+    
+- Axe Category:
+    - Increased stamina damage by 40%.
+    
+- Greataxe Category:
+    - Increased stamina damage by 40%.
+    
+- Light Bow Category
+    - Increased physical damage by 20%.
+    
+- Bow Category
+    - Increased physical damage by 20%.
+    
+- Greatbow Category
+    - Increased stamina damage by 30%.
+    - Increased poise damage by 30%.
+    
+- Ballista Category
+    - Increased poise damage by 30%.
+    
+- Serpentbone Blade:
+    - Now has ARC scaling.
+
+- Frozen Needle:
+    - Now has ARC scaling.
+
+- Helphen's Steeple:
+    - Now has FTH scaling (affects Magic damage).
+    
+- Death's Poker:
+    - Now has FTH scaling (affects Magic damage).
+    
+- Death Ritual Spear:
+    - Now has FTH scaling (affects Magic damage).
+        
+- Great Mace:
+    - Increased base physical damage.
+    
+- Varre's Bouquet:
+    - Increased base physical damage.
+    - Increased DEX scaling.
+    
+- Godskin Stitcher:
+    - Now deals +20% damage against Deific enemies.
+    
+- Godskin Peeler:
+    - Now deals +20% damage against Deific enemies.
+    
+- Godslayer's Greatsword:
+    - Now deals +20% damage against Deific enemies.
+    
+- Beast-Repellent Torch:
+    - Now deals +20% damage against Bestial enemies.
+    
+- Meteorite Staff:
+    - Reduced the INT scaling slightly.
+    
+- Death's Poker and Death Ritual Spear now have the FTH scaling they should have been given.
+
+#-------------------------------------------------
+# Catalysts
+#-------------------------------------------------
+- Prince of Death's Staff:
+    - INT and FTH correction is applied higher, earlier.
+        
+- Gelmir Glintstone Staff:
+    - Increased INT and FTH scaling.
+    
+#----------------------------------------
+# Talismans
+#----------------------------------------
+- Crimson Amber Medallion
+    - +0 Effect: Boosts maximum HP by 10%.
+    - +1 Effect: Boosts maximum HP by 15%.
+    - +2 Effect: Boosts maximum HP by 20%.
+    - +3 Effect: Boosts maximum HP by 25%.
+
+- Cerulean Amber Medallion
+    - +0 Effect: Boosts maximum FP by 10%.
+    - +1 Effect: Boosts maximum FP by 15%.
+    - +2 Effect: Boosts maximum FP by 20%.
+    - +3 Effect: Boosts maximum FP by 25%.
+
+- Viridian Amber Medallion
+    - +0 Effect: Boosts maximum stamina by 10%.
+    - +1 Effect: Boosts maximum stamina by 15%.
+    - +2 Effect: Boosts maximum stamina by 20%.
+    - +3 Effect: Boosts maximum stamina by 25%.
+
+- Arsenal Charm
+    - +0 Effect: Boosts maximum equipment load by 15%.
+    - +1 Effect: Boosts maximum equipment load by 20%.
+    - Great-Jar's Arsenal
+    - +2 Effect: Boosts maximum equipment load by 25%.
+    - +3 Effect: Boosts maximum equipment load by 30%.
+    
+- Erdtree's Favor
+    - +0 Effect: Raises maximum HP, stamina, and equip load by 5%.
+    - +1 Effect: Raises maximum HP, stamina, and equip load by 7.5%.
+    - +2 Effect: Raises maximum HP, stamina, and equip load by 10%.
+    - +3 Effect: Raises maximum HP, stamina, and equip load by 12.5%.
+
+- Radagon's Scarseal
+    - +0 Effect: Raises vigor, endurance, strength, and dexterity by 3, but also increases damage taken by 10%.
+    - Radagon's Soreseal
+    - +1 Effect: Greatly raises vigor, endurance, strength, and dexterity by 5, but also increases damage taken by 15%.
+    
+- Starscourge Heirloom
+    - +0 Effect: Raises strength by 5.
+    - +1 Effect: Raises strength by 8.
+    - +2 Effect: Raises strength by 12.
+    - +3 Effect: Raises strength by 15.
+    
+- Prosthesis-Wearer Heirloom
+    - +0 Effect: Raises dexterity by 5.
+    - +1 Effect: Raises dexterity by 8.
+    - +2 Effect: Raises dexterity by 12.
+    - +3 Effect: Raises dexterity by 15.
+    
+- Stargazer Heirloom
+    - +0 Effect: Raises intelligence by 5.
+    - +1 Effect: Raises intelligence by 8.
+    - +2 Effect: Raises intelligence by 12.
+    - +3 Effect: Raises intelligence by 15.
+    
+- Two Fingers Heirloom
+    - +0 Effect: Raises faith by 5.
+    - +1 Effect: Raises faith by 8.
+    - +2 Effect: Raises faith by 12.
+    - +3 Effect: Raises faith by 15.
+    
+- Silver Scarab
+    - +0 Effect: This silver scarab enhances item discovery by 75.
+    - +1 Effect: This silver scarab enhances item discovery by 100.
+    - +2 Effect: This silver scarab enhances item discovery by 150.
+    - +3 Effect: This silver scarab enhances item discovery by 200.
+    
+- Gold Scarab
+    - +0 Effect: This golden scarab increases the amount of runes obtained from defeating enemies by 20%.
+    - +1 Effect: This golden scarab increases the amount of runes obtained from defeating enemies by 30%.
+    - +2 Effect: This golden scarab increases the amount of runes obtained from defeating enemies by 40%.
+    - +3 Effect: This golden scarab increases the amount of runes obtained from defeating enemies by 50%.
+    
+- Moon of Nokstella
+    - +0 Effect: Increases memory slots by 2.
+    
+- Green Turtle Talisman
+    - +0 Effect: Raises stamina recovery speed by 10.
+    - +1 Effect: Raises stamina recovery speed by 14.
+    - +2 Effect: Raises stamina recovery speed by 18.
+    - +3 Effect: Raises stamina recovery speed by 22.
+
+- Stalwart Horn Charm
+    - +0 Effect: Raises robustness by 200.
+    - +1 Effect: Raises robustness by 400.
+    - +2 Effect: Raises robustness by 600.
+    - +3 Effect: Raises robustness by 800.
+
+- Immunizing Horn Charm
+    - +0 Effect: Raises immunity by 200.
+    - +1 Effect: Raises immunity by 400.
+    - +2 Effect: Raises immunity by 600.
+    - +3 Effect: Raises immunity by 800.
+
+- Clarifying Horn Charm
+    - +0 Effect: Raises focus by 200.
+    - +1 Effect: Raises focus by 400.
+    - +2 Effect: Raises focus by 600.
+    - +3 Effect: Raises focus by 800.
+
+- Prince of Death's Pustule
+    - +0 Effect: Raises vitality by 200.
+    - Prince of Death's Cyst
+    - +1 Effect: Raises vitality by 400.
+    - +2 Effect: Raises vitality by 600.
+    - +3 Effect: Raises vitality by 800.
+
+- Mottled Necklace
+    - +0 Effect: Raises immunity, robustness, and focus by 100.
+    - +1 Effect: Raises immunity, robustness, and focus by 200.
+    - +2 Effect: Raises immunity, robustness, and focus by 300.
+    - +3 Effect: Raises immunity, robustness, and focus by 400.
+
+- Bull-Goat's Talisman
+    - +0 Effect: Raises poise by 25%.
+    - +1 Effect: Raises poise by 30%.
+    - +2 Effect: Raises poise by 35%.
+    - +3 Effect: Raises poise by 40%.
+
+- Marika's Scarseal
+    - +0 Effect: Raises mind, intelligence, faith, and arcane by 3, but also increases damage taken by 10%.
+    - Marika's Soreseal
+    - +1 Effect: Greatly raises mind, intelligence, faith, and arcane by 5, but also increases damage taken by 15%.
+
+- Warrior Jar Shard
+    - +0 Effect: Boosts the attack power of skills by 10%.
+    - Shard of Alexander
+    - +1 Effect: Greatly boosts the attack power of skills by 15%.
+    - +2 Effect: Greatly boosts the attack power of skills by 20%.
+    - +3 Effect: Greatly boosts the attack power of skills by 25%.
+    
+- Millicent's Prosthesis
+    - +0 Effect: Boosts dexterity by 5 and raises attack power with successive attacks, up to 15% additional damage.
+    - +1 Effect: Boosts dexterity by 5 and raises attack power with successive attacks, up to 20% additional damage.
+    - +2 Effect: Boosts dexterity by 5 and raises attack power with successive attacks, up to 25% additional damage.
+    - +3 Effect: Boosts dexterity by 5 and raises attack power with successive attacks, up to 30% additional damage.
+
+- Magic Scorpion Charm
+    - +0 Effect: Raises magic attack power by 15%, but lowers physical damage negation by 15%.
+    - +1 Effect: Raises magic attack power by 20%, but lowers physical damage negation by 15%.
+    - +2 Effect: Raises magic attack power by 25%, but lowers physical damage negation by 15%.
+    - +3 Effect: Raises magic attack power by 30%, but lowers physical damage negation by 15%.
+
+- Lightning Scorpion Charm
+    - +0 Effect: Raises lightning attack power by 15%, but lowers physical damage negation by 15%.
+    - +1 Effect: Raises lightning attack power by 20%, but lowers physical damage negation by 15%.
+    - +2 Effect: Raises lightning attack power by 25%, but lowers physical damage negation by 15%.
+    - +3 Effect: Raises lightning attack power by 30%, but lowers physical damage negation by 15%.
+
+- Fire Scorpion Charm
+    - +0 Effect: Raises fire attack power by 15%, but lowers physical damage negation by 15%.
+    - +1 Effect: Raises fire attack power by 20%, but lowers physical damage negation by 15%.
+    - +2 Effect: Raises fire attack power by 25%, but lowers physical damage negation by 15%.
+    - +3 Effect: Raises fire attack power by 30%, but lowers physical damage negation by 15%.
+
+- Sacred Scorpion Charm
+    - +0 Effect: Raises holy attack power by 15%, but lowers physical damage negation by 15%.
+    - +1 Effect: Raises holy attack power by 20%, but lowers physical damage negation by 15%.
+    - +2 Effect: Raises holy attack power by 25%, but lowers physical damage negation by 15%.
+    - +3 Effect: Raises holy attack power by 30%, but lowers physical damage negation by 15%.
+
+- Red-Feathered Branchsword
+    - +0 Effect: Raises attack power by 15% when HP is below 20%.
+    - +1 Effect: Raises attack power by 20% when HP is below 20%.
+    - +2 Effect: Raises attack power by 25% when HP is below 20%.
+    - +3 Effect: Raises attack power by 30% when HP is below 20%.
+    
+- Ritual Sword Talisman
+    - +0 Effect: Raises attack power by 10% when HP is at maximum.
+    - +1 Effect: Raises attack power by 15% when HP is at maximum.
+    - +2 Effect: Raises attack power by 20% when HP is at maximum.
+    - +3 Effect: Raises attack power by 25% when HP is at maximum.
+    
+- Spear Talisman
+    - +0 Effect: Enhances the counterattacks that are unique to thrusting weapons by 15%.
+    - +1 Effect: Enhances the counterattacks that are unique to thrusting weapons by 20%.
+    - +2 Effect: Enhances the counterattacks that are unique to thrusting weapons by 25%.
+    - +3 Effect: Enhances the counterattacks that are unique to thrusting weapons by 30%.
+    
+- Hammer Talisman
+    - +0 Effect: Enhances stamina-reducing attacks against a blocking opponent by 30%.
+    - +1 Effect: Enhances stamina-reducing attacks against a blocking opponent by 40%.
+    - +2 Effect: Enhances stamina-reducing attacks against a blocking opponent by 50%.
+    - +3 Effect: Enhances stamina-reducing attacks against a blocking opponent by 60%.
+    
+- Winged Sword Insignia
+    - +0 Effect: Raises attack power with successive attacks by up to 10%.
+    - Rotten Winged Sword Insignia
+    - +1 Effect: Raises attack power with successive attacks, up to 15% additional attack power.
+    - +2 Effect: Raises attack power with successive attacks, up to 20% additional attack power.
+    - +3 Effect: Raises attack power with successive attacks, up to 25% additional attack power.
+
+- Dagger Talisman
+    - +0 Effect: Enhances critical hits by 20%.
+    - +1 Effect: Enhances critical hits by 30%.
+    - +2 Effect: Enhances critical hits by 40%.
+    - +3 Effect: Enhances critical hits by 50%.
+    
+- Arrow's Reach Talisman
+    - +0 Effect: Increases the effective range of bows by 50 meters.
+    - +1 Effect: Increases the effective range of bows by 75 meters.
+    - +2 Effect: Increases the effective range of bows by 100 meters.
+    - +3 Effect: Increases the effective range of bows by 125 meters.
+    
+- Blue Dancer Charm
+    - +0 Effect: Raises attack power by 15% with lower equipment load.
+    - +1 Effect: Raises attack power by 20% with lower equipment load.
+    - +2 Effect: Raises attack power by 25% with lower equipment load.
+    - +3 Effect: Raises attack power by 30% with lower equipment load.
+
+- Twinblade Talisman
+    - +0 Effect: Enhances the final hit ending a chain of attacks by 15%.
+    - +1 Effect: Enhances the final hit ending a chain of attacks by 20%.
+    - +2 Effect: Enhances the final hit ending a chain of attacks by 25%.
+    - +3 Effect: Enhances the final hit ending a chain of attacks by 30%.
+    
+- Axe Talisman
+    - +0 Effect: Enhances charged attacks by 15%.
+    - +1 Effect: Enhances charged attacks by 20%.
+    - +2 Effect: Enhances charged attacks by 25%.
+    - +3 Effect: Enhances charged attacks by 30%.
+    
+- Lance Talisman
+    - +0 Effect: Enhances attacks while on horseback by 15%.
+    - +1 Effect: Enhances attacks while on horseback by 20%.
+    - +2 Effect: Enhances attacks while on horseback by 25%.
+    - +3 Effect: Enhances attacks while on horseback by 30%.
+    
+- Arrow's Sting Talisman
+    - +0 Effect: Raises attack power of arrows and bolts by 15%.
+    - +1 Effect: Raises attack power of arrows and bolts by 20%.
+    - +2 Effect: Raises attack power of arrows and bolts by 25%.
+    - +3 Effect: Raises attack power of arrows and bolts by 30%.
+    
+- Lord of Blood's Exultation
+    - +0 Effect: Raises attack power by 15% when blood loss occurs in the vicinity.
+    - +1 Effect: Raises attack power by 20% when blood loss occurs in the vicinity.
+    - +2 Effect: Raises attack power by 25% when blood loss occurs in the vicinity.
+    - +3 Effect: Raises attack power by 30% when blood loss occurs in the vicinity.
+    
+- Kindred of Rot's Exultation
+    - +0 Effect: Raises attack power by 15% when poisoning or rot occurs in the vicinity.
+    - +1 Effect: Raises attack power by 20% when poisoning or rot occurs in the vicinity.
+    - +2 Effect: Raises attack power by 25% when poisoning or rot occurs in the vicinity.
+    - +3 Effect: Raises attack power by 30% when poisoning or rot occurs in the vicinity.
+    
+- Claw Talisman
+    - +0 Effect: Enhances jump attacks by 15%.
+    - +1 Effect: Enhances jump attacks by 20%.
+    - +2 Effect: Enhances jump attacks by 25%.
+    - +3 Effect: Enhances jump attacks by 30%.
+    
+- Roar Medallion
+    - +0 Effect: Enhances roars and breath attacks by 15%.
+    - +1 Effect: Enhances roars and breath attacks by 20%.
+    - +2 Effect: Enhances roars and breath attacks by 25%.
+    - +3 Effect: Enhances roars and breath attacks by 30%.
+
+- Curved Sword Talisman
+    - +0 Effect: Enhances guard counters by 15%.
+    - +1 Effect: Enhances guard counters by 20%.
+    - +2 Effect: Enhances guard counters by 25%.
+    - +3 Effect: Enhances guard counters by 30%.
+    
+- Companion Jar
+    - +0 Effect: Raises potency of thrown jars by 20%.
+    - +1 Effect: Raises potency of thrown jars by 30%.
+    - +2 Effect: Raises potency of thrown jars by 40%.
+    - +3 Effect: Raises potency of thrown jars by 50%.
+    
+- Perfumer's Talisman
+    - +0 Effect: Raises potency of perfume items by 20%.
+    - +1 Effect: Raises potency of perfume items by 30%.
+    - +2 Effect: Raises potency of perfume items by 40%.
+    - +3 Effect: Raises potency of perfume items by 50%.
+    
+- Graven-School Talisman
+    - +0 Effect: Raises potency of sorceries by 5%.
+    - Graven-Mass Talisman
+    - +1 Effect: Raises potency of sorceries by 10%.
+    - +2 Effect: Raises potency of sorceries by 15%.
+    - +3 Effect: Raises potency of sorceries by 20%.
+
+- Faithful's Canvas Talisman
+    - +0 Effect: Raises potency of incantations by 5%.
+    - Flock's Canvas Talisman
+    - +1 Effect: Raises potency of incantations by 10%.
+    - +2 Effect: Raises potency of incantations by 15%.
+    - +3 Effect: Raises potency of incantations by 20%.
+
+- Old Lord's Talisman
+    - +0 Effect: Extends the duration of sorceries and incantations by 25%.
+    - +1 Effect: Extends the duration of sorceries and incantations by 50%.
+    - +2 Effect: Extends the duration of sorceries and incantations by 75%.
+    - +3 Effect: Extends the duration of sorceries and incantations by 100%.
+    
+- Radagon Icon
+    - +0 Effect: Shortens the casting time of sorceries and incantations, granting 25 cast speed.
+    - +1 Effect: Shortens the casting time of sorceries and incantations, granting 50 cast speed.
+    - +2 Effect: Shortens the casting time of sorceries and incantations, granting 75 cast speed.
+    - +3 Effect: Shortens the casting time of sorceries and incantations, granting 100 cast speed.
+    
+- Primal Glintstone Blade
+    - +0 Effect: Reduces FP consumption of sorceries and incantations by 25% but reduces max HP by 15%.
+    - +1 Effect: Reduces FP consumption of sorceries and incantations by 30% but reduces max HP by 15%.
+    - +2 Effect: Reduces FP consumption of sorceries and incantations by 35% but reduces max HP by 15%.
+    - +3 Effect: Reduces FP consumption of sorceries and incantations by 40% but reduces max HP by 15%.
+    
+- Godfrey Icon
+    - +0 Effect: Raises charge attack power of sorceries, incantations, and skills by 15%.
+    - +1 Effect: Raises charge attack power of sorceries, incantations, and skills by 20%.
+    - +2 Effect: Raises charge attack power of sorceries, incantations, and skills by 25%.
+    - +3 Effect: Raises charge attack power of sorceries, incantations, and skills by 30%.
+
+- Dragoncrest Shield Talisman
+    - +0 Effect: Boosts physical damage negation by 5%.
+    - +1 Effect: Boosts physical damage negation by 10%.
+    - +2 Effect: Boosts physical damage negation by 15%.
+    - Dragoncrest Greatshield Talisman
+    - +3 Effect: Boosts physical damage negation by 20%.
+
+- Spelldrake Talisman
+    - +0 Effect: Boosts magic damage negation by 10%.
+    - +1 Effect: Boosts magic damage negation by 15%.
+    - +2 Effect: Boosts magic damage negation by 20%.
+    - +3 Effect: Boosts magic damage negation by 25%.
+
+- Flamedrake Talisman
+    - +0 Effect: Boosts fire damage negation by 10%.
+    - +1 Effect: Boosts fire damage negation by 15%.
+    - +2 Effect: Boosts fire damage negation by 20%.
+    - +3 Effect: Boosts fire damage negation by 25%.
+
+- Boltdrake Talisman
+    - +0 Effect: Boosts lightning damage negation by 10%.
+    - +1 Effect: Boosts lightning damage negation by 15%.
+    - +2 Effect: Boosts lightning damage negation by 20%.
+    - +3 Effect: Boosts lightning damage negation by 25%.
+
+- Haligdrake Talisman
+    - +0 Effect: Boosts holy damage negation by 10%.
+    - +1 Effect: Boosts holy damage negation by 15%.
+    - +2 Effect: Boosts holy damage negation by 20%. 
+    - +3 Effect: Boosts holy damage negation by 25%. 
+
+- Pearldrake Talisman
+    - +0 Effect: Boosts non-physical damage negation by 5%.
+    - +1 Effect: Boosts non-physical damage negation by 7.5%.
+    - +2 Effect: Boosts non-physical damage negation by 10%.
+    - +3 Effect: Boosts non-physical damage negation by 12.5%.
+
+- Crucible Scale Talisman
+    - +0 Effect: Reduces damage taken from critical hits by 25%.
+    - +1 Effect: Reduces damage taken from critical hits by 50%.
+    - +2 Effect: Reduces damage taken from critical hits by 75%.
+    - +3 Effect: Reduces damage taken from critical hits by 100%.
+    
+- Crucible Feather Talisman
+    - +0 Effect: Improves the effectiveness of dodge rolls, but increases damage taken by 30%.
+    - +1 Effect: Improves the effectiveness of dodge rolls, but increases damage taken by 20%.
+    - +2 Effect: Improves the effectiveness of dodge rolls, but increases damage taken by 10%.
+    - +3 Effect: Improves the effectiveness of dodge rolls.
+    
+- Blue-Feathered Branchsword
+    - +0 Effect: Raises defense by 50% when HP is below 20%.
+    - +1 Effect: Raises defense by 50% when HP is below 30%.
+    - +2 Effect: Raises defense by 50% when HP is below 40%.
+    - +3 Effect: Raises defense by 50% when HP is below 50%.
+    
+- Ritual Shield Talisman
+    - +0 Effect: Raises defense by 30% when HP is at maximum.
+    - +1 Effect: Raises defense by 40% when HP is at maximum.
+    - +2 Effect: Raises defense by 50% when HP is at maximum.
+    - +3 Effect: Raises defense by 60% when HP is at maximum.
+    
+- Greatshield Talisman
+    - +0 Effect: Boosts guarding ability by 20%.
+    - +1 Effect: Boosts guarding ability by 30%.
+    - +2 Effect: Boosts guarding ability by 40%.
+    - +3 Effect: Boosts guarding ability by 50%.
+    
+- Crucible Knot Talisman
+    - +0 Effect: Reduces damage and impact of headshots taken.
+    
+- Crimson Seed Talisman
+    - +0 Effect: Boosts HP restoration from the Flask of Crimson Tears by 20%.
+    - +1 Effect: Boosts HP restoration from the Flask of Crimson Tears by 30%.
+    - +2 Effect: Boosts HP restoration from the Flask of Crimson Tears by 40%.
+    - +3 Effect: Boosts HP restoration from the Flask of Crimson Tears by 50%.
+    
+- Cerulean Seed Talisman
+    - +0 Effect: Boosts FP restoration from the Flask of Cerulean Tears by 20%.
+    - +1 Effect: Boosts FP restoration from the Flask of Cerulean Tears by 30%.
+    - +2 Effect: Boosts FP restoration from the Flask of Cerulean Tears by 40%.
+    - +3 Effect: Boosts FP restoration from the Flask of Cerulean Tears by 50%.
+    
+- Blessed Dew Talisman
+    - +0 Effect: Gradually restores HP, restoring 2 HP per second.
+    - +1 Effect: Gradually restores HP, restoring 3 HP per second.
+    - +2 Effect: Gradually restores HP, restoring 4 HP per second.
+    - +3 Effect: Gradually restores HP, restoring 5 HP per second.
+    
+- Taker's Cameo
+    - +0 Effect: Restores HP upon defeating enemies, restoring 3% HP and 30 HP with each kill.
+    - +1 Effect: Restores HP upon defeating enemies, restoring 4% HP and 40 HP with each kill.
+    - +2 Effect: Restores HP upon defeating enemies, restoring 5% HP and 50 HP with each kill.
+    - +3 Effect: Restores HP upon defeating enemies, restoring 6% HP and 60 HP with each kill.
+    
+- Godskin Swaddling Cloth
+    - +0 Effect: Successive attacks restore HP, restoring 3% HP and 30 HP with each attack.
+    - +1 Effect: Successive attacks restore HP, restoring 4% HP and 40 HP with each attack.
+    - +2 Effect: Successive attacks restore HP, restoring 5% HP and 50 HP with each attack.
+    - +3 Effect: Successive attacks restore HP, restoring 6% HP and 60 HP with each attack.
+    
+- Assassin's Crimson Dagger
+    - +0 Effect: Critical hits restore HP, restoring 10% HP and 75 HP.
+    - +1 Effect: Critical hits restore HP, restoring 15% HP and 150 HP.
+    - +2 Effect: Critical hits restore HP, restoring 20% HP and 225 HP.
+    - +3 Effect: Critical hits restore HP, restoring 25% HP and 300 HP.
+    
+- Assassin's Cerulean Dagger
+    - +0 Effect: Critical hits restore FP, restoring 25 FP.
+    - +1 Effect: Critical hits restore FP, restoring 50 FP.
+    - +2 Effect: Critical hits restore FP, restoring 75 FP.
+    - +3 Effect: Critical hits restore FP, restoring 100 FP.
+    
+- Crepus's Vial
+    - +0 Effect: Eliminates all sound made by the wearer during movement.
+    
+- Concealing Veil
+    - +0 Effect: Completely conceals the wearer's presence while crouching at a distance from foes.
+    
+- Carian Filigreed Crest
+    - +0 Effect: Lowers FP consumed by skills by 25%.
+    - +1 Effect: Lowers FP consumed by skills by 30%.
+    - +2 Effect: Lowers FP consumed by skills by 35%.
+    - +3 Effect: Lowers FP consumed by skills by 40%.
+    
+- Longtail Cat Talisman
+    - +0 Effect: Grants immunity to fall damage, but does not prevent death from a high fall.
+    
+- Shabriri's Woe
+    - +0 Effect: Constantly attracts enemies' aggression.
+
+- Daedicar's Woe
+    - +0 Effect: Increases damage taken by 100%, but provides immunity to all status effects.
+    
+- Sacrificial Twig
+    - +0 Effect: Prevents rune loss upon death, but will be lost itself in exchange.
+    
+- Furled Finger's Trick-Mirror
+    - +0 Effect: Makes the bearer take on the appearance of a Host of Fingers.
+    
+- Host's Trick-Mirror
+    - +0 Effect: Makes the bearer take on the appearance of a summoned cooperator.
+    
+- Ancestral Spirit's Horn
+    - +0 Effect: Restore 10 FP upon defeating enemies.
+    - +1 Effect: Restore 20 FP upon defeating enemies.
+    - +2 Effect: Restore 30 FP upon defeating enemies.
+    - +3 Effect: Restore 40 FP upon defeating enemies.
+    
+#----------------------------------------
+# Added Talismans
+#----------------------------------------
+- Fractured Blade
+    - Found in Deeproot Depths.
+    - Weight: 2.0
+    - +0 Effect: Raises attack power against Deific enemies by 25%.
+    - +1 Effect: Raises attack power against Deific enemies by 30%.
+    - +2 Effect: Raises attack power against Deific enemies by 35%.
+    - +3 Effect: Raises attack power against Deific enemies by 40%.
+
+- Aberrant Eye
+    - Found in the Frenzied Flame Village in Liurnia.
+    - Weight: 2.0
+    - +0 Effect: Raises attack power against Bestial enemies by 25%.
+    - +1 Effect: Raises attack power against Bestial enemies by 30%.
+    - +2 Effect: Raises attack power against Bestial enemies by 35%.
+    - +3 Effect: Raises attack power against Bestial enemies by 40%.
+
+- Gladiatorial Mark
+    - Purchased from Duelist Atticus for 30 Gladiatorial Engravings.
+    - Weight: 1.0
+    - +0 Effect: Reduces weapon stamina consumption by 25%.
+    - +1 Effect: Reduces weapon stamina consumption by 30%.
+    - +2 Effect: Reduces weapon stamina consumption by 35%.
+    - +3 Effect: Reduces weapon stamina consumption by 40%.
+
+- Shinobi's Whetstone
+    - Purchased from the Mysterious Shinobi.
+    - Weight: 3.0
+    - +0 Effect: Extends the perfect deflect window to 8 frames
+
+- Techniques of the Windwalker
+    - Purchased from the Mysterious Shinobi.
+    - Weight: 1.0
+    - +0 Effect: Grants the ability to jump in midair.
+
+- Thumb Ring of Pharris
+    - Found within Gelmir Hero's Grave in Mt. Gelmir.
+    - Weight: 1.0
+    - +0 Effect: Increases arrow shot count by 1, but reduces maximum HP by 50%.
+    - +1 Effect: Increases arrow shot count by 1, but reduces maximum HP by 40%.
+    - +2 Effect: Increases arrow shot count by 1, but reduces maximum HP by 30%.
+    - +3 Effect: Increases arrow shot count by 1, but reduces maximum HP by 20%.
+
+- Vambrace of Trefin
+    - Dropped by the Omenkiller in the Village of the Albinaurics.
+    - Weight: 3.0
+    - +0 Effect: Increases great-arrow shot count by 1, but reduces maximum HP by 50%.
+    - +1 Effect: Increases great-arrow shot count by 1, but reduces maximum HP by 40%.
+    - +2 Effect: Increases great-arrow shot count by 1, but reduces maximum HP by 30%.
+    - +3 Effect: Increases great-arrow shot count by 1, but reduces maximum HP by 20%.
+    
+- Bracing Ring of Ergoth
+    - Dropped by the Runebear in Earthbore Cave in the Weeping Penisula.
+    - Weight: 1.0
+    - +0 Effect: Increases bolt shot count by 1, but reduces maximum HP by 50%.
+    - +1 Effect: Increases bolt shot count by 1, but reduces maximum HP by 40%.
+    - +2 Effect: Increases bolt shot count by 1, but reduces maximum HP by 30%.
+    - +3 Effect: Increases bolt shot count by 1, but reduces maximum HP by 20%.
+    
+- Signet of Fury 
+    - Found in Volcano Manor.
+    - +0 Effect: Reduces weapon stamina consumption by 25% for 5 seconds upon being hit.
+    - +1 Effect: Reduces weapon stamina consumption by 50% for 5 seconds upon being hit.
+    - +2 Effect: Reduces weapon stamina consumption by 75% for 5 seconds upon being hit.
+    - +3 Effect: Reduces weapon stamina consumption by 100% for 5 seconds upon being hit.
+    
+- Forgotten Pendant 
+    - Dropped by the Golem found down the side of the Minor Erdtree cliff in Caelid.
+    - +0 Effect: Enhances charged attacks by 25% but reduces effectiveness of evasion significantly.
+    - +0 Effect: Enhances charged attacks by 30% but reduces effectiveness of evasion significantly.
+    - +0 Effect: Enhances charged attacks by 35% but reduces effectiveness of evasion significantly.
+    - +0 Effect: Enhances charged attacks by 40% but reduces effectiveness of evasion significantly.
+    
+- Blood Conduit 
+    - Found in Mohgwyn Palace.
+    - +0 Effect: Enhances blood incantations by 15% but reduces maximum HP by 15%.
+    - +1 Effect: Enhances blood incantations by 20% but reduces maximum HP by 15%.
+    - +2 Effect: Enhances blood incantations by 25% but reduces maximum HP by 15%.
+    - +3 Effect: Enhances blood incantations by 30% but reduces maximum HP by 15%.
+    
+- Prisoner's Chain 
+    - Dropped by a fast-walking commoner in Stormhill.
+    - +0 Effect: Increases movement speed by 6%.
+    - +1 Effect: Increases movement speed by 8%.
+    - +2 Effect: Increases movement speed by 10%.
+    - +3 Effect: Increases movement speed by 12%.
+    
+- Marika's Necklace
+    - Reward for killing the Elden Beast in the Accursed journey type.
+    - +0 Effect: Boosts maximum HP, FP, Stamina and Equip Load by 25%, and increases rally restoration rate by 100%.
+    
+- Riding Horn
+    - Sold by Kale the Merchant.
+    - +0 Effect: Increases movement speed of Torrent by 25%.
+    - +1 Effect: Increases movement speed of Torrent by 30%.
+    - +2 Effect: Increases movement speed of Torrent by 40%.
+    - +3 Effect: Increases movement speed of Torrent by 50%.
+    
+- Clarifying Elixir
+    - Found in Fort Haight.
+    - +0 Effect: Raises attack power of arrows and great-arrows by up to 25% when the shot is held for a short period.
+    - +1 Effect: Raises attack power of arrows and great-arrows by up to 50% when the shot is held for a short period.
+    - +2 Effect: Raises attack power of arrows and great-arrows by up to 75% when the shot is held for a short period.
+    - +3 Effect: Raises attack power of arrows and great-arrows by up to 100% when the shot is held for a short period.
+    
+#----------------------------------------
+# Enemy Categories
+#----------------------------------------
+Deific enemies are:
+- Elden Beast
+- Radagon
+- Gurranq/Beast Clergyman
+- Maliketh
+- Black Blade Kindred
+
+Beastial enemies are:
+- animals or humanoids with some aspect of animal about them.
+
+#----------------------------------------
+# New Spells
+#----------------------------------------
+# Blood Shard:
+ - School: Blood
+ - Found in the Weeping Penisula.
+ 
+# Briarthorn Patch
+ - School: Blood
+ - Found in the Weeping Peninsula.
+
+# Flame of Destiny
+ - School: Destined Death
+ - Found in Crumbling Farum Azula.
+ 
+# Vow of Silence
+ - School: Erdtree Worship
+ - Sold by Brother Corhyn after giving him the Assassin's Prayerbook.
+ 
+# Lingering Rancor
+ - School: Death
+ - Found near the Tibia Mariner in Liurnia.
+ 
+# Vengeful Barrage
+ - School: Death
+ - Found near the Tibia Mariner in Altus Plateau.
+ 
+# Vengeful Strike
+ - School: Death
+ - Found in Caelid, near to Caelem and Forsaken Ruins.
+ 
+# Ghostflame Blade
+ - School: Death
+ - Found in Deathtouched Catacombs.
+ 
+# Soporific Armament
+ - School: Glintstone
+ - Found in Academy of Raya Lucaria. 
+ 
+#----------------------------------------
+# Spell Changes
+#----------------------------------------
+- Ancient Death Rancor:
+    - Increased base damage of the bullets.
+    
+- Radagon's Rings of Light
+    - Increased the damage of the projectiles.
+    
+- Elden Stars
+    - Increased the damage and the speed of the projectiles.
+    
+#----------------------------------------
+# Overview
+#----------------------------------------
+- Crimson Crystal Tear (2)
+ - Effect: Restores 50% HP
+
+- Crimsonspill Crystal Tear
+ - Effect: Increases max HP by 10% for 180 seconds.
+
+- Crimsonburst Crystal Tear
+ - Effect: Heals 7 HP per second for 180 seconds.
+
+- Cerulean Crystal Tear (2)
+ - Effect: Restores 50% FP.
+
+- Greenspill Crystal Tear
+ - Effect: Increases max Stamina by 15% for 180 seconds.
+
+- Greenburst Crystal Tear 
+ - Effect: Increases stamina recovery by 15 for 180 seconds.
+
+- Strength-knot Crystal Tear
+ - Effect: Increases STR by 10 for 180 seconds.
+
+- Dexterity-knot Crystal Tear
+ - Effect: Increases DEX by 10 for 180 seconds.
+
+- Intelligence-knot Crystal Tear 
+ - Effect: Increases INT by 10 for 180 seconds.
+
+- Faith-knot Crystal Tear 
+ - Effect: Increases FTH by 10 for 180 seconds.
+
+- Opaline Hardtear 
+ - Effect: Increases absorption by 15% for 180 seconds.
+
+- Speckled Hardtear 
+ - Effect: Boosts resistance by 90 and heals status for 180 seconds.
+
+- Leaden Hardtear
+ - Effect: Prevents stagger for 10 seconds.
+
+- Magic-Shrouding Cracked Tear 
+ - Effect: Increases magic attack by 20% for 180 seconds.
+
+- Flame-Shrouding Cracked Tear 
+ - Effect: Increases fire attack by 20% for 180 seconds.
+
+- Lightning-Shrouding Cracked Tear
+ - Effect: Increases lightning attack by 20% for 180 seconds.
+
+- Holy-Shrouding Cracked Tear
+ - Effect: Increases holy attack by 20% for 180 seconds.
+
+- Stonebarb Cracked Tear
+ - Effect: Increases poise damage by 30% for 30 seconds.
+
+- Spiked Cracked Tear 
+ - Effect: Increases charged attack damage by 15% for 180 seconds.
+
+- Thorny Cracked Tear
+ - Effect: Increases consecutive attack damage by up to 20% for 180 seconds.
+
+- Twiggy Cracked Tear
+ - Effect: Prevents rune loss upon death for 180 seconds.
+
+- Winged Crystal Tear 
+ - Effect: Increases equipment load by 450% for 180 seconds.
+
+- Windy Crystal Tear
+ - Effect: Increases iframes during rolls for 180 seconds.
+
+- Crimson Bubbletear
+ - Effect: Restores 30% HP when HP dips below 20%. Lasts for 180 seconds.
+
+- Crimsonwhorl Bubbletear 
+ - Effect: Converts damage received into HP. Lasts for 15 seconds.
+
+- Opaline Bubbletear 
+ - Effect: Increases absorption by 90% for 180 seconds.
+
+- Cerulean Hidden Tear
+ - Effect: Reduces FP consumption to 0 for 15 seconds.
+
+- Purifying Crystal Tear 
+ - Effect: Negates Mohg's Nihil damage when active. Lasts until death.
+
+- Ruptured Crystal Tear (2)
+ - Effect: Causes concoction to explode.
+ 
+- Arcane-knot Crystal Tear
+ - Effect: Increases ARC by 10 for 180 seconds.
+ - Found near the Siofra Well entrance in Limgrave.
+
+- Void-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Void enemies for 180 seconds.
+ - Found near the Onyx Lord evergaol, beyond Caria Manor.
+ 
+- Death-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Undead enemies for 180 seconds.
+ - Found atop a collapsed pillar in the Weeping Penisula, near to the Walking Mausoleum.
+ 
+- Dragon-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Dragons enemies for 180 seconds.
+ - Found near to Elder Dragon Greyoll in the Dragonbarrow.
+ 
+- Beast-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Beasts enemies for 180 seconds.
+ - Found in the Morne Moangrave at the end of Castle Morne.
+ 
+#----------------------------------------
+# Boss Equipment
+#----------------------------------------
+- The boss weapons that can being dual wielded may now be forged twice.
+- Most one-time material pickups now respawn on map reload.
+- Added the rune amounts in the names of the items that give runes to make it easier to assess which you want to use.
+
+- Changed the items unlocked by the Elden Remembrance to:
+ - Elden Stars
+ - Sacred Relic Sword
+ 
+#----------------------------------------
+# Drops
+#----------------------------------------
+- Increased equipment drop rate from enemies significantly. In general the chance will be 5% or higher.
+- Increased reinforcement material drop rate from enemies significantly.
+- Added 5% drop chance for Larval Tear to Silver Tear  and Silver Tear Orbs enemies.
+
+#----------------------------------------
+# Added Items
+#----------------------------------------
+- Added the Golden Remembrance as a boss drop from Radagon.
+- The items unlocked the Golden Remembrance are:
+ - Marika's Hammer
+ - Radagon's Rings of Light
+ 
+- Rowa Raisin: heals Torrent by 25% HP and grants the ability to spirintspring jump for 6 seconds.
+- Sweet Raisin: heals Torrent by 5% HP per second for 30 seconds.
+- Frozen Raisin: heals Torrent by 25% HP and prevents knockoff for 30 seconds.
+
+- Added new item: Rotten Raisin
+ - Causes Torrent to emit a poisonous cloud behind him for 8 seconds while moving.
+ - Craftable with Armorer's Cookbook [2], costs 1 Rowa Fruit and 2 Toxic Mushrooms.
+ 
+- Added new Item: Volcanic Raisin
+ - Causes Torrent to leave behind roiling magma behind him for 6 seconds while moving.
+ - Craftable with Nomadic Warrior's Cookbook [20], costs 1 Rowa Fruit and 2 Volcanic Stones.
+ 
+- Added Sparking Raisin:
+    - Increases Torrent's movement speed by 25% for 60 seconds when fed to Torrent.
+    - Can be crafted from Rowa Fruit and 2 Fulgurbloom. Is available by default.
+    
+- Added Arcane-knot Crystal Tear:
+ - Effect: Increases ARC by 10 for 180 seconds.
+ - Found near the Siofra Well entrance in Limgrave.
+ 
+- Added Void-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Void enemies for 180 seconds.
+ - Found near the Onyx Lord evergaol, beyond Caria Manor.
+ 
+- Added Death-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Undead enemies for 180 seconds.
+ - Found atop a collapsed pillar in the Weeping Penisula, near to the Walking Mausoleum.
+ 
+- Added Dragon-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Dragons enemies for 180 seconds.
+ - Found near to Elder Dragon Greyoll in the Dragonbarrow.
+ 
+- Added Beast-Tainted Cracked Tear 
+ - Effect: Raises attack power by 20% against Beasts enemies for 180 seconds.
+ - Found in the Morne Moangrave at the end of Castle Morne.
+ 
+- Added Manure
+ - Dropped by the passive animals such as Deer, Bears, etc.
+ 
+#----------------------------------------
+# Great Runes
+#----------------------------------------
+# Godrick's Great Rune
+- Effect: Raises all attributes by 5.
+
+# Radahn's Great Rune
+- Effect: Raises maximum HP, FP and Stamina by 15%.
+
+# Morgott's Great Rune
+- Effect: Restores 0.5% + 5 HP every second.
+
+# Rykard's Great Rune
+- Effect: Grants alacrity, with enemy kills boost stamina recovery by 5, stacking with each kill. Each stack lasts 30 seconds.
+
+# Mohg's Great Rune
+- Effect: Immunity to Hemorrhage.
+
+# Malenia's Great Rune:
+- Effect: Enemy kills grant Scarlet Fury, which boosts overall damage by 1% and stacks. Each stack lasts for 120 seconds.
+
+
+#----------------------------------------
+# Item Effects
+#----------------------------------------
+- Silver-Pickled Fowl Foot: 
+    - Now lasts until death.
+ 
+- Gold-Pickled Fowl Foot: 
+    - Now lasts until death.
+ 
+- Exalted Flesh:
+    - Now lasts 60 seconds.
+    
+- Spectral Steed Whistle:
+    - No longer prompts you to select an option when re-summoning Torrent after he has 'died', instead it will automatically use a flask.
+    
+#----------------------------------------
+# Crafting
+#----------------------------------------
+- The ability to craft items is automatically available, you no longer need to purchase a crafting kit.
+- Arrow and bolt crafts now produce 25 (was 10).
+- Added Rune Arc as a default crafting option.
+- Added Starlight Shards as a crafting option after defeating Rennala.
+- Added Larval Tear as a crafting option after defeating Rennala.
+- Added Stonesword Key as a crafting option after defeating Godrick.
+- Added Imbued Sword Key as a crafting option after defeating Morgott.
+- Added Glintstone Scrap as a crafting option.
+- Added Large Glintstone Scrap as a crafting option.
+- Added Explosive Stone as a crafting option.
+- Added Explosive Stone Clump as a crafting option.
+- Added Poisoned Stone as a crafting option.
+- Added Poisoned Stone Clump as a crafting option.
+
+#----------------------------------------
+# Glovewort
+#----------------------------------------
+- Simplified the Glovewort material paths:
+ - There are now 4 gloveworts:
+  - Fledgling Glovewort (+1 to +3)
+  - Budding Glovewort (+4 to +6)
+  - Blooming Glovewort (+7 to +9)
+  - Resplendent Glovewort (+10)
+ - Spirit Summon reinforcement now uses these in both cases, but for those that used to require Ghost Glovewort, they require 2 per tier (excluding +10).
+ 
+#----------------------------------------
+# Bell Bearing
+#----------------------------------------
+# Fledgling Bell Bearing
+- Found in Stormveil Castle.
+ 
+# Budding Bell Bearing
+- Dropped by Erdtree Burial Watchdog in Wyndham Catacombs (Altus Plateau).
+ 
+# Blooming Bell Bearing
+- Found in upper Siofra River.
+
+# Resplendent Bell Bearing
+- Found in Crumbling Farum Azula.
+
+# Crude Bell Bearing
+- Dropped by the Stonedigger Troll in Limgrave Tunnels.
+
+# Rough Bell Bearing
+- Dropped by the Crystalian in Raya Lucaria Crystal Tunnel.
+
+# Refined Bell Bearing
+- Found in the Divine Tower of West Altus.
+
+# Pure Bell Bearing
+- Dropped by the Godskin Duo in Crumbling Farum Azula.
+
+# Glintstone Bell Bearing
+- Dropped by the Crystalians in Altus Tunnel.
+
+# Explosive Bell Bearing
+- Found in Volcano Manor.
+
+# Sanctuary Bell Bearing
+- Found in Morne Tunnel in the Weeping Penisula.
+
+# Pot-Maker's Cookbook
+- Found in Jarburg in Liurnia of the Lakes.
+
+# Pickler's Cookbook
+- Found in the lake of Liurnia of the Lakes, surrounded by 3 lobsters.
+ 
+# Alchemist's Cookbook
+- Found int he Divine Tower of Liurnia.
+ 
+# Perfumer's Cookbook
+- Found at the Perfumer's Ruins in Altus Plateau.
+
+# Fletcher's Cookbook
+- Found on the outside of the Divine Tower of Caelid.
+ 
+# Scholar's Cookbook
+- Found in the Academy of Raya Lucaria.
+ 
+# Mason's Cookbook
+- Given by Gideon Ofnir after visiting the Mohgwyn Dynasty Mausoleum.
+
+# Artificer's Cookbook
+- Found in the Academy Crystal Cave in Liurnia of the Lakes.
+
+#----------------------------------------
+# Treasures
+#----------------------------------------
+# Earthbore Cave
+- Added the Spelldrake Talisman to the treasure the Runebear guards (replaces a Trina's Lily).
+
+# Village of the Albinaurics
+- Added Crucible Knot Talisman to a treasure (replaces a Rune Arc).
+
+# Gelmir Hero's Grave
+- Added Thumb Ring of Pharris to a treasure (replaces 5 Root Resin).
+
+#-------------------------------------------------
+# Enemies
+#-------------------------------------------------
+# General
+- All instances of enemy absorption exceeding 50% has been capped at 50%, i.e. Elden Beast had 80% Holy absorption, it now has 50%.
+ - Increased affected enemy HP slightly to account for this change so difficulty isn't massively changed.
+- All normal enemies now drop 20% more runes than vanilla.
+
+# Lock-on Camera
+- Expanded the FOV and distance of the lock-on camera for several larger enemies to make it easier to fight them.
+
+# Aux
+- Enemies are now vulnerable to Blight and Madness.
+- Blight will remove 25% HP from the enemy when inflicted.
+
+#-------------------------------------------------
+# Covenants
+#-------------------------------------------------
+- Covenants are groups that the player can commit their allegiance to. Once commited, they must stay commited to gain the benefits of the covenant.
+- Joining another covenant will remove all other alliegances.
+- Abandoning a covenant will remove all alliegances and reset progress to rank 1.
+- When you join a covenant, you start at rank 1. 
+ - You can progress to Rank 2 by giving the covenant 10 Bloodstained Runes.
+ - you can progress to Rank 3 by giving the covenant 20 Bloodstained Runes.
+- Each covenant will grant the player a Codex that describes the benefits and drawbacks of belonging to the covenant.
+
+- Added the Servants of the Grafted covenant:
+ - Available at Stitchmaster Geralt in Stormveil Castle, at the Rampart Tower grace.
+ - Grants Opportunistic Grafting:
+    - Enemy kills will increase Physical damage by 1/1.5/2%, but reduces absorption by 0.5/1/1.5% and corrupts the physical form of the committed.
+    - Each stack lasts 300 seconds.
+    - This can stack up to 25 times.
+    
+#----------------------------------------
+# Bosses
+#----------------------------------------
+- Radagon and the Elden Beast have been split into 2 distinct bosses.
+- Elden Beast is now an optional boss you can choose to fight via an option at the Fractured Marika.
+
+#----------------------------------------
+# Boss Changes
+#----------------------------------------
+# Morgott, the Omen King
+- HP: 2521 -> 3500
+
+# Malenia:
+- Reduced the amount of HP she recovers on hit.
+
+# Earthbore Cave - Runebear
+- Now drops Bracing Ring of Ergoth instead of Spelldrake Talisman.
+
+# Village of the Albinaurics - Omenkiller
+- Now drops Vambrace of Trefin instead of Crucible Knot Talisman.
+
+# Radagon
+- Increased Radagon's HP to 3800, as he is now fought without requiring the Elden Beast after.
+
+# Elden Beast
+- Increased Elden Beast's HP to 4710, as it is now fought without requiring Radagon first.
+
+#-------------------------------------------------
+# Armor Changes
+#-------------------------------------------------
+- Chest armor between the weight of 10 and 19.9 gives weak stagger prevention from blows.
+- Chest armor above the weight of 20 gives medium stagger prevention from blows.
+- Made the Deathbed Smalls armor available. Found with the Deathbed Dress.
+
+#-------------------------------------------------
+# New Armor
+#-------------------------------------------------
+- Added the following new pieces of armor:
+    - Mask of the Mother: reward from defeating the Family.
+    - Mask of the Child: reward from defeating the Family.
+    - Mask of the Father: reward from defeating the Family.
+    - Giant Set: found in the Mountaintops of the Giants
+    - Pot: found in Limgrave.
+    
+#-----------------------------------
+# Heavy Armor
+#-----------------------------------
+Bull-Goat Set 
+- Weight: 63
+- [Head]  Effect: Increases maximum HP by 2.5%. 
+- [Chest] Effect: Increases maximum HP by 2.5%.
+- [Arms]  Effect: Increases maximum HP by 2.5%.
+- [Legs]  Effect: Increases maximum HP by 2.5%.
+
+Giant Set 
+- Weight: 60.4
+- [Head]  Effect: Strengthens the potency of guard counters by 5%. 
+- [Chest] Effect: Strengthens the potency of guard counters by 5%. 
+- [Arms]  Effect: Strengthens the potency of guard counters by 5%. 
+- [Legs]  Effect: Strengthens the potency of guard counters by 5%. 
+
+Fire Prelate Set
+- Weight: 58.8
+- [Head]  Effect: Strengthens the potency of Flame incantations by 5%. 
+- [Chest] Effect: Strengthens the potency of Flame incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Flame incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Flame incantations by 5%.
+
+Omen Set
+- Weight: 55
+- [Head]  Effect: Strengthens the potency of Sword of Milos, Omen Bairn and Regal Omen Bairn by 5%.
+- [Chest] Effect: Strengthens the potency of Sword of Milos, Omen Bairn and Regal Omen Bairn by 5%.
+- [Arms]  Effect: Strengthens the potency of Sword of Milos, Omen Bairn and Regal Omen Bairn by 5%.
+- [Legs]  Effect: Strengthens the potency of Sword of Milos, Omen Bairn and Regal Omen Bairn by 5%.
+
+Lionel's Set
+- Weight: 50.5
+- [Head]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second. 
+- [Chest] Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Arms]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Legs]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+
+Tree Sentinel Set
+- Weight: 45
+- [Head]  Effect: Increases faith by 2. 
+- [Chest] Effect: Increases faith by 2.
+- [Arms]  Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Veteran's Set
+- Weight: 45
+- [Head]  Effect: Strengthens the potency of Skills by 5%. 
+- [Chest] Effect: Strengthens the potency of Skills by 5%.
+- [Arms]  Effect: Strengthens the potency of Skills by 5%.
+- [Legs]  Effect: Strengthens the potency of Skills by 5%.
+
+Beast Champion Set
+- Weight: 41.6
+- [Head]  Effect: Reduces the FP consumption of Skills by 5%. 
+- [Chest] Effect: Reduces the FP consumption of Skills by 5%.
+- [Arms]  Effect: Reduces the FP consumption of Skills by 5%.
+- [Legs]  Effect: Reduces the FP consumption of Skills by 5%.
+
+Banished Knight Set
+- Weight: 41.6
+- [Head]  Effect: Increases strength by 2. 
+- [Chest] Effect: Increases strength by 2.
+- [Arms]  Effect: Increases strength by 2.
+- [Legs]  Effect: Increases strength by 2.
+
+General Radahn Set
+- Weight: 41.6
+- [Head]  Effect: Strengthens the potency of Gravity sorceries by 5%.
+- [Chest] Effect: Strengthens the potency of Gravity sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Gravity sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Gravity sorceries by 5%.
+
+
+Malformed Dragon Set
+- Weight: 38
+- [Head]  Effect: Strengthens the potency of Dragon Cult incantations by 5%. 
+- [Chest] Effect: Strengthens the potency of Dragon Cult incantations by 5%. 
+- [Arms]  Effect: Strengthens the potency of Dragon Cult incantations by 5%. 
+- [Legs]  Effect: Strengthens the potency of Dragon Cult incantations by 5%. 
+
+Scaled Set
+- Weight: 38
+- [Head]  Effect: Increases endurance by 2.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Crucible Axe Set
+- Weight: 36.9
+- [Head]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+
+Crucible Tree Set
+- Weight: 36.9
+- [Head]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Aspects of the Crucible incantations by 5%.
+
+Royal Knight Set
+- Weight: 36.9
+- [Head]  Effect: Slowly replenishes the FP of the wearer, restoring 1 FP per second.
+- [Chest] Effect: Slowly replenishes the FP of the wearer, restoring 1 FP per second.
+- [Arms]  Effect: Slowly replenishes the FP of the wearer, restoring 1 FP per second.
+- [Legs]  Effect: Slowly replenishes the FP of the wearer, restoring 1 FP per second.
+
+Cleanrot Set
+- Weight: 35.7
+- [Head]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+- [Chest] Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+- [Arms]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+- [Legs]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+
+Blaidd's Set
+- Weight: 32.7
+- [Head]  Effect: Increases maximum Stamina by 2.5%.
+- [Chest] Effect: Increases maximum Stamina by 2.5%.
+- [Arms]  Effect: Increases maximum Stamina by 2.5%.
+- [Legs]  Effect: Increases maximum Stamina by 2.5%.
+
+Night's Cavalry Set
+- Weight: 30.5
+- [Head]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Chest] Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Arms]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Legs]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+
+Maliketh's Set
+- Weight: 30.5
+- [Head]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Chest] Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Arms]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Legs]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+
+Twinned Set
+- Weight: 30
+- [Head]  Effect: Raises attack power by 5% against Undead enemies.
+- [Chest] Effect: Raises attack power by 5% against Undead enemies.
+- [Arms]  Effect: Raises attack power by 5% against Undead enemies.
+- [Legs]  Effect: Raises attack power by 5% against Undead enemies.
+
+Hoslow's Set
+- Weight: 28.5
+- [Head]  Effect: Increases vigor by 2.
+- [Chest] Effect: Increases vigor by 2.
+- [Arms]  Effect: Increases vigor by 2.
+- [Legs]  Effect: Increases vigor by 2.
+
+Cuckoo Knight Set
+- Weight: 28.1
+- [Head]  Effect: Increases maximum FP by 2.5%.
+- [Chest] Effect: Increases maximum FP by 2.5%.
+- [Arms]  Effect: Increases maximum FP by 2.5%.
+- [Legs]  Effect: Increases maximum FP by 2.5%.
+
+Briar Set
+- Weight: 28.1
+- [Head]  Effect: The iron briars cause this armor to deal 18 Physical damage when performing dodge rolls.
+- [Chest] Effect: The iron briars cause this armor to deal 25 Physical damage when performing dodge rolls.
+- [Arms]  Effect: The iron briars cause this armor to deal 18 Physical damage when performing dodge rolls.
+- [Legs]  Effect: The iron briars cause this armor to deal 18 Physical damage when performing dodge rolls.
+
+Godrick Knight Set
+- Weight: 28.1
+- [Head]  Effect: Increases strength by 2.
+- [Chest] Effect: Increases strength by 2.
+- [Arms]  Effect: Increases strength by 2.
+- [Legs]  Effect: Increases strength by 2.
+
+Redmane Knight Set
+- Weight: 28.1
+- [Head]  Effect: Increases endurance by 2.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Gelmir Knight Set
+- Weight: 28.1
+- [Head]  Effect: Strengthens the potency of Lava sorceries by 5%.
+- [Chest] Effect: Strengthens the potency of Lava sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Lava sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Lava sorceries by 5%.
+
+Leyndell Knight Set
+- Weight: 28.1
+- [Head]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Chest] Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Arms]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Legs]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+
+Haligtree Knight Set
+- Weight: 28.1
+- [Head]  Effect: 
+- [Head]  Effect: Increases faith by 2.
+- [Chest] Effect: Increases faith by 2.
+- [Arms]  Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Blackflame Monk Set
+- Weight: 27
+- [Head]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+
+Fire Monk Set
+- Weight: 27
+- [Head]  Effect: Strengthens the potency of Flame incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Flame incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Flame incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Flame incantations by 5%.
+
+#-----------------------------------
+# Medium
+#-----------------------------------
+All-Knowing Set
+- Weight: 25.4
+- [Head]  Effect: Increases maximum FP by 2.5%.
+- [Chest] Effect: Increases maximum FP by 2.5%.
+- [Arms]  Effect: Increases maximum FP by 2.5%.
+- [Legs]  Effect: Increases maximum FP by 2.5%.
+
+Royal Remains Set
+- Weight: 25.3
+- [Head]  Effect: Slowly replenishes HP when HP is reduced, restoring 2 HP whilst HP is below 18%.
+- [Chest] Effect: Slowly replenishes HP when HP is reduced, restoring 2 HP whilst HP is below 18%.
+- [Arms]  Effect: Slowly replenishes HP when HP is reduced, restoring 2 HP whilst HP is below 18%.
+- [Legs]  Effect: Slowly replenishes HP when HP is reduced, restoring 2 HP whilst HP is below 18%.
+
+Bloodhound Knight Set
+- Weight: 25.3
+- [Head]  Effect: Reduces the stamina consumption of weapons by 5%.
+- [Chest] Effect: Reduces the stamina consumption of weapons by 5%. 
+- [Arms]  Effect: Reduces the stamina consumption of weapons by 5%. 
+- [Legs]  Effect: Reduces the stamina consumption of weapons by 5%. 
+
+Knight Set
+- Weight: 25.3
+- [Head]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Chest] Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Arms]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+- [Legs]  Effect: Enhances stamina-reducing attacks against blockers by 12.5%.
+
+Fingerprint Set
+- Weight: 25.3
+- [Head]  Effect: Strengthens the potency of Frenzied Flame incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Frenzied Flame incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Frenzied Flame incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Frenzied Flame incantations by 5%.
+
+Carian Knight Set
+- Weight: 25.1
+- [Head]  Effect: Increases maximum FP by 2.5%.
+- [Chest] Effect: Increases maximum FP by 2.5%.
+- [Arms]  Effect: Increases maximum FP by 2.5%.
+- [Legs]  Effect: Increases maximum FP by 2.5%.
+
+Godrick Soldier Set
+- Weight: 24.7
+- [Head]  Effect: Increases strength by 2.
+- [Chest] Effect: Increases strength by 2.
+- [Arms]  Effect: Increases strength by 2.
+- [Legs]  Effect: Increases strength by 2.
+
+Raya Lucarian Soldier Set
+- Weight: 24.7
+- [Head]  Effect: Increases intelligence by 2.
+- [Chest] Effect: Increases intelligence by 2.
+- [Arms]  Effect: Increases intelligence by 2.
+- [Legs]  Effect: Increases intelligence by 2.
+
+Radahn Soldier Set
+- Weight: 24.7
+- [Head]  Effect: Increases endurance by 2.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Leyndell Soldier Set
+- Weight: 24.7
+- [Head]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Chest] Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Arms]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+- [Legs]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+
+Haligtree Soldier Set
+- Weight: 24.7
+- [Head]  Effect: Increases faith by 2.
+- [Chest] Effect: Increases faith by 2.
+- [Arms]  Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Raging Wolf Set
+- Weight: 24.2
+- [Head]  Effect: Reduces the FP consumption of Skills by 5%.
+- [Chest] Effect: Reduces the FP consumption of Skills by 5%.
+- [Arms]  Effect: Reduces the FP consumption of Skills by 5%.
+- [Legs]  Effect: Reduces the FP consumption of Skills by 5%.
+
+Vagabond Knight Set
+- Weight: 23.8
+- [Head]  Effect: Increases rune absorption by 5%.
+- [Chest] Effect: Increases rune absorption by 5%. 
+- [Arms]  Effect: Increases rune absorption by 5%. 
+- [Legs]  Effect: Increases rune absorption by 5%. 
+
+Mausoleum Knight Set
+- Weight: 23
+- [Chest] Effect: Strengthens the potency of Death sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Death sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Death sorceries by 5%.
+
+Eccentric Set
+- Weight: 22.6
+- [Head]  Effect: Increases arcane by 2. 
+- [Chest] Effect: Increases arcane by 2.
+- [Arms]  Effect: Increases arcane by 2.
+- [Legs]  Effect: Increases arcane by 2.
+
+Drake Knight Set
+- Weight: 22
+- [Head]  Effect: Raises attack power by 5% against Draconic enemies. 
+- [Chest] Effect: Raises attack power by 5% against Draconic enemies.
+- [Arms]  Effect: Raises attack power by 5% against Draconic enemies.
+- [Legs]  Effect: Raises attack power by 5% against Draconic enemies.
+
+Black Knife Set
+- Weight: 21.8
+- [Head]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Chest] Effect: Muffles the sound of footsteps.
+- [Arms]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Legs]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+
+Exile Set
+- Weight: 21.8
+- [Head]  Effect: Strengthens the potency of jump attacks by 5%. 
+- [Chest] Effect: Strengthens the potency of jump attacks by 5%.
+- [Arms]  Effect: Strengthens the potency of jump attacks by 5%.
+- [Legs]  Effect: Strengthens the potency of jump attacks by 5%.
+
+Elden Lord Set
+- Weight: 21.4
+- [Head]  Effect: Strengthens the potency of Skills by 5%. 
+- [Chest] Effect: Strengthens the potency of Skills by 5%.
+- [Arms]  Effect: Strengthens the potency of Skills by 5%.
+- [Legs]  Effect: Strengthens the potency of Skills by 5%.
+
+Ronin's Set
+- Weight: 21.1
+- [Head]  Effect: Increases dexterity by 2.
+- [Chest] Effect: Increases dexterity by 2.
+- [Arms]  Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+Chain Set
+- Weight: 21
+- [Head]  Effect: Increases endurance by 2.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Iron Set
+- Weight: 21
+- [Head]  Effect: Increases endurance by 2.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Kaiden Set
+- Weight: 20.8
+- [Head]  Effect: Strengthens the potency of Horseback attacks by 5%.
+- [Chest] Effect: Strengthens the potency of Horseback attacks by 5%.
+- [Arms]  Effect: Strengthens the potency of Horseback attacks by 5%.
+- [Legs]  Effect: Strengthens the potency of Horseback attacks by 5%.
+
+Mausoleum Soldier Set
+- Weight: 20.7
+- [Chest] Effect: Strengthens the potency of Death sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Death sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Death sorceries by 5%.
+
+Blue Silver Set
+- Weight: 20.6
+- [Head]  Effect: Strengthens the potency of bow and crossbow attacks by 5%.
+- [Chest] Effect: Strengthens the potency of bow and crossbow attacks by 5%.
+- [Arms]  Effect: Strengthens the potency of bow and crossbow attacks by 5%.
+- [Legs]  Effect: Strengthens the potency of bow and crossbow attacks by 5%.
+
+Zamor Set
+- Weight: 20.5
+- [Head]  Effect: Strengthens the potency of Cold sorceries by 5%. 
+- [Chest] Effect: Strengthens the potency of Cold sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Cold sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Cold sorceries by 5%.
+
+Malenia's Set
+- Weight: 20.5
+- [Head]  Effect: Strengthens the restoration rate of rally by 25%.
+- [Chest] Effect: Strengthens the restoration rate of rally by 25%.
+- [Arms]  Effect: Strengthens the restoration rate of rally by 25%.
+- [Legs]  Effect: Strengthens the restoration rate of rally by 25%.
+
+Guardian Set
+- Weight: 19.9
+- [Head]  Effect: Increases vigor by 2. 
+- [Chest (Full Bloom)] Effect: Raises the HP recovery of the Flask of Crimson Tears by 10%, but greatly lowers fire damage negation.
+- [Chest] Effect: Increases vigor by 2.
+- [Arms]  Effect: Increases vigor by 2.
+- [Legs]  Effect: Increases vigor by 2.
+
+Duelist Set
+- Weight: 19.8
+- [Head]  Effect: The wearer becomes a slightly easier target for foes.
+- [Chest] Effect: The wearer becomes a slightly easier target for foes.
+- [Legs]  Effect: The wearer becomes a slightly easier target for foes.
+
+Land of Reeds Set
+- Weight: 19.8
+- [Head]  Effect: Increases dexterity by 2.
+- [Chest] Effect: Increases dexterity by 2.
+- [Arms]  Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+White Reed Set
+- Weight: 19.8
+- [Head]  Effect: Raises dexterity by 3 as it lowers focus by 50.
+- [Chest] Effect: Increases dexterity by 2. 
+- [Arms]  Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+Godrick Foot Soldier Set
+- Weight: 19.6
+- No Effect.
+
+Raya Lucarian Foot Soldier Set
+- Weight: 19.6
+- No Effect.
+
+Radahn Foot Soldier Set
+- Weight: 19.6
+- No Effect.
+
+Leyndell Foot Soldier Set
+- Weight: 19.6
+- No Effect.
+
+Haligtree Foot Soldier Set
+- Weight: 19.6
+- No Effect.
+
+Nox Swordstress Set
+- Weight: 19.3
+- [Head]  Effect: Strengthens the potency of Night sorceries by 5%. 
+- [Chest] Effect: Strengthens the potency of Night sorceries by 5%.
+
+Night Maiden Set
+- Weight: 19.3
+- [Head]  Effect: Strengthens the potency of Night sorceries by 5%. 
+- [Chest] Effect: Strengthens the potency of Night sorceries by 5%.
+
+Confessor Set
+- Weight: 19.2
+- [Head]  Effect: Increases maximum FP by 2.5%. 
+- [Chest] Effect: Increases maximum FP by 2.5%.
+- [Arms]  Effect: Increases maximum FP by 2.5%.
+- [Legs]  Effect: Increases maximum FP by 2.5%.
+
+Nox Monk Set
+- Weight: 18.8
+- [Head]  Effect: Increases dexterity by 2. 
+- [Chest] Effect: Increases dexterity by 2.
+- [Arms]  Effect: Increases dexterity by 2. 
+- [Legs] Effect: Increases dexterity by 2.
+
+Vulgar Militia Set
+- Weight: 18.5
+- [Head]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Chest] Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Arms]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+- [Legs]  Effect: Replenishes the Stamina of the wearer, restoring 3 Stamina per second.
+
+Ragged Set
+- Weight: 18.5
+- [Head]  Effect: Increases maximum Stamina by 2.5%. 
+- [Chest] Effect: Increases maximum Stamina by 2.5%.
+- [Arms]  Effect: Increases maximum Stamina by 2.5%.
+- [Legs]  Effect: Increases maximum Stamina by 2.5%.
+
+Blue Cloth Set
+- Weight: 17.8
+- [Head]  Effect: Increases maximum Stamina by 2.5%. 
+- [Chest] Effect: Increases maximum Stamina by 2.5%.
+- [Arms]  Effect: Increases maximum Stamina by 2.5%.
+- [Legs]  Effect: Increases maximum Stamina by 2.5%.
+
+Omenkiller Set
+- Weight: 16.9
+- [Head]  Effect: Increases strength by 2. 
+- [Chest] Effect: Increases strength by 2.
+- [Arms]  Effect: Increases strength by 2.
+- [Legs]  Effect: Increases strength by 2.
+
+Leather Set
+- Weight: 16.9
+- [Head]  Effect: Increases rune absorption by 5%. 
+- [Chest] Effect: Increases rune absorption by 5%. 
+- [Arms] Effect: Increases rune absorption by 5%. 
+- [Legs] Effect: Increases rune absorption by 5%. 
+
+Bandit Set
+- Weight: 16.8
+- [Chest] Effect: Muffles the sound of footsteps.
+
+War Surgeon Set
+- Weight: 16.8
+- [Head]  Effect: Absorb 1% HP upon enemy kill.
+- [Chest] Effect: Absorb 1% HP upon enemy kill.
+- [Arms]  Effect: Absorb 1% HP upon enemy kill.
+- [Legs]  Effect: Absorb 1% HP upon enemy kill.
+
+Raptor's Set
+- Weight: 16.8
+- [Head]  Effect: Strengthens the potency of jump attacks by 5%. 
+- [Chest] Effect: Strengthens the potency of jump attacks by 5%.
+- [Arms]  Effect: Strengthens the potency of jump attacks by 5%.
+- [Legs]  Effect: Strengthens the potency of jump attacks by 5%.
+
+Mausoleum Foot Soldier Set
+- Weight: 16
+- No Effect.
+
+Preceptor's Set
+- Weight: 15.9
+- [Head]  Effect: Increases mind by 3, to the detriment of maximum stamina by 5%.
+- [Chest] Effect: Increases mind by 2. 
+- [Arms]  Effect: Increases mind by 2.
+- [Legs]  Effect: Increases mind by 2.
+
+Rotten Duelist Set
+- Weight: 15.7
+- [Head]  Effect: The wearer becomes a slightly easier target for foes.
+- [Chest] Effect: The wearer becomes a slightly easier target for foes.
+- [Legs]  Effect: The wearer becomes a slightly easier target for foes.
+
+#-----------------------------------
+# Light Armor
+#-----------------------------------
+Nomadic Merchant's Set
+- Weight: 14.6
+- [Head]  Effect: Increases item discovery by 25. 
+- [Chest] Effect: Increases item discovery by 25.
+- [Legs]  Effect: Increases item discovery by 25.
+
+Azur's Glintstone Set
+- Weight: 14.3
+- [Head]  Effect: 
+Strengthens the potency of Glintstone Cometshard, Comet and Eternal Darkness by 10%. 
+Strengthens the potency of Comet Azur by 15%.
+Increases the FP consumption of sorceries by 15%.
+- [Chest] Effect: Increases mind by 2.
+- [Arms]  Effect: Increases mind by 2.
+
+Lusat's Set
+- Weight: 14.3
+- [Head]  Effect:
+Strengthens the potency of lintstone Stars and Star Shower by 10%. 
+Strengthens the potency of Stars of Ruin by 15%.
+Increases the FP consumption of sorceries by 15%.
+- [Chest] Effect: Increases mind by 2.
+- [Arms]  Effect: Increases mind by 2.
+- [Legs]  Effect: Increases mind by 2.
+
+Noble's Set
+- Weight: 14
+- [Head]  Effect: Increases vigor by 2. 
+- [Chest] Effect: Increases vigor by 2.
+- [Arms]  Effect: Increases vigor by 2.
+- [Legs]  Effect: Increases vigor by 2.
+
+Prisoner Set
+- Weight: 13.8
+- [Head]  Effect: Increases endurance by 2. 
+- [Chest] Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Champion Set
+- Weight: 13.8
+- [Head]  Effect: Strengthens the potency of charged attacks by 5%.
+- [Chest] Effect: Strengthens the potency of charged attacks by 5%.
+- [Arms]  Effect: Strengthens the potency of charged attacks by 5%.
+- [Legs]  Effect: Strengthens the potency of charged attacks by 5%.
+
+Highwayman Set
+- Weight: 13.6
+- [Head]  Effect: Increases item discovery by 25. 
+- [Chest] Effect: Increases item discovery by 25.
+- [Arms]  Effect: Increases item discovery by 25.
+
+Depraved Perfumer Set
+- Weight: 13.4
+- [Head]  Effect: Strengthens the potency of throwable aromatics by 5%.
+- [Chest] Effect: Strengthens the potency of throwable aromatics by 5%.
+- [Arms]  Effect: Strengthens the potency of throwable aromatics by 5%.
+- [Legs]  Effect: Strengthens the potency of throwable aromatics by 5%.
+
+Astrologer Set
+- Weight: 13.3
+- [Head]  Effect: Increases intelligence by 2. 
+- [Chest] Effect: Increases intelligence by 2.
+- [Arms]  Effect: Increases intelligence by 2.
+- [Legs]  Effect: Increases intelligence by 2.
+
+Raya Lucarian Sorcerer Set
+- Weight: 13.1
+- [Head]  Effect: Increases intelligence by 6, to the detriment of maximum HP and FP of 5%.
+- [Chest] Effect: Reduces the FP consumption of sorceries by 5%. 
+- [Arms]  Effect: Reduces the FP consumption of sorceries by 5%. 
+- [Legs]  Effect: Reduces the FP consumption of sorceries by 5%. 
+
+Albinauric Set
+- Weight: 12.6
+- [Head]  Effect: Increases arcane by 4, but reduces the HP recovery effects of the Flask of Crimson Tears by 10%.
+- [Chest] Effect: Increases arcane by 2. 
+
+Marionette Soldier Set
+- Weight: 12.6
+- [Head]  Effect: Strengthens the potency of final combo attacks by 5%. 
+- [Chest] Effect: Strengthens the potency of final combo attacks by 5%.
+
+Lazuli Sorcerer Set
+- Weight: 12.3
+- [Head]  Effect: Increases intelligence and dexterity by 3, to the detriment of maximum HP of 5%.
+- [Chest] Effect: Increases intelligence by 2.
+
+Godskin Noble Set
+- Weight: 12.2
+- [Head]  Effect: Strengthens the potency of Godslayer incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Godslayer incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Godslayer incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Godslayer incantations by 5%.
+
+Mushroom Set
+- Weight: 12.1
+- [Head]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity. 
+- [Chest] Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+- [Arms]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+- [Legs]  Effect: Raises attack power by 5% for 60 seconds when poisoning or rot occurs in the vicinity.
+
+Fur Set
+- Weight: 11.5
+- [Head]  Effect: Increases maximum FP by 2.5%. 
+- [Chest] Effect: Increases maximum FP by 2.5%.
+- [Legs]  Effect: Increases maximum FP by 2.5%.
+
+Shaman Set
+- Weight: 11.5
+- [Head]  Effect: Strengthens the potency of Ancestral Infant's Head by 20%.
+- [Chest] Effect: Increases intelligence by 2. 
+- [Legs]  Effect: Increases intelligence by 2.
+
+Errant Sorcerer Set
+- Weight: 11.3
+- [Head]  Effect: Increases intelligence and endurance by 2 to the detriment of maximum FP by 10%.
+- [Chest] Effect: Increases endurance by 2.
+- [Arms]  Effect: Increases endurance by 2.
+- [Legs]  Effect: Increases endurance by 2.
+
+Millicent's Set
+- Weight: 11.3
+- [Chest] Effect: Absorb 1% HP upon enemy kill.
+- [Arms]  Effect: Absorb 1% HP upon enemy kill.
+
+Traveling Maiden Set
+- Weight: 11
+- [Head]  Effect: Increases faith by 2. 
+- [Chest] Effect: Increases faith by 2.
+- [Arms]  Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Queen of the Full Moon Set
+- Weight: 11
+- [Head]  Effect: Strengthens the potency of Full Moon incantations by 5%. 
+- [Chest] Effect: Strengthens the potency of Full Moon incantations by 5%. 
+- [Arms]  Effect: Strengthens the potency of Full Moon incantations by 5%. 
+- [Legs]  Effect: Strengthens the potency of Full Moon incantations by 5%. 
+
+Finger Maiden Set
+- Weight: 10.9
+- [Head]  Effect: Increases faith by 2.
+- [Chest] Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Godskin Apostle Set
+- Weight: 10.9
+- [Head]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Black Flame incantations by 5%.
+
+Snow Witch Set
+- Weight: 10.8
+- [Head]  Effect: Strengthens the potency of Cold sorceries by 5%.
+- [Chest] Effect: Strengthens the potency of Cold sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Cold sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Cold sorceries by 5%.
+
+Perfumer Set
+- Weight: 10.7
+- [Head]  Effect: Strengthens the potency of throwable aromatics by 5%. 
+- [Chest] Effect: Strengthens the potency of throwable aromatics by 5%.
+- [Arms]  Effect: Strengthens the potency of throwable aromatics by 5%.
+- [Legs]  Effect: Strengthens the potency of throwable aromatics by 5%.
+
+Prophet Set
+- Weight: 10.4
+- [Head]  Effect: Increases maximum HP by 2.5%.
+- [Chest] Effect: Increases maximum HP by 2.5%.
+- [Legs]  Effect: Increases maximum HP by 2.5%.
+
+Battlemage Set
+- Weight: 10.4
+- [Head]  Effect: Increases intelligence and strength by 2 to the detriment of maximum FP by 5%.
+- [Chest] Effect: Increases strength by 2. 
+- [Arms]  Effect: Increases strength by 2.
+- [Legs]  Effect: Increases strength by 2.
+
+Consort's Set
+- Weight: 10.2
+- [Head]  Effect: Increases dexterity by 2. 
+- [Chest] Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+Sage Set
+- Weight: 9.8
+- [Head]  Effect: Increases mind by 2. 
+- [Chest] Effect: Increases mind by 2.
+- [Legs]  Effect: Increases mind by 2.
+
+Goldmask's Set
+- Weight: 9.8
+- [Head]  Effect: Strengthens the potency of Golden Order incantations by 5%.
+- [Chest] Effect: Strengthens the potency of Golden Order incantations by 5%.
+- [Arms]  Effect: Strengthens the potency of Golden Order incantations by 5%.
+- [Legs]  Effect: Strengthens the potency of Golden Order incantations by 5%.
+
+Alberich's Set
+- Weight: 9.7
+- [Head]  Effect: Strengthens the potency of Thorn sorceries by 5%.
+- [Chest] Effect: Strengthens the potency of Thorn sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of Thorn sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of Thorn sorceries by 5%.
+
+Old Aristocrat Set
+- Weight: 9.3
+- [Head]  Effect: Increases maximum HP by 2.5%.
+- [Chest] Effect: Increases maximum HP by 2.5%.
+- [Legs]  Effect: Increases maximum HP by 2.5%.
+
+Page Set
+- Weight: 9
+- [Head]  Effect: Increases dexterity by 2. 
+- [Chest] Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+Aristocrat Set
+- Weight: 9
+- [Head]  Effect: Increases maximum HP by 2.5%.
+- [Chest] Effect: Increases maximum HP by 2.5%.
+- [Arms]  Effect: Increases maximum HP by 2.5%.
+- [Legs]  Effect: Increases maximum HP by 2.5%.
+
+Sanguine Noble Set
+- Weight: 9
+- [Head]  Effect: Absorb 1% HP upon enemy kill.
+- [Chest] Effect: Absorb 1% HP upon enemy kill.
+- [Arms]  Effect: Absorb 1% HP upon enemy kill.
+- [Legs]  Effect: Absorb 1% HP upon enemy kill.
+
+Brave Set
+- Weight: 9
+- [Head]  Effect: Strengthens the potency of guard counters by 5%. 
+- [Chest] Effect: Strengthens the potency of guard counters by 5%.
+- [Arms]  Effect: Strengthens the potency of guard counters by 5%.
+- [Legs]  Effect: Strengthens the potency of guard counters by 5%.
+
+Perfume Traveler's Set
+- Weight: 8.9
+- [Head]  Effect: Increases the effectiveness of HP recovery for the wearer by 5%.
+- [Chest] Effect: Increases the effectiveness of HP recovery for the wearer by 5%. 
+- [Arms]  Effect: Increases the effectiveness of HP recovery for the wearer by 5%.
+- [Legs]  Effect: Increases the effectiveness of HP recovery for the wearer by 5%.
+
+Traveler's Set
+- [Chest] Effect: Increases dexterity by 2. 
+- [Arms]  Effect: Increases dexterity by 2.
+- [Legs]  Effect: Increases dexterity by 2.
+
+Spellblade Set
+- Weight: 8.6
+- [Head]  Effect: Strengthens the potency of charged sorceries by 5%. 
+- [Chest] Effect: Strengthens the potency of charged sorceries by 5%.
+- [Arms]  Effect: Strengthens the potency of charged sorceries by 5%.
+- [Legs]  Effect: Strengthens the potency of charged sorceries by 5%.
+
+Commoner's Set
+- Weight: 8.5
+- [Head]  Effect: Increases faith by 2.
+- [Chest] Effect: Increases faith by 2.
+- [Legs]  Effect: Increases faith by 2.
+
+Ruler's Set
+- Weight: 7.3
+- [Head]  Effect: Reduces the FP consumption of incantations by 5%. 
+- [Chest] Effect: Reduces the FP consumption of incantations by 5%. 
+
+Fia's Set
+- Weight: 6.8
+- [Head]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second. 
+- [Chest] Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second.
+
+Deathbed Set
+- Weight: 6.8
+- [Chest] Effect: Slowly replenishes the HP of nearby allies, restoring 2 HP per second, but not that of the wearer.
+- [Legs]  Effect: Slowly replenishes the HP of the wearer, restoring 1 HP per second. 
+
+High Page Set
+- Weight: 6.7
+- [Head]  Effect: Increases rune absorption by 5%. 
+- [Chest] Effect: Increases rune absorption by 5%. 
+
+Guilty Set
+- Weight: 6.6
+- [Head]  Effect: Reduces the stamina consumption of weapons by 5%. 
+- [Chest] Effect: Reduces the stamina consumption of weapons by 5%. 
+- [Legs]  Effect: Reduces the stamina consumption of weapons by 5%. 
+
+House Marais Set
+- Weight: 6.3
+- [Head]  Effect: Increases arcane by 2. 
+- [Chest] Effect: Increases arcane by 2.
+- [Arms]  Effect: Increases arcane by 2.
+
+Bloodsoaked Set
+- Weight: 6.3
+- [Head]  Effect: Absorb 1% HP upon enemy kill.
+- [Chest] Effect: Absorb 1% HP upon enemy kill.
+
+Rotten Set
+- Weight: 6.3
+- [Chest] Effect: Raises attack power by 5% for 60 seconds when hemorrhage occurs in the vicinity.
+- [Arms]  Effect: Raises attack power by 5% for 60 seconds when hemorrhage occurs in the vicinity.
+- [Legs]  Effect: Raises attack power by 5% for 60 seconds when hemorrhage occurs in the vicinity.
+
+Festive Set
+- Weight: 5.8
+- [Head]  Effect: Absorb 100 additional runes upon enemy kill.
+- [Chest] Effect: Absorb 100 additional runes upon enemy kill.
+
+Blue Festive Set
+- Weight: 5.8
+- [Head]  Effect: Absorb 100 additional runes upon enemy kill. 
+- [Chest] Effect: Absorb 100 additional runes upon enemy kill.
+
+Juvenile Scholar Set
+- Weight: 5.5
+- [Head]  Effect: Increases mind by 2. 
+- [Chest] Effect: Increases mind by 2.
+
+#-----------------------------------
+# Unique Pieces
+#-----------------------------------
+# --- Head ---
+Black Dumpling
+- Weight: 2.7
+- [Head]  Effect: Raises attack power by 10% for 60 seconds when the wearer suffers from madness.
+
+Mushroom Crown
+- Weight: 9.1
+- [Head]  Effect: Raises attack power by 10% for 60 seconds when something nearby suffers from poison or rot.
+
+Cerulean Tear Scarab
+- Weight: 5.1
+- [Head]  Effect: Increases the recovery effects of the Flask of Cerulean Tears by 10%, but increases damage taken by 10% too.
+
+Crimson Tear Scarab
+- Weight: 5.1
+- [Head]  Effect: Increases the recovery effects of the Flask of Crimson Tears by 10%, but increases damage taken by 10% too.
+
+Glintstone Scarab
+- Weight: 5.1
+- [Head]  Effect: Reduces the FP consumption of sorceries by 15%, but increases damage taken by 10% too.
+
+Incantation Scarab
+- Weight: 5.1
+- [Head]  Effect: Reduces the FP consumption of incantations by 15%, but increases damage taken by 10%.
+
+Ash-of-War Scarab
+- Weight: 5.1
+- [Head]  Effect: Reduces the FP consumption of skills by 15%, but increases damage taken by 10%.
+
+Nox Mirrorhelm
+- Weight: 7.5
+- [Head]  Effect: Increases the repulsion of weapon strikes against us. 
+
+Iji's Mirrorhelm
+- Weight: 7.5
+- [Head]  Effect: Increases the repulsion of weapon strikes against us. 
+
+Greathood
+- Weight: 5.1
+- [Head]  Effect: Increases intelligence and faith by 2, to the detriment of maximum HP by 5%.
+
+Greathelm
+- Weight: 5.9
+- [Head]  Effect: Increases the repulsion of weapon strikes against us. 
+
+Jar
+- Weight: 6.8
+- [Head]  Effect: Strengthens the potency of throwing pot items by 15%.
+
+Octopus Head
+- Weight: 3.6
+- [Head]  Effect: Increases endurance by 2. 
+
+Imp Head (Cat)
+- Weight: 8.1
+- [Head]  Effect: Increases intelligence by 2.
+
+Imp Head (Fanged)
+- Weight: 8.1
+- [Head]  Effect: Increases strength by 2.
+
+Imp Head (Long-Tongued)
+- Weight: 8.1
+- [Head]  Effect: Increases dexterity by 2.
+
+Imp Head (Corpse)
+- Weight: 8.1
+- [Head]  Effect: Increases faith by 2.
+
+Imp Head (Wolf)
+- Weight: 8.1
+- [Head]  Effect: Increases endurance by 2.
+
+Imp Head (Elder)
+- Weight: 8.1
+- [Head]  Effect: Increases arcane by 2.
+
+Mask of Confidence
+- Weight: 3.3
+- [Head]  Effect: Increases arcane by 3.
+
+Blackguard's Iron Mask
+- Weight: 6.2
+- [Head]  Effect: The wearer becomes a slightly easier target for foes. 
+
+Olivinus Glintstone Crown
+- Weight: 5.1
+- [Head]  Effect: Increases intelligence by 3, to the detriment of maximum HP by 5%.
+
+Karolos Glintstone Crown
+- Weight: 5.1
+- [Head]  Effect: Increases intelligence by 3, to the detriment of maximum Stamina by 5%.
+
+Witch's Glintstone Crown
+- Weight: 5.1
+- [Head]  Effect: Increases intelligence and arcane by 3, to the detriment of maximum Stamina by 10%.
+
+Envoy Crown
+- Weight: 3.8
+- [Head]  Effect: Raises the potency of bubble-based skills and incantations by 15%.
+
+Navy Hood
+- Weight: 1.7
+- [Head]  Effect: Increases mind by 2. 
+
+Pumpkin Helm
+- Weight: 12.3
+- [Head]  Effect: Reduces damage from headshots and impacts, and increases the repulsion of weapon strikes against us. 
+
+Silver Tear Mask
+- Weight: 4.6
+- [Head]  Effect: Increases arcane by 8, to the detriment of physical attack power by 5%.
+
+Grass Hair Ornament
+- Weight: 1.4
+- [Head] Effect: Reduces visual detection radius by 90%.
+
+Crab Carcass
+- Weight: 3
+- [Head] Effect: The wearer becomes a slightly easier target for foes.
+
+Mask of the Mother
+- Weight: 2.5
+- [Head]  Effect: Strengthens the potency of final combo attacks by 5%. 
+
+Mask of the Child
+- Weight: 2.5
+- [Head]  Effect: Strengthens the potency of jump attacks by 5%. 
+
+Mask of the Father
+- Weight: 2.5
+- [Head]  Effect: Strengthens the potency of charged attacks by 5%. 
+
+# --- Chest ---
+Fell Omen Cloak
+- Weight: 5.1
+- [Chest]  Effect: Increases dexterity by 2. 
+
+Lord of Blood Robe
+- Weight: 8.1
+- [Chest] Effect: Absorb 1% HP upon enemy kill.
+
+Eye Surcoat
+- Weight:
+- [Chest] Increases arcane by 2.
+
+Tree Surcoat:
+- Weight:
+- [Chest] Increases faith by 2.

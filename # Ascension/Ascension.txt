@@ -1,0 +1,48 @@
+﻿#-------------------------------------------------
+# Changes for 1.0.1
+#-------------------------------------------------
+# Tear of Miquella
+- Added in a progression system that incentivises exploring the open-world.
+- 5 x Miquella's Lily can now be crafted into a Tear of Miquella.
+- Miquella's Lily are now only pickable once per playthrough again.
+- Each Tear of Miquella posessed will grant the player +0.5% damage and absorption.
+ - Maximum potency is +50%.
+
+# World
+- Added numerous additional Miquella's Lily interactables across the Lands Between.
+
+#-------------------------------------------------
+# WIP
+#-------------------------------------------------
+# Bugs to Fix
+Fix Morgott not respawning correctly via Boss Revival
+Fix Greyoll not respawning correctly via Boss Revival
+FIX: some people crash on opening description window (but it is not due to the .GFX change) Perhaps the banner images?
+
+# Look into:
+AnimSpeed as havok variable instead of set value in hkx
+
+Misc:
+- Add dialogue to Emissary
+- Ask for Merchant Bell Bearing
+- Add notes to Kale for new mod features
+- Expand summoning zones (ESD change the range to 1000)
+
+Covenants:
+ - Add more covenants (i.e. Adherents of Rot, etc)
+ - Add in 'npc' invader mechanic: certain covenants will enable 'enemy' covenant invaders, which reward covenant rank up item (replace Bloodsoaked Rune usage)
+  These should appear relatively frequently, to make it feel like committing to a covenant is noticed
+
+Items:
+ - Add weather change items: Clear Sky, Rainy, Snowy, Foggy and Cloudy
+
+World:
+- Add Miquella's Lilies across the world
+ - Need to clean up the Weeping Penisula additions, some are in the wrong tile and so not interactable
+
+#-------------------------------------------------
+# ADD
+#-------------------------------------------------
+
+
+
