@@ -466,6 +466,15 @@
 
 - Added stake of marika for Leonine Misbegotten (Morne)
 - Added stake of marika for Magma Wyrm Makar
+- Added stake of marika for Alabaster Lord
+
+- Added summon zone near Forlorn Hound Evergaol
+- Added summon zone near Stormhill Evergaol
+- Added summon zone near Grafted Scion in Chapel of Anticipation
+- Added summon zone near Weeping Evergaol
+- Added summon zone near Malefactor's Evergaol
+- Added summon zone near Royal Grave Evergaol
+- Added summon zone near Ringleader's Evergaol
 
 #-------------------------------------------------
 # Reinforcement
