@@ -7666,7 +7666,7 @@ $Event(11031, Default, function() {
             SetPlayerRespawnPoint(1052422020);
         }
         
-        // Mountaintops of the Giants: Consecrated Snowfields
+        // Consecrated Snowfield
         if(EventFlag(1047620020))
         {
             SetEventFlagID(76550, ON);

@@ -1,0 +1,20 @@
+m15_00_00_00 - Miquella's Haligtree
+-> m60_48_57_00 Ordina
+
+m60_34_42_00 - Moonlight Altar (Liurnia)
+-> m60_34_42_00 - Village of the Albinaurics (Liurnia)
+
+m60_36_41_00 - Slumbering Wolf's Shack (Liurnia)
+-> m60_50_55_00 - Consecrated Snowfield
+
+m60_39_50_00 - Altus Plateau
+-> m60_38_49_00 - Bellum Highway (Liurnia)
+
+m60_48_54_00 - Consecrated Snowfield
+-> m60_45_52_0 - Capital Outskirts (Leyndell)
+
+m60_51_43_00 - Bestial Sanctum (Caelid)
+-> m13_00_00_00 - Farum Azula
+
+m60_54_55_00 - First Church of Marika (Mountaintops of the Giants)
+-> m60_48_54_00 - Consecrated Snowfield
