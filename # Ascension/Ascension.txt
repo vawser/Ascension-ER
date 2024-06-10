@@ -38,9 +38,7 @@ Items:
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
-Test retry points:
- - Red Wolf of Radagon
- - Rennala
- - Leonine Misbegotten (Morne)
- - Magma Wyrm Makar
- 
+
+45047 Parchment: Sunflower
+
+3740

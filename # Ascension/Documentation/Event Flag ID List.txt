@@ -1890,14 +1890,14 @@ Vanilla
 66790
 
 # Cookbooks
-67000 Nomadic Warrior's Cookbook [1]
-67110 Nomadic Warrior's Cookbook [2]
-67010 Nomadic Warrior's Cookbook [3]
-67800 Nomadic Warrior's Cookbook [4]
-67830 Nomadic Warrior's Cookbook [5]
-67020 Nomadic Warrior's Cookbook [6]
-67050 Nomadic Warrior's Cookbook [7]
-67880 Nomadic Warrior's Cookbook [8]
+67000 Nomadic Warrior's Cookbook [1] # Pot-Maker's Cookbook
+67110 Nomadic Warrior's Cookbook [2] # Pickler's Cookbook
+67010 Nomadic Warrior's Cookbook [3] # Alchemist's Cookbook
+67800 Nomadic Warrior's Cookbook [4] # Perfumer's Cookbook
+67830 Nomadic Warrior's Cookbook [5] # Fletcher's Cookbook
+67020 Nomadic Warrior's Cookbook [6] # Scholar's Cookbook
+67050 Nomadic Warrior's Cookbook [7] # Mason's Cookbook
+67880 Nomadic Warrior's Cookbook [8] # Artificer's Cookbook
 67430 Nomadic Warrior's Cookbook [9]
 67030 Nomadic Warrior's Cookbook [10]
 67220 Nomadic Warrior's Cookbook [11]

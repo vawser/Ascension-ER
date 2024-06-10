@@ -10,7 +10,9 @@
     "SpEffectParam",
     "SpEffectSetParam",
     "NpcParam",
-    "NpcThinkParam"
+    "NpcThinkParam",
+    "EquipParamGoods",
+    "ItemLotParam_map"
   ],
   "PinnedRows": {
     "BonfireWarpParam": [],

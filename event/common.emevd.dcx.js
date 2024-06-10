@@ -372,7 +372,7 @@ $Event(0, Default, function() {
     InitializeEvent(0, 9940, 0);
     InitializeEvent(0, 1700, 0);
     
-    // Vigil
+    // Ascension
     InitializeEvent(0, 11000, 0);
     InitializeEvent(0, 11001, 0); // Own World only
 });
@@ -1447,6 +1447,7 @@ L2:
 
 $Event(1030, Default, function() {
     DisableNetworkSync();
+    
     WaitFor(
         WeatherLotActive(1000)
             || WeatherLotActive(2000)
@@ -6501,7 +6502,7 @@ $Event(9950, Default, function(X0_4, X4_4) {
 });
 
 //----------------------------
-// Vigil
+// Ascension
 //----------------------------
 $Event(11000, Default, function() {
     EndIf(ThisEventSlot());
@@ -7010,7 +7011,7 @@ $Event(11000, Default, function() {
 
 
 //----------------------------
-// Vigil - Own World Only
+// Ascension - Own World Only
 //----------------------------
 $Event(11001, Default, function() {
     EndIf(ThisEventSlot());
@@ -7023,29 +7024,10 @@ $Event(11001, Default, function() {
     InitializeEvent(0, 11062, 0); // Inscription of Dusk
     InitializeEvent(0, 11063, 0); // Inscription of Night
     
-    //----------------------
-    // Weather Shift
-    //----------------------
-    InitializeEvent(0, 11016, 1047610510, Weather.Default);
-    InitializeEvent(1, 11016, 1047610511, Weather.Rain);
-    InitializeEvent(2, 11016, 1047610512, Weather.Snow);
-    InitializeEvent(3, 11016, 1047610513, Weather.WindyRain);
-    InitializeEvent(4, 11016, 1047610514, Weather.Fog);
-    InitializeEvent(5, 11016, 1047610515, Weather.Cloudless);
-    InitializeEvent(6, 11016, 1047610516, Weather.FlatClouds);
-    InitializeEvent(7, 11016, 1047610517, Weather.PuffyClouds);
-    InitializeEvent(8, 11016, 1047610518, Weather.RainyClouds);
-    InitializeEvent(9, 11016, 1047610519, Weather.WindyFog);
-    InitializeEvent(10, 11016, 1047610520, Weather.HeavySnow);
-    InitializeEvent(11, 11016, 1047610521, Weather.HeavyFog);
-    InitializeEvent(12, 11016, 1047610522, Weather.WindyPuffyClouds);
-    InitializeEvent(13, 11016, 1047610523, Weather.RainyHeavyFog);
-    InitializeEvent(14, 11016, 1047610524, Weather.SnowyHeavyFog);
-    InitializeEvent(15, 11016, 1047610525, Weather.ScatteredRain);
-    
-    //InitializeEvent(0, 11013, 0); // Force Day on Spawn
-    //InitializeEvent(0, 11014, 0); // Force Noon on Spawn
-    //InitializeEvent(0, 11015, 0); // Force Night on Spawn
+    InitializeEvent(0, 11070, 0); // Inscription of Clarity
+    InitializeEvent(0, 11071, 0); // Inscription of Wind
+    InitializeEvent(0, 11072, 0); // Inscription of Rain
+    InitializeEvent(0, 11073, 0); // Inscription of Snow
 });
 
 
@@ -7104,7 +7086,7 @@ $Event(11021, Default, function() {
 });
 
 //-------------------
-// Vigil - Toggle Effect based on Event Flag
+// Ascension - Toggle Effect based on Event Flag
 //-------------------
 $Event(11011, Default, function(X0_4, X4_4) {
     if(EventFlag(X0_4))
@@ -8545,6 +8527,53 @@ $Event(11066, Default, function() {
     EndEvent();
 });
 
+//-------------------
+// Inscription of Clarity
+//-------------------
+$Event(11070, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202030, 0, 1))
+    {
+        ChangeWeather(Weather.Cloudless, 300, true);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Wind
+//-------------------
+$Event(11071, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202031, 0, 1))
+    {
+        ChangeWeather(Weather.WindyFog, 300, true);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Rain
+//-------------------
+$Event(11072, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202032, 0, 1))
+    {
+        ChangeWeather(Weather.WindyRain, 300, true);
+    }
+    
+    RestartEvent();
+});
+
+//-------------------
+// Inscription of Snow
+//-------------------
+$Event(11073, Default, function() {
+    if(CharacterHasSpEffect(10000, 7202033, 0, 1))
+    {
+        ChangeWeather(Weather.Snow, 300, true);
+    }
+    
+    RestartEvent();
+});
 
 //-------------------
 // Transmog

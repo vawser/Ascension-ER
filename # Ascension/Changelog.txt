@@ -201,6 +201,13 @@
 - Inscription of Night: sets the time to 12pm
 - These items can be crafted via the item crafting menu.
     
+- Added items to change the current weather (for 300 seconds):
+- Inscription of Clarity: sets the weather to Clear Skies.
+- Inscription of Wind: sets the weather to Windy.
+- Inscription of Rain: sets the weather to Rainy.
+- Inscription of Snow: sets the weather to Snowy.
+- These items can be crafted via the item crafting menu.
+
 #-------------------------------------------------
 # Altar of Advancement
 #-------------------------------------------------
