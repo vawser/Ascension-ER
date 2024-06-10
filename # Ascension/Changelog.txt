@@ -282,7 +282,6 @@
   - Once the field is ready, the player can return to Jarfield at anytime, the crops will remain ready until they do so.
   - Once the player has visited the field and picked the crops, resting or reloading will cause the fields to become barren again.
  
-
 #-------------------------------------------------
 # Localization
 #-------------------------------------------------
@@ -294,6 +293,7 @@
 #-------------------------------------------------
 - Increased world map scroll speed.
 - Removed the ash particles in the open world after the Erdtree has been burnt.
+- Sneak Attack Multiplier set to 1.5 (was 1.2)
 
 #-------------------------------------------------
 # General
@@ -474,6 +474,10 @@
 - Added stake of marika for Leonine Misbegotten (Morne)
 - Added stake of marika for Magma Wyrm Makar
 - Added stake of marika for Alabaster Lord
+- Added stake of marika for Fire Giant
+- Added stake of marika for Godskin Duo in Spiritcaller Cave
+- Added stake of marika for for Twin Beastmen of Farum Azula in Dragonbarrow Cave
+- Added stake of marika for Godskin Duo
 
 - Added summon zone near Forlorn Hound Evergaol
 - Added summon zone near Stormhill Evergaol
@@ -1324,7 +1328,7 @@ Beastial enemies are:
  - Effect: Increases consecutive attack damage by up to 20% for 180 seconds.
 
 - Twiggy Cracked Tear
- - Effect: Prevents rune loss upon death for 180 seconds.
+ - Effect: Prevents rune loss upon death for 300 seconds.
 
 - Winged Crystal Tear 
  - Effect: Increases equipment load by 450% for 180 seconds.

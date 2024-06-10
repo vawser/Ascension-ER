@@ -32,13 +32,11 @@ Covenants:
  - Add in 'npc' invader mechanic: certain covenants will enable 'enemy' covenant invaders, which reward covenant rank up item (replace Bloodsoaked Rune usage)
   These should appear relatively frequently, to make it feel like committing to a covenant is noticed
 
-Items:
- - Add weather change items: Clear Sky, Rainy, Snowy, Foggy and Cloudy
-
 #-------------------------------------------------
 # ADD
 #-------------------------------------------------
+Add icons to the Jar of Rebirth menu (icon for undefeated, icon for defeated)
+Add the ability to purchase the display of 'icons' that display dungeons, POIs, etc for each general region
 
-45047 Parchment: Sunflower
 
-3740
+13001941
